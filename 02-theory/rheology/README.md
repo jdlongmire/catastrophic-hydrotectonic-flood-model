@@ -1,6 +1,6 @@
 # Rheology / Heat Budget
 
-Belt content — and the programme's critical-path gate. See [`../../3-prediction/discriminators.md`](../../3-prediction/discriminators.md).
+Belt content — and the programme's critical-path gate. See [`../../03-prediction/discriminators.md`](../../03-prediction/discriminators.md).
 
 **From the initial research:** required transient viscosity during the catastrophic interval is 10¹³–10¹⁴ Pa·s (vs. present upper-mantle viscosity 10²⁰–10²¹ Pa·s), derived by requiring deformation stress stay near rock-strength limits (~10⁸ Pa) at the kinematically-required velocities. A qualitative feedback mechanism is proposed (hydration → weakening → velocity increase → deformation heating → further weakening), consistent with Baumgardner-style runaway-subduction proposals in the creationist literature and with mainstream findings that olivine rheology is strongly water- and temperature-dependent. The magnitude of the required drop (6–8 orders of magnitude from present values) is stated; whether the feedback can plausibly reach it is not shown.
 

@@ -6,7 +6,7 @@
 
 **Unappraised. Zero theoretically progressive steps taken. Three degenerating accommodation moves recorded in the initial research.**
 
-The programme has an articulated hard core ([`1-hypothesis/hard-core.md`](../1-hypothesis/hard-core.md)) and an articulated positive heuristic ([`0-program-methods/ROADMAP.md`](../0-program-methods/ROADMAP.md)), and its founding transcript already identifies its own most consequential gating problem (the rheology/heat budget — see [`discriminators.md`](discriminators.md)). That is real programme structure. It has not yet made a claim that forbids an observation.
+The programme has an articulated hard core ([`01-hypothesis/hard-core.md`](../01-hypothesis/hard-core.md)) and an articulated positive heuristic ([`00-program-methods/ROADMAP.md`](../00-program-methods/ROADMAP.md)), and its founding transcript already identifies its own most consequential gating problem (the rheology/heat budget — see [`discriminators.md`](discriminators.md)). That is real programme structure. It has not yet made a claim that forbids an observation.
 
 **What the initial research ([`research/GPT-hydrotectonic-flood-model.md`](../research/GPT-hydrotectonic-flood-model.md)) actually contains, audited against this standard:**
 

@@ -1,8 +1,8 @@
 # Stratigraphy & Chronology Partition
 
-Belt content: which geological systems correspond to the pre-Fall interval, the Flood-year catastrophe, and post-Flood relaxation — and the specific durations assigned to each. **The most heavily revised part of the belt so far; see [`../../3-prediction/appraisal.md`](../../3-prediction/appraisal.md) for the full audit.**
+Belt content: which geological systems correspond to the pre-Fall interval, the Flood-year catastrophe, and post-Flood relaxation — and the specific durations assigned to each. **The most heavily revised part of the belt so far; see [`../../03-prediction/appraisal.md`](../../03-prediction/appraisal.md) for the full audit.**
 
-**Current chronology partition** (belt, calibrated, not core — see [`../../1-hypothesis/hard-core.md`](../../1-hypothesis/hard-core.md)):
+**Current chronology partition** (belt, calibrated, not core — see [`../../01-hypothesis/hard-core.md`](../../01-hypothesis/hard-core.md)):
 
 - Creation-to-Fall gap: ~50,000 years (estimate — anchored to the radiocarbon practical detection ceiling, ~50 kyr, verified 2026-08-16, plus the Biblical premise of a real but unspecified-length gap)
 - Flood duration: ~1 year (reading of the Genesis narrative's internal day-counts)
