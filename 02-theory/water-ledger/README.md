@@ -6,6 +6,12 @@ Belt content: a four-reservoir water-mass balance (ocean, surface/crustal, atmos
 
 **Explicitly not core, explicitly not measured:** the excess magnitude, the partition coefficients, and the resulting mantle-water inventory are all stated in the initial research as hypothesis parameters. No independent constraint has been proposed for any of them yet.
 
+## Supply-rate check, 2026-08-16 — ported from JD's prior slice
+
+A gap this ledger didn't previously address: does the crustal "sponge" actually stay saturated under load during the collapse, or does it drain faster than it's resupplied? Ported from [`jdlongmire/global-flood-hydrotectonic-model`](https://github.com/jdlongmire/global-flood-hydrotectonic-model) Appendix F (Darcy flow calculations): comparing consolidation-drainage demand (~5×10⁵ m³/s, from Terzaghi consolidation theory at 1% compression) against fracture-network supply (~4×10⁸ m³/s, Darcy's law through a channeled-porosity architecture, k ~10⁻⁸ m²) gives roughly an **800:1 excess supply capacity**. The porous zone does not run dry mid-collapse under these stipulated parameters. This is a real, checkable flow-rate calculation, not a restatement of reservoir size — it answers a different question than the OE totals above (whether the water gets there fast enough, not how much there is).
+
+**Caveat carried over honestly:** the porous-zone parameters (thickness 1–5 km, porosity 0.1–0.3, channel permeability 10⁻¹⁰–10⁻⁸ m²) are stipulated for the source repo's Stage 1 architecture, not independently measured or yet checked against this programme's own crustal model. The 800:1 ratio is robust to an order of magnitude of parameter uncertainty (per the source's own sensitivity table), but the parameters themselves are imported, not derived here.
+
 ## Atmospheric water-vapor canopy — added 2026-08-16
 
 An inferred pre-Flood atmospheric vapor canopy, $W_{A,0}$, is added as a fifth term: $W_T = W_{O,0} + W_{S,0} + W_{C,0} + W_{A,0} + W_{M,0}$.

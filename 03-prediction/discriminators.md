@@ -33,6 +33,20 @@ The initial research's own proposed "next decisive analysis": strip ages from se
 
 The initial research cites an already-known pattern (subducted-slab regions run colder, more wadsleyite-enriched, somewhat more hydrated) and treats it as support. That's accommodation of an existing observation, not a prediction — it was known before the claim was made, and the rival account (ordinary subduction over conventional timescales) predicts the same correlation. This clears the bar only if it can be sharpened into something the rival wouldn't also expect — e.g. a specific quantitative relationship, or hydration in a location/pattern that a gradual multi-hundred-million-year subduction history would not produce but a single catastrophic-year event would.
 
+### 4. Seismic texture discontinuity at the lithoplaning/undisturbed-mantle boundary — 2026-08-16, ported
+
+If lateral translation was hydroplaning-driven and confined to the shallow lithosphere (per the mechanism reframe in [`../02-theory/kinematics/README.md`](../02-theory/kinematics/README.md)), tomography should show a texture discontinuity between chaotic, reworked upper lithosphere (0–200 km) and coherent, undisturbed deep mantle (>400 km) — a real structural signature, not a compatibility claim. Ordinary plate tectonics over geological time predicts smoother, gradational structure, not a sharp discontinuity at that depth. Ported from JD's prior slice; not yet checked against actual tomographic datasets here.
+
+### 5. Fluid-dominated detachment fabric — 2026-08-16, ported
+
+Large-scale detachment horizons should show predominantly fluid-related fabrics with minimal pseudotachylite (frictional melt) — expected under near-lithostatic pore pressure (friction collapsed, so little frictional heating to produce melt). The rival account (ordinary tectonics, or a dry catastrophic-friction model) predicts the opposite: significant pseudotachylite from sustained high-friction sliding. Not yet checked against field exposures.
+
+### 6. Basin-margin megabreccia signature — 2026-08-16, ported
+
+Chaotic megabreccia at basin boundaries with multi-lithology mixing, fluid-flow textures, and rapid-emplacement signatures — a specific depositional signature distinguishing rapid hydroplaning-driven emplacement from slow accumulation. Not yet checked against a defined sample of basin margins.
+
+**Confidence on 4–6:** these are stated as candidate discriminators in the source document with real `forbids` content, but none has been run against actual data yet — same status as discriminators 1–3 above (real candidates, unevaluated).
+
 ## What does not count
 
 - Citing a pattern already documented in the literature as though the model predicted it.
