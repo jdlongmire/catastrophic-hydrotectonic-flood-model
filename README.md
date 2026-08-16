@@ -17,6 +17,7 @@ A Lakatosian research programme reconstructing a historical, hydrotectonic globa
 01-hypothesis/        hard-core.md — immune by decision, and said so
 02-theory/             the protective belt: kinematics/, rheology/, water-ledger/, stratigraphy/
 03-prediction/         appraisal.md (progressive/degenerating verdict + log), discriminators.md (critical path)
+04-visualization-assets/   images/, videos/ — reconstruction renders, animations, diagrams
 research/             source material — chat-derived initial research, unedited
 ```
 
