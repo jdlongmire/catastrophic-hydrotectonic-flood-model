@@ -10,6 +10,8 @@ This programme stands up **prose-first**. There is, as yet, no mechanized claims
 
 Mechanize once there is enough claim volume that hand-auditing becomes the weaker discipline rather than the honest one. That threshold is a judgment call, not a fixed count; a reasonable trigger is the first time a belt revision is proposed without an obvious place to check it against prior commitments.
 
+**Refinement discussion has its own home, separate from settled content.** [`../dev-notes/`](../dev-notes/) captures technical back-and-forth on the model as it happens — a claim gets checked, a distinction gets drawn, a question stays open pending an answer — before it's resolved enough to promote into the belt, the hard core, or an appraisal log entry. Keeping this separate from `02-theory/` and `03-prediction/` matters for the same reason the appraisal ledger records degenerating moves plainly: an in-progress discussion that gets written directly into settled-looking belt content reads as more resolved than it is.
+
 **Computational rigor is not deferred, even though the traceability layer is.** The first real quantitative work (ROADMAP item 1, the rheology/heat-budget test) will involve scripts, and possibly notebooks, before any mechanized claims registry exists. [`research-practices.md`](research-practices.md) states the discipline for that work now, in advance of the first script — reproducibility, sourced parameters, no undisclosed fitting, refuted attempts kept and labeled — the same standard already proven out in TRT's `3-prediction/co-admissibility-conjecture/code/`.
 
 ## The progressive/degenerating standard, inherited without weakening
