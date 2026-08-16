@@ -11,3 +11,4 @@ Working discussion on model refinements — technical back-and-forth, half-resol
 ## Index
 
 - [`20260816-heat-problem-clarification.md`](20260816-heat-problem-clarification.md) — distinguishing the condensation/latent-heat problem (vapor-canopy models) from the viscous-dissipation/rheological heat problem (CPT-style models); which one, if either, this programme has actually sidestepped. **Open** — pending JD's answer on which problem was meant.
+- [`20260816-water-weakening-mechanism.md`](20260816-water-weakening-mechanism.md) — checking the rheology gate against the model's own specified mechanism (water content in ringwoodite) rather than an unrelated partial-melt floor; narrows the stated gap from ~5–6 to ~3–4 orders of magnitude. **Resolved** — promoted to `02-theory/rheology/README.md`, `03-prediction/discriminators.md`, `03-prediction/appraisal.md`.
