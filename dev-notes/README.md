@@ -6,8 +6,8 @@ Working discussion on model refinements — technical back-and-forth, half-resol
 
 **What doesn't stay here:** once a discussion produces a real conclusion — a number, a corrected claim, a resolved ambiguity — that conclusion is promoted into the belt (`02-theory/`), the hard core (`01-hypothesis/`), or logged in the appraisal (`03-prediction/appraisal.md`), with a pointer back to the note it came from. A dev-note that never graduates anywhere is either still open or wasn't worth capturing.
 
-**Filename convention:** `YYYY-MM-DD-topic-slug.md`.
+**Filename convention:** `YYYYMMDD-topic-slug.md` — no separators in the date, so plain alphabetical directory listing sorts in chronological order.
 
 ## Index
 
-- [`2026-08-16-heat-problem-clarification.md`](2026-08-16-heat-problem-clarification.md) — distinguishing the condensation/latent-heat problem (vapor-canopy models) from the viscous-dissipation/rheological heat problem (CPT-style models); which one, if either, this programme has actually sidestepped. **Open** — pending JD's answer on which problem was meant.
+- [`20260816-heat-problem-clarification.md`](20260816-heat-problem-clarification.md) — distinguishing the condensation/latent-heat problem (vapor-canopy models) from the viscous-dissipation/rheological heat problem (CPT-style models); which one, if either, this programme has actually sidestepped. **Open** — pending JD's answer on which problem was meant.
