@@ -6,4 +6,6 @@ Belt content: a three-reservoir water-mass balance (ocean, surface/crustal, deep
 
 **Explicitly not core, explicitly not measured:** the excess magnitude, the partition coefficients, and the resulting mantle-water inventory are all stated in the initial research as hypothesis parameters. No independent constraint has been proposed for any of them yet.
 
+**Visualization:** [`initial-supercontinental-crust-model.png`](../../04-visualization-assets/images/initial-supercontinental-crust-model.png) renders the pre-Flood water-rich crustal cross-section this ledger draws on. No numerical claims to check against it.
+
 **Source:** [`../../research/GPT-hydrotectonic-flood-model.md`](../../research/GPT-hydrotectonic-flood-model.md), lines ~285–464.

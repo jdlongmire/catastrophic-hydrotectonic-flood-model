@@ -8,4 +8,6 @@ Belt content — and the programme's critical-path gate. See [`../../03-predicti
 
 **Open (ROADMAP item 1, gating everything downstream):** quantify total tectonic heat generated at the required velocities against total plausible heat-removal capacity (evaporation, convection, precipitation, radiation, hypercane-scale circulation), following the initial research's own proposed test — "give the hypercane hypothesis its best possible quantitative case."
 
+**Visualization note:** [`initial-meteor-event.png`](../../04-visualization-assets/images/initial-meteor-event.png) illustrates the qualitative impact-triggered failure sequence and is a faithful rendering of the mechanism as stated. It does **not** bear on this gate — it does not show whether the required viscosity collapse is physically reachable, and shouldn't be read as progress against ROADMAP item 1.
+
 **Source:** [`../../research/GPT-hydrotectonic-flood-model.md`](../../research/GPT-hydrotectonic-flood-model.md), lines ~131–283.
