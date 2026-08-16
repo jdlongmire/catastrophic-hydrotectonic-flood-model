@@ -12,7 +12,7 @@
 
 3. **A historical global Flood occurred.** A single, real, geographically global catastrophic event — not a regional flood generalized in the telling, not a mythologized memory of something smaller.
 
-4. **A real, non-zero creation-to-Fall interval exists.** Genesis does not fix its length. The core commits only to its existence, not its duration.
+4. **Creation was deployed in a functionally mature state, and a real, non-zero creation-to-Fall interval followed it.** Reading Genesis 1 as an ordered deployment of already-mature, already-functioning systems — maturity present from the moment of deployment, not achieved through long antecedent natural process — per the Designed Functional Maturity (DFM) framework ([jdlongmire/designed-functional-maturity](https://github.com/jdlongmire/designed-functional-maturity), draft, JD's own companion work). Applied here: the pre-Flood supercontinent (Araratia) and its water-saturated crust are read as deployed mature at creation, not as the end product of gradual pre-creation geological accumulation. Genesis does not fix the length of the subsequent creation-to-Fall interval; the core commits only to the interval's existence, not its duration.
 
 5. **Post-catastrophe natural law is stable.** Ordinary physical law governs interpretation of the geological and hydrological record from the close of the Flood-year catastrophe forward. Intervention is the exception; law is the rule. This is what makes the belt testable at all.
 
@@ -27,13 +27,15 @@ Two consequences follow:
 
 A narrower disclosure specific to this programme: commitment 4 (a real creation-to-Fall gap) is a distinctive reading. Most treatments that address the question at all place the Fall shortly after creation; Genesis does not fix the interval either way. Holding it open, rather than assuming brevity, is this programme's choice — stated plainly here rather than left implicit in a chronology number that shows up later without explanation.
 
+A second disclosure: the functional-maturity half of commitment 4 imports DFM, a framework JD is developing independently of this programme (see [designed-functional-maturity](https://github.com/jdlongmire/designed-functional-maturity)). DFM's own stated scope is worth carrying over rather than glossing: it explicitly "does not automatically validate any particular theological claim, young-earth chronology, or six-day historical sequence" — it's a methodological posture (design as an explanatory default), not a proof of this programme's chronology. Importing it here is a hard-core-level decision like the rest of this list, not a derivation from it.
+
 ## What is *not* in the core
 
 Everything adjustable — the whole of the protective belt.
 
 | Not core | Where it lives | Why it is adjustable |
 |---|---|---|
-| The specific length of the creation-to-Fall gap (currently estimated ~50 kyr) | [`02-theory/stratigraphy/`](../02-theory/stratigraphy/) | Estimated, not revealed — anchored to the radiocarbon practical detection ceiling (~50 kyr) as an independent empirical constraint, not fixed by the text |
+| The specific length of the creation-to-Fall gap (currently estimated ~50–60 kyr) | [`02-theory/stratigraphy/`](../02-theory/stratigraphy/) | Estimated, not revealed — anchored to AMS radiocarbon's practical detection ceiling / calibration-saturation range (~50–60 kyr) as an independent empirical constraint, not fixed by the text |
 | The specific Flood duration (~1 yr) | [`02-theory/kinematics/`](../02-theory/kinematics/) | A reading of the Genesis narrative's internal day-counts. Textually argued but not core — the same way CAC treats its Day Four reading as belt despite strong textual grounding |
 | The specific post-Flood-to-present duration (~6,000 yr) | [`02-theory/stratigraphy/`](../02-theory/stratigraphy/) | Genealogical chronology reading; a calibration, not a core commitment |
 | The hydrotectonic mechanism itself — impact-triggered catastrophic plate reorganization + deep-mantle water transport via wadsleyite/ringwoodite | [`02-theory/rheology/`](../02-theory/rheology/), [`02-theory/kinematics/`](../02-theory/kinematics/) | "Genesis records the historical event; physics seeks the mechanism." Any mechanism consistent with commitments 1–5 is admissible — this is the current candidate, not a commitment |
