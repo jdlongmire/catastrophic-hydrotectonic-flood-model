@@ -1,0 +1,35 @@
+# Programme Appraisal (Progressive vs Degenerating)
+
+> The Lakatosian self-audit. A research programme is **progressive** if it predicts novel facts and some corroborate; **degenerating** if it only accommodates facts post hoc. This file is the standing answer to: *which is the hydrotectonic Flood model, right now?*
+
+## Current verdict
+
+**Unappraised. Zero theoretically progressive steps taken. Three degenerating accommodation moves recorded in the initial research.**
+
+The programme has an articulated hard core ([`1-hypothesis/hard-core.md`](../1-hypothesis/hard-core.md)) and an articulated positive heuristic ([`0-program-methods/ROADMAP.md`](../0-program-methods/ROADMAP.md)), and its founding transcript already identifies its own most consequential gating problem (the rheology/heat budget — see [`discriminators.md`](discriminators.md)). That is real programme structure. It has not yet made a claim that forbids an observation.
+
+**What the initial research ([`research/GPT-hydrotectonic-flood-model.md`](../research/GPT-hydrotectonic-flood-model.md)) actually contains, audited against this standard:**
+
+- Internal arithmetic throughout is correct — checked independently, not merely trusted (continental-velocity table, slab-descent velocities, the shear-stress/viscosity inversions, the full water ledger). Worth recording, since a programme's credibility partly rests on whether its stated numbers survive a redo, and these did.
+- Empirical anchors that were checkable check out: USGS water-inventory figures (1.338×10⁹ km³ ocean, 2.34×10⁷ km³ groundwater) are exact primary-source matches; the Chicxulub–K-Pg causal link is represented accurately as current consensus; mainstream mantle-viscosity estimates (10²⁰–10²¹ Pa·s) are correctly cited; the Pearson et al. (2014) natural ringwoodite water-content figure (~1.4 wt%) is a real, correctly characterized data point.
+- The programme is honest about its own free parameters where it has them: the crustal-water excess (0.05–0.15 OE), the partition coefficients, and the mantle-water inventory are explicitly labeled hypothesis parameters rather than measured quantities. No hidden circularity found running the mandatory dependency-graph check.
+- **Three sequential belt revisions, each purely accommodative.** The catastrophic-phase onset moved Cambrian → {Permian-Triassic, Triassic-Jurassic, Cretaceous-Paleogene tested and found wanting} → an unspecified diachronous propagation front, each move triggered by evidence the prior position couldn't absorb (paleosols requiring real pedogenesis time; then persistent stable terrestrial features recurring past every tested boundary — the transcript's own words: *"there is no obvious Phanerozoic horizon above which mature terrestrial surfaces... simply disappear"*). None of the three moves added forbidding content at the time it was made. `forbids: none` for all three, in the sibling programmes' vocabulary.
+- **The gating problem is named, not closed.** Required transient viscosity (~10¹³–10¹⁴ Pa·s) sits roughly 5–6 orders of magnitude below the lowest viscosity invoked anywhere in mainstream geodynamics (partial-melt subduction-channel weak zones, ~10¹⁹ Pa·s floor). The transcript calls this "the dominant test" three times and never returns to it.
+- **Two genuine candidate discriminators exist but are unregistered:** ecological-province co-occurrence → stratigraphic co-occurrence (real discriminating content against the rival hydrodynamic-sorting/temporal-succession account), and cross-basin coherent propagation-front coherence (stated as testable, zero content specified yet). A third candidate (MTZ hydration correlating with subduction geometry) currently just cites an already-known pattern and needs sharpening before it clears the accommodation bar.
+
+## What would move the needle to *progressive*
+
+A claim that forbids an observation ordinary historical geology permits — or permits one ordinary historical geology forbids — stated with its evaluation protocol in advance, and then corroborated. The two live candidates from the audit above (ecological-province co-occurrence; cross-basin propagation-front coherence) are the nearest routes, gated on ROADMAP items 3–4.
+
+## What would mark *degeneration* — to be recorded as plainly as progress would be
+
+- A fourth boundary redraw with the same shape as the first three: triggered by an anomaly, absorbing it, adding no forbidding content.
+- The chronology partition (ROADMAP item 3) never getting fixed and dated — a moving target that's never pinned down is a programme that can't be wrong by construction.
+- The rheology gate staying open indefinitely while belt work on kinematics and stratigraphy keeps accumulating around it, unaddressed.
+- Citing the MTZ-hydration/subduction correlation as support without ever sharpening it past "the pattern is already known and compatible with our model."
+
+## Log
+
+| Date | Event | Effect on appraisal |
+|---|---|---|
+| 2026-08-16 | Programme stood up. Initial research (`research/GPT-hydrotectonic-flood-model.md`) reviewed and audited; hard core enumerated (5 commitments); belt content identified (chronology partition, mechanism, stratigraphic mapping, water-ledger parameters); positive heuristic drafted with the rheology gate placed first | **Unappraised (baseline).** 0 predictions, 3 accommodation moves identified (all `forbids: none`), 1 gating open problem named |
