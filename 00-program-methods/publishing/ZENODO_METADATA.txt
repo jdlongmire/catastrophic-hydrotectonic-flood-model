@@ -1,0 +1,73 @@
+=== ZENODO SUBMISSION METADATA ===
+Copy and paste into Zenodo upload form
+
+--- BASIC INFORMATION ---
+
+Upload Type: Publication > Preprint
+Access Right: Open Access
+
+Title:
+The Global Hydrotectonic Flood Model: A Layered Mechanism for Rapid Continental Reorganization
+
+Authors:
+Longmire, James (JD)
+Affiliation: Northrop Grumman Fellow (unaffiliated research)
+ORCID: 0009-0009-1383-7698
+
+--- DESCRIPTION/ABSTRACT ---
+
+This paper states, in one place, the current form of a research programme reconstructing the Genesis Flood as a real historical, geophysical event. The programme's hard core is a set of textual-historical and methodological commitments held by decision, not derived from physics, including a reading of creation as a functionally mature deployment (Designed Functional Maturity). Its protective belt is a layered physical mechanism: continental hydroplaning under near-lithostatic pore pressure accounts for rapid lateral translation without the lethal frictional heating that has defeated prior catastrophic-plate-tectonics proposals, quantified at a hundred-fold heat-flux reduction against conventional friction; a separately scoped, localized reduction in mantle viscosity within active subduction channels is offered as a partial, not yet sufficient, account of vertical slab descent into the transition zone, checked against primary mineral-viscosity literature and narrowed to a residual three-to-four-order-of-magnitude deficit.
+
+A water-mass balance is checked both for total inventory and for supply rate under load, using present-day USGS water-inventory figures and a Darcy-flow calculation showing roughly an 800-to-1 excess supply capacity. Two questions are stated as genuinely open rather than resolved: the magnitude of the remaining viscosity deficit for vertical subduction, and the stratigraphic timing of the catastrophic interval, where competing boundary hypotheses rest on field evidence that is itself disputed in the literature rather than settled. Six falsifiable discriminators are named, none yet evaluated against data.
+
+The claim of this paper is methodological and mechanistic: that a testable physical account of the Flood as a real event can be built and checked in public, not that the account is complete or that its central claim has been demonstrated. This is Draft v0.1, the programme's first position paper, consolidating belt documents maintained in the open at the accompanying repository.
+
+--- VERSION & DATE ---
+
+Version: 0.1
+Publication Date: 2026-08-16
+
+--- LICENSE ---
+
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+--- KEYWORDS ---
+
+catastrophic plate tectonics, hydrotectonic model, flood geology, hydroplaning, effective stress, mantle transition zone, ringwoodite, viscosity, water budget, young-earth chronology, Designed Functional Maturity, Lakatosian research programme, methodological designism, paleosol, stratigraphy, Genesis flood
+
+--- SUBJECTS ---
+
+Earth and Planetary Sciences
+Geophysics
+Tectonics
+Geology
+Geodynamics
+Philosophy of Science
+Religious Studies
+
+--- ADDITIONAL NOTES ---
+
+This work represents an independent research programme exploring a testable, falsifiable physical mechanism for the Genesis Flood, developed openly with a full audit trail of primary-source citations, confidence levels, and open problems (see research/citation-validation.md in the repository). The author welcomes constructive feedback and collaboration on testing the model's discriminating predictions.
+
+Contact: jdlongmire@outlook.com
+Repository: https://github.com/jdlongmire/hydrotectonic-flood-model
+
+--- RELATED IDENTIFIERS ---
+
+GitHub Repository (isSupplementedBy): https://github.com/jdlongmire/hydrotectonic-flood-model
+Related work — hydroplaning mechanism source (references): https://doi.org/10.5281/zenodo.17684983
+Related work — Designed Functional Maturity framework (references): https://github.com/jdlongmire/designed-functional-maturity
+
+--- CONTRIBUTORS ---
+
+(None - single author)
+
+--- REFERENCES ---
+
+9 external sources cited; verification status, confidence level, and retrieval record for each maintained at research/citation-validation.md in the repository (not a static count — the ledger is the source of record, not this line).
+
+--- FUNDING ---
+
+Self-funded independent research / Northrop Grumman Fellowship (unaffiliated research)
+
+=== END METADATA ===

@@ -1,6 +1,6 @@
 # The Global Hydrotectonic Flood Model: A Layered Mechanism for Rapid Continental Reorganization
 
-**Status:** Draft v0.1, 2026-08-16. First position paper for this research programme (see `01-hypothesis/hard-core.md`, which anticipated this document before it existed).
+**Status:** Draft v0.1, 2026-08-16. First position paper for this research programme (see `01-hypothesis/hard-core.md`, which anticipated this document before it existed). Zenodo submission packet (rendered PDF, metadata, checklist) staged in [`publishing/`](publishing/); not yet submitted — pending JD's own upload.
 
 **Author:** James D. Longmire. ORCID: [0009-0009-1383-7698](https://orcid.org/0009-0009-1383-7698).
 
@@ -153,7 +153,7 @@ Doyle, S. (2017). Do 'laterite' soils take a million years to form? *Journal of 
 
 Fei, H., Yamazaki, D., Sakurai, M., Miyajima, N., Ohfuji, H., Katsura, T., & Yamamoto, T. (2017). A nearly water-saturated mantle transition zone inferred from mineral viscosity. *Science Advances*, 3(6), e1603024. https://doi.org/10.1126/sciadv.1603024
 
-Longmire, J.D. (2025). *Global Flood Hydrotectonics: A Quantitative Theory of Rapid Continental Reorganization* (v2.5, Gap Analysis Edition). Preprint. https://github.com/jdlongmire/global-flood-hydrotectonic-model
+Longmire, J.D. (2025). *Rapid Continental Reorganization Through Hydraulic Collapse: A Solution to the Heat Problem in Catastrophic Plate Tectonics* (v2). Zenodo. https://doi.org/10.5281/zenodo.17684983. Repository (working development, v2.5 Gap Analysis Edition): https://github.com/jdlongmire/global-flood-hydrotectonic-model
 
 Longmire, J.D. (draft). *Designed Functional Maturity as Methodological Designism: An Explanatory Framework for Foundational Features of Reality*. https://github.com/jdlongmire/designed-functional-maturity
 
