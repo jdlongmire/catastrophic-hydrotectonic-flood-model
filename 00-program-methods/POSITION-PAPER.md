@@ -1,6 +1,6 @@
 # The Global Hydrotectonic Flood Model: A Layered Mechanism for Rapid Continental Reorganization
 
-**Status:** Draft v0.1, 2026-08-16. First position paper for this research programme (see `01-hypothesis/hard-core.md`, which anticipated this document before it existed). Zenodo submission packet (rendered PDF, metadata, checklist) staged in [`publishing/`](publishing/); not yet submitted — pending JD's own upload.
+**Status:** v0.1, published to Zenodo 2026-08-16. DOI: [10.5281/zenodo.21972859](https://doi.org/10.5281/zenodo.21972859) (concept DOI 10.5281/zenodo.21972858, for future versions). First position paper for this research programme (see `01-hypothesis/hard-core.md`, which anticipated this document before it existed). Submission packet in [`publishing/`](publishing/).
 
 **Author:** James D. Longmire. ORCID: [0009-0009-1383-7698](https://orcid.org/0009-0009-1383-7698).
 

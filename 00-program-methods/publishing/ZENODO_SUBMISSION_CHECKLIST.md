@@ -1,5 +1,7 @@
 # Zenodo Submission Checklist — Global Hydrotectonic Flood Model Position Paper
 
+**Published 2026-08-16.** DOI: [10.5281/zenodo.21972859](https://doi.org/10.5281/zenodo.21972859) (concept DOI 10.5281/zenodo.21972858). Record: https://zenodo.org/record/21972859. Submitted via the Zenodo REST API (deposition created, PDF uploaded, metadata set, published) using a token JD provided by email; the manual walkthrough below is kept as the record of what was actually done, field for field, not as still-pending instructions.
+
 ## Pre-flight
 
 - [x] PDF rendered from `POSITION-PAPER.md` via pandoc/xelatex — `hydrotectonic-flood-model-position-paper-v0.1.pdf` (11 pages, this folder)
@@ -18,24 +20,24 @@
 4. **This is a new deposit, not a new version of an existing concept DOI** — this paper carries its own hard core (Genesis-historical commitments, DFM) that the related hydroplaning-mechanism paper (10.5281/zenodo.17684983) never did. Confirmed with JD 2026-08-16.
 5. Related identifiers: link both directions — this deposit references 10.5281/zenodo.17684983 (hydroplaning mechanism source) and the GitHub repo; consider also linking back from that record's own metadata if Zenodo's edit flow allows it easily.
 
-## Expected DOI format
+## Actual DOI
 
-Once published:
 ```
-10.5281/zenodo.XXXXXXX
+10.5281/zenodo.21972859
 ```
 
 Citable as:
 ```
 Longmire, J.D., 2026. The Global Hydrotectonic Flood Model: A Layered Mechanism for
-Rapid Continental Reorganization. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+Rapid Continental Reorganization. Zenodo. https://doi.org/10.5281/zenodo.21972859
 ```
 
 ## After publication
 
-- [ ] Update `research/citation-validation.md`'s self-reference and `00-program-methods/POSITION-PAPER.md`'s own header with the real DOI once minted
-- [ ] Update `README.md` to link the published DOI, not just the in-repo draft
-- [ ] Save the DOI/submission confirmation somewhere durable (this checklist, or `dev-notes/`)
+- [x] Update `00-program-methods/POSITION-PAPER.md`'s own header with the real DOI
+- [x] Update `README.md` to link the published DOI
+- [x] Save the DOI/submission confirmation somewhere durable (this checklist)
+- [ ] Update `research/citation-validation.md`'s self-reference, if it needs one for this paper's own DOI
 
 ## Known, disclosed as-is (not blockers, but visible once this is permanent)
 

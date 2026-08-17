@@ -2,7 +2,7 @@
 
 A Lakatosian research programme reconstructing a historical, hydrotectonic global Flood — a layered mechanism of impact-triggered continental hydroplaning (lateral translation) and localized subduction-channel deep-mantle water transport (vertical descent) — within a Genesis-consistent chronology, without requiring the observational corpus to entail a deep-time history.
 
-**Start here:** [`00-program-methods/POSITION-PAPER.md`](00-program-methods/POSITION-PAPER.md) — the programme's position paper, consolidating the hard core, both mechanisms, the water budget, open questions, and discriminators in one cited document. A rendered PDF and Zenodo submission packet are staged at [`00-program-methods/publishing/`](00-program-methods/publishing/) (not yet submitted).
+**Start here:** [`00-program-methods/POSITION-PAPER.md`](00-program-methods/POSITION-PAPER.md) — the programme's position paper, consolidating the hard core, both mechanisms, the water budget, open questions, and discriminators in one cited document. Published to Zenodo 2026-08-16: DOI [10.5281/zenodo.21972859](https://doi.org/10.5281/zenodo.21972859).
 
 | | |
 |---|---|
