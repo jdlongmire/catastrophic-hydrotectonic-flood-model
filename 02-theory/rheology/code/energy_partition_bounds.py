@@ -49,11 +49,27 @@ F2  Velocity ceiling. There exists v_max at which KE alone consumes the entire 1
     Any kinematic revision proposing v > v_max is refuted by energy conservation on
     the programme's own numbers, independent of any other argument.
 
-F3  Impact bound. For the sub-1 K thermal claim to survive unchanged, total impact
-    energy deposited must be <= the model's own total dissipation allocation
-    (5.75% of 1e25 J). Expressed as a maximum count of Chicxulub-equivalent bodies.
-    If that count is < 1, the "swarm of large impacts" framing is in tension with the
-    thermal budget and one of the two has to give.
+F3  Survivable bulk-heating bound. Total energy deposited as ocean heat, from ALL
+    sources (tectonic dissipation plus impacts), must keep the ocean below the upper
+    thermal limit of marine life. If the model's own dissipation allocation plus a
+    plausible impactor swarm fits inside that bound with margin, bulk ocean heating
+    is not the binding constraint on the mechanism and the objection class that
+    targets it fails generally, not just in the instance.
+
+F3_CONTROL  REFUTED FRAMING, retained per research-practices.md rules 6 and 11.
+    The first version of F3 (2026-08-17, superseded same day) asked whether impact
+    energy fits inside the model's own 5.75% dissipation allocation, and reported a
+    tension: only 0.01-1.38 Chicxulub-equivalents affordable. It died on two counts.
+      (1) Category error. The 5.75% allocation is a partition of the GPE RELEASE.
+          It is not a global thermal budget, and impacts are a separate energy input
+          to the system rather than a competing claim on the tectonic partition.
+      (2) Empirically falsified premise. It assumed all deposited impact energy
+          becomes terrestrial heat. The one swarm member that can actually be
+          observed refutes this: Chicxulub's dominant global thermal signature was
+          net COOLING (dust and sulfate aerosol loading; surface air temperature fell
+          by as much as ~26 K, sub-freezing for years), followed by modest CO2
+          greenhouse warming of 1-5 K. Not bulk ocean heating.
+    Kept in the code below, labeled, so the reader can see what was ruled out.
 
 WHAT THIS DOES NOT RESOLVE (research-practices.md rule 12)
 -----------------------------------------------------------
@@ -114,6 +130,24 @@ E_CHICXULUB_J_LOW/HIGH
     Source: Durand-Manterola, H.J. & Cordero-Tercero, G. (2014), "Assessments of the
     energy, mass and size of the Chicxulub impactor," arXiv:1403.6391.
     Confidence: MEDIUM (abstract-level figures; full text not read for this script).
+    NOTE (JD, 2026-08-17): in this programme's model Chicxulub is a MEMBER of the
+    initiating swarm, not an external yardstick. That makes it an observational
+    anchor rather than a hypothetical: whatever a swarm member does thermally,
+    Chicxulub is a worked example of it in the actual record.
+
+DT_OCEAN_LETHAL_LOW/HIGH
+    Ocean warming above present that would exceed the upper thermal limit of marine
+    life. Measured upper lethal temperatures: 37-41 C for subtidal ectotherms under
+    rapid (1 C/hr) heating, falling to ~35.4-40 C under chronic heating; intertidal
+    organisms tolerate 41-52 C. Against a present mean sea-surface temperature near
+    16 C, that is a headroom of roughly 20-24 K before widespread marine lethality.
+    Carried as a range; the LOW end is used for the binding test.
+    Source: Nguyen, K.D.T. et al. (2011), "Upper temperature limits of tropical
+    marine ectotherms: global warming implications," PLoS ONE 6(12): e29340.
+    Confidence: MEDIUM (specific figures from the paper's reported ranges; full text
+    not read for this script). This is a bulk-ocean survivability proxy only -- it
+    says nothing about atmospheric, radiative, or aerosol effects, which for impacts
+    are the dominant terms (see F4).
 
 M_OCEAN_KG, C_WATER
     1.4e21 kg, 4200 J/(kg K). USGS-consistent and the same values used by the
@@ -140,6 +174,8 @@ E_CHICXULUB_J_HIGH = 5.8e25
 E_CHICXULUB_J_COMMON = 4.18e23  # commonly cited single figure
 M_OCEAN_KG = 1.4e21
 C_WATER = 4200.0
+DT_OCEAN_LETHAL_LOW = 20.0      # K above present, marine survivability proxy
+DT_OCEAN_LETHAL_HIGH = 24.0
 
 # --- Declared thresholds (fixed before the run) --------------------------------
 F1_KE_FRACTION_OF_FRICTION = 0.01   # KE must be <= 1% of friction allocation
@@ -240,42 +276,111 @@ def main():
     print("   recorded in POSITION-PAPER Sec 3.4.")
     print()
 
-    # ---- TERM (B): impact trigger energy --------------------------------------
+    # ---- TERM (B): impact energy, tested against survivability ----------------
     print("-" * 78)
-    print("TERM (B)  IMPACT-TRIGGER ENERGY")
+    print("TERM (B)  F3  SURVIVABLE BULK-HEATING BOUND")
     print("-" * 78)
-    print(f"Allowance for impact heat before it equals the model's own total")
-    print(f"dissipation allocation: {fmt(E_DISSIPATED_J)} J")
+    print("Chicxulub is a MEMBER of the initiating swarm in this model, not an")
+    print("external yardstick -- so it is an observational anchor, not a"
+          " hypothetical.")
     print()
-    print("Chicxulub-equivalent bodies affordable within that allowance:")
+    e_lethal_lo = M_OCEAN_KG * C_WATER * DT_OCEAN_LETHAL_LOW
+    e_lethal_hi = M_OCEAN_KG * C_WATER * DT_OCEAN_LETHAL_HIGH
+    print(f"Ocean energy uptake reaching the marine upper thermal limit"
+          f" (+{DT_OCEAN_LETHAL_LOW:.0f} to +{DT_OCEAN_LETHAL_HIGH:.0f} K):")
+    print(f"    {fmt(e_lethal_lo)} to {fmt(e_lethal_hi)} J")
+    print()
+    print("Against that bound:")
+    print(f"    entire GPE budget          {fmt(E_TOTAL_J):>9} J"
+          f"  -> dT = {fmt(ocean_delta_t(E_TOTAL_J)):>9} K"
+          f"  ({E_TOTAL_J/e_lethal_lo:6.2%} of bound)")
+    print(f"    model's dissipated share   {fmt(E_DISSIPATED_J):>9} J"
+          f"  -> dT = {fmt(ocean_delta_t(E_DISSIPATED_J)):>9} K"
+          f"  ({E_DISSIPATED_J/e_lethal_lo:6.2%} of bound)")
+    for elabel, e in (("1x Chicxulub (common)", E_CHICXULUB_J_COMMON),
+                      ("1x Chicxulub (assess lo)", E_CHICXULUB_J_LOW),
+                      ("1x Chicxulub (assess hi)", E_CHICXULUB_J_HIGH)):
+        print(f"    {elabel:<26} {fmt(e):>9} J"
+              f"  -> dT = {fmt(ocean_delta_t(e)):>9} K"
+              f"  ({e/e_lethal_lo:6.2%} of bound)")
+    print()
+    n_survivable_common = e_lethal_lo / E_CHICXULUB_J_COMMON
+    n_survivable_asslo = e_lethal_lo / E_CHICXULUB_J_LOW
+    n_survivable_asshi = e_lethal_lo / E_CHICXULUB_J_HIGH
+    print("Swarm size affordable within the survivability bound"
+          " (bulk heating only):")
+    print(f"    at {fmt(E_CHICXULUB_J_COMMON)} J/body: {n_survivable_common:8.1f}"
+          " bodies")
+    print(f"    at {fmt(E_CHICXULUB_J_LOW)} J/body: {n_survivable_asslo:8.1f}"
+          " bodies")
+    print(f"    at {fmt(E_CHICXULUB_J_HIGH)} J/body: {n_survivable_asshi:8.1f}"
+          " bodies")
+    print()
+    f3_pass = (E_DISSIPATED_J + E_CHICXULUB_J_LOW) < e_lethal_lo
+    print(f"F3 VERDICT: {'PASS' if f3_pass else 'FAIL'} -- bulk ocean heating is"
+          " NOT the binding constraint.")
+    print(f"   The ocean's thermal mass is {e_lethal_lo/E_TOTAL_J:.1f}x the"
+          " ENTIRE gravitational")
+    print("   budget. Tectonic dissipation plus a multi-body swarm fits with"
+          " large margin")
+    print("   except at the highest single-impactor estimate. The objection"
+          " class that")
+    print("   targets bulk ocean heating fails generally, not just in the"
+          " instance.")
+    print()
+
+    # ---- F3_CONTROL: refuted framing, retained per rules 6 and 11 --------------
+    print("-" * 78)
+    print("F3_CONTROL  [REFUTED FRAMING -- RETAINED, NOT DELETED]")
+    print("-" * 78)
+    print("Superseded 2026-08-17, same day it was written. Asked whether impact")
+    print("energy fits inside the model's own 5.75% dissipation allocation:")
     for elabel, e in (("commonly cited", E_CHICXULUB_J_COMMON),
                       ("assessment low", E_CHICXULUB_J_LOW),
                       ("assessment high", E_CHICXULUB_J_HIGH)):
-        n = E_DISSIPATED_J / e
         print(f"    E_chicx = {fmt(e):>9} J [{elabel:>15}]"
-              f"  ->  N_max = {n:8.2f}"
-              f"  | ocean dT per body = {fmt(ocean_delta_t(e))} K")
+              f"  ->  N_max = {E_DISSIPATED_J/e:8.2f}")
     print()
-    n_low = E_DISSIPATED_J / E_CHICXULUB_J_HIGH
-    n_high = E_DISSIPATED_J / E_CHICXULUB_J_COMMON
-    n_assess = E_DISSIPATED_J / E_CHICXULUB_J_LOW
-    print(f"F3 [impact bound: N_max = {n_low:.2f} to {n_high:.2f}"
-          " Chicxulub-equivalents]")
-    print(f"   N_max exceeds 1 ONLY under the cheapest cited Chicxulub estimate"
-          f" ({n_high:.2f}).")
-    print(f"   Under the comprehensive assessment range the budget affords"
-          f" {n_assess:.2f} down to")
-    print(f"   {n_low:.2f} bodies -- i.e. less than one. VERDICT: TENSION,"
-          " and it sharpens as the")
-    print("   impactor estimate rises. The 'swarm of large impacts' framing")
-    print("   (README, video summaries) is not obviously compatible with the"
-          " thermal")
-    print("   allocation as published. NOTE the header caveat: this assumes all")
-    print("   deposited energy becomes terrestrial heat, so it is the"
-          " severest form of")
-    print("   the constraint, not a best estimate. Ejecta and radiative loss are"
-          " not")
-    print("   modeled and would relax it by an unquantified factor.")
+    print("  DIED ON: (1) category error -- the 5.75% figure partitions the GPE")
+    print("  RELEASE, it is not a global thermal budget, and impacts are a"
+          " separate")
+    print("  input rather than a competing claim on it. (2) empirically"
+          " falsified")
+    print("  premise -- it assumed full thermalization into the ocean, but the"
+          " one")
+    print("  swarm member in the observational record shows the opposite:")
+    print("  Chicxulub's dominant global signature was net COOLING (dust and"
+          " sulfate")
+    print("  aerosols, surface air temperature down as much as ~26 K,"
+          " sub-freezing for")
+    print("  years), then CO2 greenhouse warming of only 1-5 K.")
+    print()
+
+    # ---- F4: what actually binds ----------------------------------------------
+    print("-" * 78)
+    print("F4  WHAT ACTUALLY BINDS THE SWARM -- stated open, not computed here")
+    print("-" * 78)
+    print("Bulk thermal energy does not constrain swarm size (F3). The real"
+          " limits on")
+    print("how many Chicxulub-class bodies the model can absorb are"
+          " radiative and")
+    print("climatic, not calorimetric:")
+    print("    - aerosol/dust loading and the resulting shading (a COOLING"
+          " excursion,")
+    print("      the opposite sign to the objection's assumption)")
+    print("    - CO2 and sulfate injection from carbonate/evaporite target rock")
+    print("    - ejecta re-entry radiation")
+    print("    - survivability of the biota the narrative requires to come"
+          " through")
+    print("  Stating the rival at its strongest (research-practices.md rule 4):"
+          " the")
+    print("  mainstream account has ONE such impact driving a mass extinction."
+          " A swarm")
+    print("  is by construction a larger perturbation, and that is the real"
+          " cost the")
+    print("  model has to price -- in climate response, not in joules.")
+    print("  REQUIRES: a modeled aerosol/radiative response. Not attempted"
+          " here.")
     print()
 
     print("=" * 78)
@@ -284,15 +389,21 @@ def main():
     print(f"  F1 KE-negligibility ......... {'PASS' if f1_pass else 'FAIL'}")
     print(f"  F2 velocity ceiling ......... {vmax_lo:.1f}-{vmax_hi:.1f} m/s"
           " (new constraint on the belt)")
-    print(f"  F3 impact bound ............. {n_low:.2f}-{n_high:.2f}"
-          " Chicxulub-equivalents (open tension)")
+    print(f"  F3 survivable heating ....... {'PASS' if f3_pass else 'FAIL'}"
+          f" (bound is {e_lethal_lo/E_TOTAL_J:.1f}x the entire GPE budget)")
+    print("  F3_CONTROL .................. refuted framing, retained labeled")
+    print("  F4 climatic bound ........... OPEN, requires an aerosol/radiative"
+          " model")
     print()
-    print("  The external objection that motivated F1/F2 does not land: the"
-          " stopping")
-    print("  term is ~3 orders of magnitude below the friction term it was"
-          " claimed to")
-    print("  dominate. F3 was not part of that objection and is the harder"
-          " finding.")
+    print("  The external objection does not land on either limb. The stopping"
+          " term is")
+    print("  ~3 orders below the friction term (F1), and bulk ocean heating has"
+          " over an")
+    print("  order of magnitude of headroom against the entire budget (F3). The"
+          " genuine")
+    print("  open cost of the impact swarm is climatic, and it is named rather"
+          " than")
+    print("  quantified (F4).")
     print()
 
 
