@@ -2,7 +2,7 @@
 
 A Lakatosian research programme reconstructing a historical, hydrotectonic global Flood — a layered mechanism of impact-triggered continental hydroplaning (lateral translation) and localized subduction-channel deep-mantle water transport (vertical descent) — within a Genesis-consistent chronology, without requiring the observational corpus to entail a deep-time history.
 
-**Start here:** [`00-program-methods/POSITION-PAPER.md`](00-program-methods/POSITION-PAPER.md) — the programme's position paper, consolidating the hard core, both mechanisms, the water budget, open questions, and discriminators in one cited document.
+**Start here:** [`00-program-methods/POSITION-PAPER.md`](00-program-methods/POSITION-PAPER.md) — the programme's position paper, consolidating the hard core, both mechanisms, the water budget, open questions, and discriminators in one cited document. A rendered PDF and Zenodo submission packet are staged at [`00-program-methods/publishing/`](00-program-methods/publishing/) (not yet submitted).
 
 | | |
 |---|---|
@@ -15,7 +15,7 @@ A Lakatosian research programme reconstructing a historical, hydrotectonic globa
 ## Structure
 
 ```
-00-program-methods/   METHODOLOGY.md (the apparatus), ROADMAP.md (positive heuristic), research-practices.md (working rules incl. scripts/notebooks), POSITION-PAPER.md (the programme's position paper)
+00-program-methods/   METHODOLOGY.md (the apparatus), ROADMAP.md (positive heuristic), research-practices.md (working rules incl. scripts/notebooks), POSITION-PAPER.md (the programme's position paper), publishing/ (Zenodo submission packet: PDF, metadata, checklist)
 01-hypothesis/        hard-core.md — immune by decision, and said so
 02-theory/             the protective belt: kinematics/, rheology/ (+ code/), water-ledger/, stratigraphy/
 03-prediction/         appraisal.md (progressive/degenerating verdict + log), discriminators.md (critical path)
