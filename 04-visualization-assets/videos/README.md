@@ -16,3 +16,4 @@ videos/
 ## Packages
 
 - [`intro/`](intro/) — introductory narration covering the programme's core commitment, mechanism, water budget, and honest research standing. Two cuts: 180s vertical (TikTok/Shorts), 300s horizontal (YouTube long-form), both narrating over the three renders in [`../images/`](../images/) with the caption/headline text confined to a top band so it never overlaps the illustrative content.
+- [`global-intro/`](global-intro/) — supersedes `intro/` as the front door to the programme, 2026-08-16. Introduces the layered mechanism (hydroplaning for lateral translation + localized subduction-channel viscosity reduction for vertical descent) as a single coherent pitch, drafted and approved in-chat before any build step per the video-narration skill's SOP. One cut: vertical only (~236s).
