@@ -38,6 +38,10 @@ Every prior version of catastrophic plate tectonics has foundered on the same co
 
 ## 3. Mechanism I: Hydroplaning (Lateral Translation)
 
+![Hydrotectonic breakup sequence and continental positions through time](../04-visualization-assets/images/continental-shift-cropped.png)
+
+**Figure 3.** The proposed breakup sequence (pre-impact supercontinent through post-catastrophic relaxation) and continental positions through time. Cropped from the source infographic to exclude its displacement-statistics panel, which stated a plate-velocity figure (~0.01 to 0.1 m/s) inconsistent both with this programme's own kinematics figure (9 to 40 cm/s) and with the internal inconsistency documented in Section 3.4; the uncropped original and the discrepancy are recorded in `04-visualization-assets/images/README.md`. The displacement distances shown elsewhere in the source infographic (2,000 to 6,000 km average, 8,000 to 12,000+ km maximum) are not affected and are consistent with the kinematics literature. Illustrative of sequence and geometry only; not a validated plate-motion reconstruction (Section 3.4).
+
 ### 3.1 Principle
 
 The programme's answer to Section 2 is not increased tolerance for heat but the claim that the heat was never generated (Figure 1 illustrates the triggering sequence). When pore-fluid pressure $P_p$ within the crust approaches lithostatic stress $\sigma_L$, effective normal stress collapses:
