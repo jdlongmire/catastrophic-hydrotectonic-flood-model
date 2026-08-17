@@ -13,7 +13,7 @@ A Lakatosian research programme reconstructing a historical, hydrotectonic globa
 ## Structure
 
 ```
-00-program-methods/   METHODOLOGY.md (the apparatus), ROADMAP.md (positive heuristic), research-practices.md (working rules incl. scripts/notebooks)
+00-program-methods/   METHODOLOGY.md (the apparatus), ROADMAP.md (positive heuristic), research-practices.md (working rules incl. scripts/notebooks), POSITION-PAPER.md (the programme's position paper)
 01-hypothesis/        hard-core.md — immune by decision, and said so
 02-theory/             the protective belt: kinematics/, rheology/ (+ code/), water-ledger/, stratigraphy/
 03-prediction/         appraisal.md (progressive/degenerating verdict + log), discriminators.md (critical path)

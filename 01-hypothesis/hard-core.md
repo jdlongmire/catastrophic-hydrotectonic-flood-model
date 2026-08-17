@@ -2,7 +2,7 @@
 
 > **Tier:** 01-hypothesis. **Lakatos role:** the **hard core** of the research programme — the commitments held immune from refutation by the *negative heuristic*. Refutation is not aimed here; it is directed at the [protective belt](../02-theory/). This file enumerates *what is in the core*, so the negative heuristic can be applied without ambiguity.
 >
-> See [`../00-program-methods/METHODOLOGY.md`](../00-program-methods/METHODOLOGY.md) for the apparatus. This programme has no position paper yet. The initial research is [`../research/GPT-hydrotectonic-flood-model.md`](../research/GPT-hydrotectonic-flood-model.md); the core stated below is JD's own framing of it (2026-08-16), not something derived from that transcript.
+> See [`../00-program-methods/METHODOLOGY.md`](../00-program-methods/METHODOLOGY.md) for the apparatus, and [`../00-program-methods/POSITION-PAPER.md`](../00-program-methods/POSITION-PAPER.md) (draft v0.1, 2026-08-16) for the programme's position paper. The initial research is [`../research/GPT-hydrotectonic-flood-model.md`](../research/GPT-hydrotectonic-flood-model.md); the core stated below is JD's own framing of it (2026-08-16), not something derived from that transcript.
 
 ## The immune commitments
 
