@@ -16,7 +16,13 @@ The prior "10¹⁹ Pa·s floor, 5–6 orders short" figure was benchmarked again
 - Karato-type mantle-wedge hydration studies: typically 1–2 orders of magnitude, up to ~4 orders at 200–400 km depth under specific stress conditions — olivine-specific, not the transition-zone minerals this model needs, but consistent in direction and rough magnitude.
 - A single olivine-aggregate experiment at 300 MPa found a factor of ~140 (≈2.15 orders) from water content alone.
 
-**Confidence: MEDIUM.** These are search-result summaries of each paper's findings, not primary full text — Science.org returned HTTP 403 on direct fetch of Fei et al. Worth a primary-source pull (or a `reference_validation_protocol`-style DOI check, cf. the prior slice at `jdlongmire/global-flood-hydrotectonic-model`) before this magnitude figure is treated as load-bearing for a formal claim beyond its current level of specificity.
+**Confidence: HIGH, upgraded 2026-08-16.** Original pass was search-result summaries only (Science.org returned HTTP 403 on direct fetch). Primary full text obtained via the PMC open-access copy (Science Advances is AAAS open-access; PMC5462500) — the ~2 orders (anhydrous ringwoodite → bridgmanite) and ~1.5 orders (bridgmanite → water-saturated ringwoodite) figures are confirmed as direct quotes from the paper itself, not a secondary paraphrase. Fei et al.'s own stated water-content conclusion: *"ringwoodite in the MTZ should contain 1 to 2 wt % water. The MTZ should thus be nearly water-saturated globally"* — and, accounting for their own stated uncertainty band, *"if the one-half order of magnitude uncertainty in mantle viscosity is considered, the MTZ must contain at least 1 to 2 wt % water to fit the viscosity profile."*
+
+**Caveats the authors themselves state, worth carrying into any formal citation:**
+- The water-saturation inference is best constrained *"under the regions that have experienced postglacial rebound"* — global extrapolation is the authors' own inference, not a direct global measurement.
+- Water solubility in ringwoodite decreases with increasing temperature, which could limit storage capacity beyond what's modeled.
+- The authors acknowledge unresolved discrepancies with independent electrical-conductivity studies of the transition zone: *"the exact reasons for these discrepancies are unclear and remain unknown."*
+- Their own experimental temperature-measurement uncertainty (~50 K) alone propagates to roughly a factor-of-two uncertainty in the dislocation-mobility estimate.
 
 ## The calculation
 
