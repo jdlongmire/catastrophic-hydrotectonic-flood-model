@@ -20,3 +20,7 @@ Full-sequence infographic: pre-impact supercontinent → impact disruption → h
 - **Pacing note.** Panel 2 ("Impact Onset — Days to Weeks") already shows near-complete rifting into continent-shaped blocks, ahead of panel 4 ("Peak Transport — Months to ~1 Year") where the research places maximum velocity. Both the table and this image are schematic pending [`../../00-program-methods/ROADMAP.md`](../../00-program-methods/ROADMAP.md) item 2 (a real Pangaea-fit reconstruction), but the image front-loads displacement more than the model's own numbers support.
 
 See [`../../03-prediction/appraisal.md`](../../03-prediction/appraisal.md) 2026-08-16 log entry for the full audit.
+
+## Use in the position paper, 2026-08-16
+
+`initial-meteor-event.png` (Figure 1) and `initial-supercontinental-crust-model.png` (Figure 2) are embedded in [`../../00-program-methods/POSITION-PAPER.md`](../../00-program-methods/POSITION-PAPER.md) — neither carries a numerical claim needing reconciliation. **`continental-shift.png` is deliberately held out of the paper**, JD-directed: its velocity figure conflicts with the research figure (as recorded above) *and* with the paper's own Section 3.4 discussion of the hydroplaning source's internal velocity inconsistency — a third, uncorrected number would undercut a document whose point is not silently carrying forward figures that don't reconcile. Revisit once the velocity/detachment-depth reconciliation (`../../02-theory/kinematics/README.md`) is actually done.

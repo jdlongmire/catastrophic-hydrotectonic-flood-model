@@ -30,13 +30,17 @@ The core is not offered as a scientific claim. What must earn scientific standin
 
 Every prior version of catastrophic plate tectonics has foundered on the same constraint. Moving continental blocks thousands of kilometers within a year, rather than the centimeters per year of ordinary plate motion, and dissipating that motion through conventional friction generates heat flux on the order of 600 W/m², roughly half the power of direct solar irradiance, radiating from the ground itself. Sustained over a flood year, this raises surface temperature by hundreds of Kelvin: not a survivable planet, and not a claim this programme is prepared to wave away. Any mechanism proposed below is required to answer this constraint quantitatively, not qualitatively.
 
+![Impact-triggered failure sequence](../04-visualization-assets/images/initial-meteor-event.png)
+
+**Figure 1.** The proposed trigger sequence: multiple large impacts deposit energy, fracturing the crust and driving a pore-pressure surge that initiates hydrotectonic failure. Impacts function here as threshold-crossing triggers, not as the displacement mechanism itself; the water-saturated crust (Section 5.1, Figure 2) supplies the mechanism proper (Section 3). Illustrative, not a claim about the mechanics of Section 3.2's energy budget.
+
 ---
 
 ## 3. Mechanism I: Hydroplaning (Lateral Translation)
 
 ### 3.1 Principle
 
-The programme's answer to Section 2 is not increased tolerance for heat but the claim that the heat was never generated. When pore-fluid pressure $P_p$ within the crust approaches lithostatic stress $\sigma_L$, effective normal stress collapses:
+The programme's answer to Section 2 is not increased tolerance for heat but the claim that the heat was never generated (Figure 1 illustrates the triggering sequence). When pore-fluid pressure $P_p$ within the crust approaches lithostatic stress $\sigma_L$, effective normal stress collapses:
 
 $$\sigma_{eff} = \sigma_L - P_p \rightarrow 0$$
 
@@ -79,6 +83,10 @@ Because lateral translation (Section 3) no longer depends on mantle viscosity, t
 ## 5. Water Mass Balance
 
 ### 5.1 Inventory
+
+![Water-rich porous crust cross-section](../04-visualization-assets/images/initial-supercontinental-crust-model.png)
+
+**Figure 2.** Cross-section of the pre-Flood water-rich crust: pore water, fracture water, fault-zone water, interstitial water, and hydrothermal fluids extending to the approximately 30 to 40 km crust-mantle transition. Illustrates the reservoir this section's mass balance quantifies; carries no independent numerical claim.
 
 Using present-day USGS figures (1 ocean equivalent, OE, equals $1.338 \times 10^9$ km³ ocean water plus $2.34 \times 10^7$ km³ groundwater), the programme proposes a pre-Flood crustal-water excess of 0.05 to 0.15 OE, partitioned across upward discharge, deep transport, and retention in an illustrative 50/30/20 split. Deep-transported water is directed toward the mantle transition zone, consistent with Pearson et al. (2014), who report a natural ringwoodite inclusion within a diamond from transition-zone depth containing approximately 1.4 to 1.5 wt % water: direct physical evidence that the transition zone has hosted significant water at some point, though not evidence of when. The excess magnitude, partition coefficients, and resulting mantle-water inventory are stated in the initial research as hypothesis parameters, not measured quantities, and no independent constraint has yet been proposed for any of them.
 
