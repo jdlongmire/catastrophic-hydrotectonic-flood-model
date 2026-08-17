@@ -18,7 +18,7 @@ A Lakatosian research programme reconstructing a historical, hydrotectonic globa
 02-theory/             the protective belt: kinematics/, rheology/ (+ code/), water-ledger/, stratigraphy/
 03-prediction/         appraisal.md (progressive/degenerating verdict + log), discriminators.md (critical path)
 04-visualization-assets/   images/, videos/ — reconstruction renders, animations, diagrams
-research/             source material — chat-derived initial research, unedited
+research/             source material — chat-derived initial research, unedited; citation-validation.md (external-source audit trail), sources/ (archivable excerpts)
 dev-notes/             working discussion on model refinements — dated, unresolved-until-promoted
 ```
 

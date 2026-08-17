@@ -169,4 +169,4 @@ Whitcomb, J.C., & Morris, H.M. (1961). *The Genesis Flood: The Biblical Record a
 
 ---
 
-*This document traces to `01-hypothesis/hard-core.md`, `02-theory/kinematics/README.md`, `02-theory/rheology/README.md`, `02-theory/water-ledger/README.md`, `02-theory/stratigraphy/README.md`, and `03-prediction/discriminators.md` as of 2026-08-16. Where this paper and a belt document diverge in the future, the belt document is authoritative and this paper is due for revision.*
+*This document traces to `01-hypothesis/hard-core.md`, `02-theory/kinematics/README.md`, `02-theory/rheology/README.md`, `02-theory/water-ledger/README.md`, `02-theory/stratigraphy/README.md`, and `03-prediction/discriminators.md` as of 2026-08-16. Where this paper and a belt document diverge in the future, the belt document is authoritative and this paper is due for revision. Every citation's confidence level, retrieval status, and primary-source-verification state is recorded in [`../research/citation-validation.md`](../research/citation-validation.md).*
