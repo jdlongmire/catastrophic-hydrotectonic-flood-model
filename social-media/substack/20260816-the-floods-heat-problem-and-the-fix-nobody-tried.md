@@ -1,6 +1,6 @@
 # The Flood's Heat Problem, and the Fix Nobody Tried
 
-*Status: draft. Not yet published to Substack.*
+*Status: published, 2026-08-16. Live at [oddxian.com/p/the-floods-heat-problem-and-the-fix](https://www.oddxian.com/p/the-floods-heat-problem-and-the-fix).*
 
 ---
 
@@ -27,3 +27,15 @@ I find this more interesting than a tidy story would be, honestly. A model that 
 The whole thing, the hard commitments, both mechanisms, the water budget, the two open questions, and six falsifiable predictions that could in principle prove the model wrong, is written up as a formal position paper, DOI and all: [10.5281/zenodo.21972859](https://doi.org/10.5281/zenodo.21972859). The full research repository, with every belt document, every dated revision, and a citation ledger recording exactly how confident we are in each source, is public on GitHub: [github.com/jdlongmire/hydrotectonic-flood-model](https://github.com/jdlongmire/hydrotectonic-flood-model).
 
 If you find the gap in the vertical mechanism, or a stratigraphic dataset that could settle the timing question, I'd genuinely like to hear about it. That's rather the point of doing this in public.
+
+---
+
+## Promo copy
+
+**Facebook teaser:**
+
+Every attempt to explain the Genesis Flood as a real geophysical event runs into the same wall: move continents fast enough for a global catastrophe in a year, and ordinary friction generates enough heat to sterilize the planet. Every serious model has had to quietly wave that number away.
+
+We didn't wave it away. Found the actual mechanism (borrowed from soil mechanics, of all places) that makes the heat problem disappear, ran the real numbers, and were just as honest about what still isn't solved.
+
+Full piece: https://www.oddxian.com/p/the-floods-heat-problem-and-the-fix
