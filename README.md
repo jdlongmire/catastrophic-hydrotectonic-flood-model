@@ -22,6 +22,7 @@ A Lakatosian research programme reconstructing a historical, hydrotectonic globa
 04-visualization-assets/   images/, videos/ — reconstruction renders, animations, diagrams
 research/             source material — chat-derived initial research, unedited; citation-validation.md (external-source audit trail), sources/ (archivable excerpts)
 dev-notes/             working discussion on model refinements — dated, unresolved-until-promoted
+social-media/         long-form distribution content — substack/ articles, more platforms as needed
 ```
 
 ## Honest standing
