@@ -4,6 +4,8 @@
 
 **Author:** James D. Longmire. ORCID: [0009-0009-1383-7698](https://orcid.org/0009-0009-1383-7698).
 
+**Repository:** [github.com/jdlongmire/hydrotectonic-flood-model](https://github.com/jdlongmire/hydrotectonic-flood-model). Throughout this paper, bare relative paths in fixed-width text (for example, `02-theory/rheology/README.md`) are not hyperlinks — they name files at the repository above, which carries the full belt documentation, dated dev-notes, and the citation-validation ledger this paper summarizes. Prepend the repository URL to locate any such file.
+
 ---
 
 ## Abstract
