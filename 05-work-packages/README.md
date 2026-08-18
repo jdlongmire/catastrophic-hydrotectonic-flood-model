@@ -24,6 +24,19 @@ Convention adopted from [`mxm-assistant-001`](https://github.com/ologos-repos/mx
 | `disposition` | open / approve / merge / defer / cancel |
 | `status` | proposed \| approved \| in_progress \| done \| cancelled |
 
+## Optional analysis fields
+
+A package may carry additional named fields where the analysis behind it is
+load-bearing and would otherwise live only in a commit message or a chat. These
+are documentation, not schema — a reader should be able to reconstruct why the
+package is shaped the way it is without them being scattered elsewhere.
+
+In use so far: `open_decision` (a question the package deliberately leaves to
+JD rather than resolving), `delta_since_v0_1` (what changed under a published
+artifact), `forcing_item` (the one thing that makes the package urgent rather
+than merely desirable), and `gating_decision` (what the package waits on, with
+the reasoning for and against waiting).
+
 ## Research-programme adaptation
 
 Two fields carry extra meaning here, inherited from TRT's PI-planning practice:

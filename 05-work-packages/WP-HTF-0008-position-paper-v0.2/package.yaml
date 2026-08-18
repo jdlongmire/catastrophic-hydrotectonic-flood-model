@@ -1,0 +1,139 @@
+id: WP-HTF-0008
+title: Position paper v0.2 — revise and publish a new Zenodo version
+status: proposed
+commitment: committed
+scope: >
+  Revise POSITION-PAPER.md to v0.2 and publish it as a new version of the
+  existing Zenodo deposit, under the stable concept DOI 10.5281/zenodo.21972858.
+
+  Why a new version rather than a metadata edit. The published record
+  (10.5281/zenodo.21972859, state "done") does expose an "edit" link, so its
+  metadata is editable in place — verified against the live record 2026-08-18.
+  But files are locked on a published deposit, and the attached PDF carries the
+  old title on its own first page. A metadata-only title edit would therefore
+  leave a permanently citable record whose title disagrees with its own file.
+  Zenodo's versioning is the mechanism built for exactly this.
+
+  This package exists because the title alone does not justify a version, but
+  the accumulated delta does. Thirty-six commits landed after v0.1 was
+  published on 2026-08-16, and several of them bear directly on sections the
+  paper states as open.
+delta_since_v0_1: >
+  What the published paper does not yet say, section by section. This list is
+  the package's actual content; the title swap is the smallest item on it.
+
+  TITLE — "The Global Hydrotectonic Flood Model" becomes "The Catastrophic
+  Hydrotectonic Flood Model" (WP-HTF-0007, JD 2026-08-18). On the paper this is
+  a swap, not the insertion it was everywhere else in the repo.
+
+  Sec 3.2 (energy budget) — the partition now has computational backing it did
+  not have at publication. energy_partition_bounds.py was written against an
+  external objection ("reduce friction and you still have to deal with the car
+  crash") with its pass/fail conditions declared before the run. The stopping
+  term came out ~3 orders of magnitude below the friction term. This is the
+  programme's first real computation and it strengthens a section the paper
+  currently states on ported authority alone.
+
+  Sec 3.4 + Sec 8 bullet 2 (velocity inconsistency) — a new internal constraint
+  now bounds the dispute. Requiring bulk kinetic energy to stay inside the
+  budget yields a hard ceiling of 27.7–38.6 m/s (F2), which independently
+  refutes the disputed 30 m/s figure the paper reports without being able to
+  adjudicate. This does not by itself close 3.4 — see the gating decision.
+
+  Sec 6.2 (stratigraphic timing) — substantially outdated. The paper states the
+  diachronous front t_C(x) "carries zero specified geometry or initiating
+  location as of this writing." Since then the phase schema was adopted (two
+  axes, each with physical criteria) and t_C(x) was reframed as a variable
+  boundary that independently matches an existing camp in the four-way
+  creationist boundary debate. The three "failed boundary searches" are now
+  recorded as a mis-specified question rather than three failures.
+
+  Sec 7 (discriminators) — the paper names six candidates. The repo now carries
+  eight, including candidate 7 (PPLC signature) and candidate 8 (transverse
+  drainage / water gaps, Lee 2019, Data in Brief 23:103650, 1,549 cases), the
+  first anomaly-targeting candidate. The standing verdict is unchanged and must
+  be restated as such: zero discriminators evaluated.
+
+  Sec 8 (limitations) — gains a real unpaid cost the paper does not carry. The
+  proposed K-Pg ichnofabric discriminator was checked before registration and
+  killed: the boundary clay is cross-cut by Zoophycos and Chondrites
+  (Rodríguez-Tovar & Uchman 2008; Alegret et al. 2015). Deep-tier Zoophycos is
+  recorded in the repo as a cost rather than absorbed, and the paper should
+  carry it too.
+forcing_item: >
+  One item is a correctness problem in a published document, not an
+  improvement, and it is the reason this package should not sit indefinitely.
+
+  JD's commitment that Chicxulub is a swarm MEMBER places K-Pg inside the
+  catastrophic interval. Section 6.2 as published rejects K-Pg as a boundary
+  candidate. The published paper therefore contradicts the programme's own hard
+  core as it now stands. Flagged in
+  dev-notes/20260817-start-stop-energy-objection.md as a belt commitment
+  awaiting JD; it needs resolving in the belt BEFORE v0.2 states either
+  position, because publishing the contradiction a second time would be worse
+  than publishing it once unknowingly.
+gating_decision: >
+  RECOMMENDED: gate v0.2 on WP-HTF-0003 (velocity reconciliation) and on
+  resolution of the forcing item above; do NOT gate on WP-HTF-0004, -0005 or
+  -0006.
+
+  Rationale. Sec 3.4's inconsistency is the paper's single most-cited weakness
+  — it appears in 3.4, in Sec 8's second bullet, and the v0.1 submission
+  checklist named it as the one thing to be deliberate about. WP-HTF-0003
+  exists to produce one surviving velocity and detachment depth inside the F2
+  ceiling. A v0.2 that closes it is a version with a substantive reason to
+  exist; a v0.2 that does not is a title change with extras, spending a
+  permanent version number on cosmetics.
+
+  Against gating on the stretch packages: O5 (candidate 8) and O6 (heat
+  removal) are explicitly stretch, committed only to a recorded attempt, not a
+  result. Gating a publication on them would couple a permanent record to work
+  that may honestly resolve as "not closed." O4 (chronology stamp) would
+  improve Sec 6.2 further but 6.2 can be updated truthfully now.
+
+  ALTERNATIVE, if JD wants the record consistent sooner: publish a minimal v0.2
+  carrying the title, the computational results, the two new discriminators and
+  the ichnofabric cost, leaving 3.4 open and clearly labelled. Honest, faster,
+  and spends the version on less.
+authority_boundary: >
+  Drafting the v0.2 revision, regenerating the PDF, and staging the Zenodo draft
+  proceed under this package. PUBLISHING DOES NOT. Minting a permanent version
+  is JD's call to authorize explicitly, as it was for v0.1 — external
+  publication is a hard-stop under morals.md and the /zenodo-publish skill
+  stages a draft for review as a separate step from publishing by design.
+
+  Does not authorize: altering a belt claim, an appraisal verdict, or a
+  discriminator's failure condition in order to make the paper tidier. If the
+  paper and the belt disagree, the belt is corrected first, in its own package,
+  and the paper follows.
+
+  Does not authorize resolving the forcing item unilaterally. Whether Chicxulub
+  as swarm member overrides Sec 6.2's K-Pg rejection is a hard-core-adjacent
+  call and is JD's.
+actions:
+  - Resolve the forcing item in the belt (its own package if it proves
+    substantive), so v0.2 states one coherent position on K-Pg
+  - Land WP-HTF-0003 so Sec 3.4 and Sec 8 bullet 2 can close
+  - Revise POSITION-PAPER.md — title, 3.2, 3.4, 6.2, 7, 8, abstract, and the
+    status line; add a "Changes in this version" block naming each revision
+  - Regenerate the PDF via pandoc/xelatex, following the recorded v0.1
+    procedure in 00-program-methods/publishing/
+  - Update ZENODO_METADATA.txt for v0.2, including the repository URL, which
+    changed with the rename
+  - Stage the new Zenodo version as a DRAFT via the concept DOI's newversion
+    link; verify metadata and the uploaded file by GET before stopping
+  - Stop. Present the staged draft to JD for the explicit publish decision
+  - On publication, append an appraisal entry and update the citation ledger
+verification: >
+  The v0.2 PDF's own title page reads "Catastrophic," resolving the mismatch
+  that motivated the package. Every claim the revision adds traces to a belt
+  document or a dated dev-note, none to this session's conversation. The
+  standing verdict is restated unchanged (unappraised, zero discriminators
+  evaluated) — a revision that quietly upgrades the verdict without an
+  evaluated discriminator would be exactly the degenerating move the appraisal
+  exists to catch. Concept DOI 10.5281/zenodo.21972858 resolves to the new
+  version; the v0.1 version DOI 10.5281/zenodo.21972859 still resolves to v0.1.
+  No file under research/ is modified.
+disposition: open — JD requested this package 2026-08-18. Blocked by the
+  forcing item and, per the recommended gating, by WP-HTF-0003. Publishing is
+  a separate explicit JD authorization, not carried by this package.
