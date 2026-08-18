@@ -1,6 +1,6 @@
 # Discriminators — the critical path
 
-> **Tier 3.** This directory holds claims that *forbid* something. It currently holds none. This file states what a discriminator would have to look like here, names the two live candidates, and names the gate everything else sits behind.
+> **Tier 3.** This directory holds claims that *forbid* something. **None has yet been evaluated against data.** This file states what a discriminator would have to look like here, names the eight candidates and one checked-and-rejected casualty, and names the gate most of them sit behind. **Candidate 8 (transverse drainage) is the only one not gated on ROADMAP items 1–3, and is therefore the nearest reachable evaluation.**
 
 ## Why this is the critical path
 
@@ -85,7 +85,7 @@ Emerged from folding Woodmorappe (2006) into this model's framing (see [`../02-t
 
 1. **Obtain Lee 2021 in full.** Currently 403 on SSRN and ResearchGate. Until it is read, rule 12's first condition is not firmly established and no claim should be made on this candidate.
 2. **Obtain the Lee 2019 supplementary data** (KMZ + Excel, per continent) and parse it.
-3. **Run the analysis** — mechanism proportions, regime clustering, structurally-detrended bearing residuals — as a script under rules 13–19, in `03-prediction/` code alongside this claim.
+3. **Run the analysis** — mechanism proportions, regime clustering, structurally-detrended bearing residuals — as a script under rules 14–20, in `03-prediction/` code alongside this claim.
 
 Unlike candidates 1–7 this is not gated on ROADMAP items 1–3, so it remains the nearest reachable evaluation. But it is further away than the first version of this entry implied, and that correction is recorded rather than absorbed.
 

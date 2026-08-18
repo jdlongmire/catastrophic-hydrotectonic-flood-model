@@ -38,23 +38,43 @@
 
     Recorded because rule 10 licenses retrodiction as ordinary belt work while this rule names the narrower conditions under which retrodiction becomes *progressive*. The two are not in tension: rule 10 governs Tier 2 construction, this governs what may be claimed at Tier 3.
 
+13. **Record access failures explicitly, and escalate before settling for a secondary.** A paywall is a fact about the evidence base and belongs in the record, not in the conversation that hit it.
+
+    **Record it where the claim lives** — the URL, the HTTP status or reason, and the date attempted — in the belt or discriminator document itself, so a later reader knows why a confidence label sits where it does and a later session does not silently repeat the same failed retrieval.
+
+    **Escalation ladder, in order, before accepting a secondary source:**
+
+    - **Open-access mirror** — PMC, Europe PMC, arXiv, an institutional repository. PMC URLs may 301-redirect host; follow the redirect and retry rather than treating it as a failure.
+    - **The direct PDF link rather than the HTML landing page.** Landing pages frequently return 403 while the PDF itself is served. This worked for Woodmorappe (2006), retrieved from a `creation.com` PDF path after the article page was inaccessible, then extracted locally with `pdftotext -layout`.
+    - **Supplementary-file paths on the mirror**, which are often reachable when the article body is not (e.g. Europe PMC `/bin/mmcN.pdf`).
+    - **Preprint or author's own posting**, then the **citing literature** for quoted passages, which at least yields verifiable direct quotation rather than paraphrase.
+    - **Only then a secondary summary**, marked as such.
+
+    **Consequences that follow automatically.** A claim resting on a secondary source is capped at **MEDIUM** confidence per rule 2, and the cap is explicitly tied to the named access failure so it can be upgraded when the primary is obtained. The item is recorded as an **outstanding retrieval task**, not as a closed question.
+
+    **Where a primary is load-bearing for a Tier 3 claim, the claim does not advance until it is read.** Access failure is a reason to hold, never a reason to proceed on summaries — the temptation runs the other way precisely when the summary says what one hoped.
+
+    **Escalation beyond tooling is a real option and should be named rather than assumed away:** author contact, institutional or library access, interlibrary loan. A paywall is an obstacle to this session, not a property of the world.
+
+    *Why this rule exists.* Five access failures in a single day (2026-08-17): the Walker ICC paper (HTTP 500), `creation.com/bioturbation-experiments` (403), Lee 2021 on SSRN (403), the same on ResearchGate (403), and the Douglass et al. (2009) *GSA Bulletin* PDF (403). Discriminator candidate 8's first condition — that the rival concedes the anomaly — rests on Lee 2021, and the entry initially asserted the concession from search summaries before retrieval showed the sample paper deliberately takes no position on mechanism. The correction is recorded in [`../03-prediction/discriminators.md`](../03-prediction/discriminators.md) candidate 8.
+
 ## Computational work — scripts & notebooks
 
-This section was written *before* the programme's first script existed, so the discipline was in place rather than retrofitted. The first computational work landed 2026-08-17 — [`../02-theory/rheology/code/energy_partition_bounds.py`](../02-theory/rheology/code/energy_partition_bounds.py), an energy-partition completeness check — and exercised rules 12–18 including the negative-control rule, which retains a refuted framing rather than deleting it. [ROADMAP](ROADMAP.md) item 1 proper (heat *removal* capacity) is still open; that script bounds generation terms only.
+This section was written *before* the programme's first script existed, so the discipline was in place rather than retrofitted. The first computational work landed 2026-08-17 — [`../02-theory/rheology/code/energy_partition_bounds.py`](../02-theory/rheology/code/energy_partition_bounds.py), an energy-partition completeness check — and exercised rules 14–20 including the negative-control rule, which retains a refuted framing rather than deleting it. [ROADMAP](ROADMAP.md) item 1 proper (heat *removal* capacity) is still open; that script bounds generation terms only.
 
-13. **Notebooks are drafts; scripts are the record.** Exploratory work can happen in a notebook. A number that lands in a belt README or an appraisal claim must be reproducible from a plain, deterministic script — a figure cited from a notebook cell that isn't independently re-runnable isn't yet citable.
+14. **Notebooks are drafts; scripts are the record.** Exploratory work can happen in a notebook. A number that lands in a belt README or an appraisal claim must be reproducible from a plain, deterministic script — a figure cited from a notebook cell that isn't independently re-runnable isn't yet citable.
 
-14. **State the model, the source, and the run command in the file's own header.** Every script's docstring states: what physical model it implements, the verified primary source for any parameter it uses (with the specific equation or figure, not just "the literature"), whether it's deterministic, and the exact command to reproduce it. A script that can't be re-run by someone else from its own header isn't finished.
+15. **State the model, the source, and the run command in the file's own header.** Every script's docstring states: what physical model it implements, the verified primary source for any parameter it uses (with the specific equation or figure, not just "the literature"), whether it's deterministic, and the exact command to reproduce it. A script that can't be re-run by someone else from its own header isn't finished.
 
-15. **No fitted parameters without saying so, explicitly.** If a script tunes a value to match a target output, the header says so in plain language. "No fitted parameters" is a claim that has to be true, not an aspiration — say it only when it's checked.
+16. **No fitted parameters without saying so, explicitly.** If a script tunes a value to match a target output, the header says so in plain language. "No fitted parameters" is a claim that has to be true, not an aspiration — say it only when it's checked.
 
-16. **Negative controls stay, and stay labeled.** A comparison calculation that turns out to be the wrong test (like the wrong-comparison $\dot\gamma$ control TRT's `coadmissibility_ratedep.py` keeps rather than deletes) remains in the code, explicitly marked as a control, so a reader can see what was ruled out and why — not just what worked.
+17. **Negative controls stay, and stay labeled.** A comparison calculation that turns out to be the wrong test (like the wrong-comparison $\dot\gamma$ control TRT's `coadmissibility_ratedep.py` keeps rather than deletes) remains in the code, explicitly marked as a control, so a reader can see what was ruled out and why — not just what worked.
 
-17. **Say what the result does *not* resolve.** A script closing one sub-question states plainly what it leaves open, so a green run against one narrow claim isn't read as the whole gate closing. The rheology gate in particular ([`02-theory/rheology/README.md`](../02-theory/rheology/README.md)) has several sub-parts (energy budget, heat-removal capacity, feedback-loop magnitude) — a script addressing one doesn't close the others.
+18. **Say what the result does *not* resolve.** A script closing one sub-question states plainly what it leaves open, so a green run against one narrow claim isn't read as the whole gate closing. The rheology gate in particular ([`02-theory/rheology/README.md`](../02-theory/rheology/README.md)) has several sub-parts (energy budget, heat-removal capacity, feedback-loop magnitude) — a script addressing one doesn't close the others.
 
-18. **Co-locate code with the belt claim it supports.** `02-theory/<topic>/code/`, not a monolithic top-level `scripts/` folder — the same pattern TRT uses (`3-prediction/<test>/code/`). Keeps the path from a README claim to the calculation behind it short and obvious.
+19. **Co-locate code with the belt claim it supports.** `02-theory/<topic>/code/`, not a monolithic top-level `scripts/` folder — the same pattern TRT uses (`3-prediction/<test>/code/`). Keeps the path from a README claim to the calculation behind it short and obvious.
 
-19. **Commit code with the doc it grounds, in the same commit.** A script and the README/appraisal claim citing its output land together — never a claim first with the code to follow, and never code with no claim pointing at it.
+20. **Commit code with the doc it grounds, in the same commit.** A script and the README/appraisal claim citing its output land together — never a claim first with the code to follow, and never code with no claim pointing at it.
 
 ## GitHub-safe math (for any derivations in prose)
 
