@@ -1,4 +1,4 @@
-# Hydrotectonic Flood Model
+# Catastrophic Hydrotectonic Flood Model
 
 A Lakatosian research programme reconstructing a historical, hydrotectonic global Flood — a layered mechanism of impact-triggered continental hydroplaning (lateral translation) and localized subduction-channel deep-mantle water transport (vertical descent) — within a Genesis-consistent chronology, without requiring the observational corpus to entail a deep-time history.
 

@@ -208,7 +208,7 @@ def main():
 
     print("=" * 78)
     print("ENERGY PARTITION COMPLETENESS CHECK")
-    print("Hydrotectonic Flood Model / 02-theory/rheology")
+    print("Catastrophic Hydrotectonic Flood Model / 02-theory/rheology")
     print("=" * 78)
     print()
     print("Published partition (POSITION-PAPER Sec 3.2), budget E = "

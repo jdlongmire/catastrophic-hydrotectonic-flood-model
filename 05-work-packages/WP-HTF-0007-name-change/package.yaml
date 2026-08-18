@@ -1,0 +1,97 @@
+id: WP-HTF-0007
+title: Programme rename — Catastrophic Hydrotectonic Flood Model
+status: proposed
+commitment: committed
+scope: >
+  Adopt "Catastrophic Hydrotectonic Flood Model" as the programme's name, at
+  the widest scope JD authorized on 2026-08-18: in-repo display name, GitHub
+  repo slug, and the published Zenodo record's title.
+
+  Runs BEFORE WP-HTF-0001, deliberately. The original sequencing note in
+  dev-notes/20260818-name-catastrophic-hydrotectonic-model.md put the rename
+  after the VWMM refactor on the theory that it would reuse 0001's scripted
+  link repair. That reasoning was wrong: 0001's script maps file *paths*, this
+  one substitutes *names*, and they share no machinery. The correct argument
+  runs the other way and is JD's — 0001's verification requires that file
+  contents be unchanged except for link targets, so a rename landing inside or
+  after it would pollute the exact check that proves the refactor was purely
+  structural. Rename first, on the smaller tree; 0001's content-invariance
+  test then stays clean.
+
+  The substitution is NOT a blind sweep. "hydrotectonic-flood-model" appears 46
+  times in four distinct roles, and only 11 of them may change:
+    - repo URL jdlongmire/hydrotectonic-flood-model (11) -> RENAME
+    - founding transcript research/GPT-hydrotectonic-flood-model.md (26)
+      -> LEAVE. Artifact of record; the file itself is not renamed.
+    - predecessor repo global-flood-hydrotectonic-model (12, disjoint string)
+      -> LEAVE. Different repo, different paper, different DOI (17684983).
+    - rendered-artifact filenames, the position-paper PDF and the intro-video
+      MP4s (9) -> LEAVE. These name files already uploaded or published; the
+      PDF's name is locked on the Zenodo record.
+
+  Display-name substitution follows the same live-vs-dated-record split.
+  Documents that *describe the programme now* are renamed: README, hard-core,
+  METHODOLOGY, the belt, the discriminators, the work packages. Documents that
+  *record what was done or published on a date* are left verbatim: the Zenodo
+  metadata and submission checklist, the published Substack post, the video
+  social-media copy, the founding research, and prior appraisal entries. Same
+  principle the workspace applies to history generally — correct forward, do
+  not rewrite the record.
+
+  OUT OF SCOPE, explicitly: any change to a belt claim, an appraisal verdict,
+  a discriminator's failure condition, or the hard core. This package changes
+  what the programme is called and nothing about what it asserts.
+authority_boundary: >
+  JD directed the name (2026-08-18, "Catastrophic Hydrotectonic Flood Model
+  seems to carry the full scope") and the widest scope ("Largest scope - and we
+  should consider a repo rename too before we go too far"). That authorizes the
+  in-repo sweep and the GitHub repo rename without re-asking.
+
+  Does NOT authorize: publishing a new Zenodo version, or editing the live
+  record's metadata, until JD resolves the title-vs-PDF mismatch below. Does
+  not authorize renaming the founding transcript, the predecessor repo, or any
+  already-published artifact filename. Does not authorize force-pushing.
+open_decision: >
+  The published Zenodo record (10.5281/zenodo.21972859, state "done") is titled
+  "The GLOBAL Hydrotectonic Flood Model: A Layered Mechanism for Rapid
+  Continental Reorganization" — so on the paper the change is Global ->
+  Catastrophic, a swap, not the insertion it is everywhere else.
+
+  Verified against the live record: it exposes an "edit" link, so published
+  metadata IS editable in place without a new version. But files are locked,
+  and the attached PDF carries the old title on its own first page. A
+  metadata-only edit therefore leaves a citable record whose title disagrees
+  with its own file.
+
+  Three honest options, for JD:
+    a) New version with a regenerated PDF. Concept DOI 10.5281/zenodo.21972858
+       stays stable, the version DOI increments. Clean; costs a v2 that exists
+       only for a title.
+    b) Metadata-only title edit. Cheapest; leaves the record internally
+       inconsistent.
+    c) Leave the published paper as "Global"; rename only the programme and
+       repo. The paper stands as a dated publication under the name it had.
+  Recommendation: (c) for now, (a) folded into the next substantive version
+  when there is real content to justify one. Deferred to JD.
+actions:
+  - Author this package and record the rename decision in the dev-note
+  - "Script the substitution: a classifier that enumerates every occurrence,
+    assigns it to one of the four roles above, prints the plan for review, and
+    substitutes only the rename class — mandatory-scripted, because two
+    hand-done renumber sweeps on 2026-08-17 both broke cross-references"
+  - Apply the sweep; verify every relative markdown link still resolves and
+    that no LEAVE-class occurrence was touched
+  - Rename the GitHub repo; update the local remote; verify the old slug
+    redirects
+  - Append an appraisal entry recording the rename as a structural milestone
+    with no content change
+  - Hold the Zenodo step pending the open decision above
+verification: >
+  Link-check reports zero unresolved relative links. Occurrence counts after
+  the sweep match the classification exactly: 11 renamed, 26 founding-transcript
+  refs intact, 12 predecessor refs intact, 9 published-artifact filenames intact.
+  `git diff` touches no file under research/ and no dated-record document. The
+  GitHub old slug resolves by redirect. The Zenodo record is unchanged until
+  the open decision is resolved.
+disposition: open — name and scope approved by JD 2026-08-18; executes this
+  session, ahead of WP-HTF-0001. Zenodo step blocked on the open decision.

@@ -25,7 +25,7 @@ scope: >
   appraisal entry, or a discriminator. This package moves and relinks. If a
   content change looks necessary mid-move, it stops and becomes its own package.
 authority_boundary: >
-  Workspace writes limited to jdlongmire/hydrotectonic-flood-model. Structural
+  Workspace writes limited to jdlongmire/catastrophic-hydrotectonic-flood-model. Structural
   moves, link repair, and the accompanying meta-ADR proceed without re-asking.
   Does NOT authorize: altering belt content, editing appraisal history,
   changing any discriminator's stated failure condition, or force-pushing.
