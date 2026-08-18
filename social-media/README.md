@@ -1,6 +1,6 @@
 # Social Media
 
-Long-form written distribution content, distinct from [`04-visualization-assets/videos/`](../04-visualization-assets/videos/)'s per-package promo copy. That folder carries short/medium/long *teaser* copy tied to a specific rendered video; this folder carries standalone articles meant to be read on their own — Substack pieces first, other platforms as they come up.
+Long-form written distribution content, distinct from [`../assets/videos/`](../assets/videos/)'s per-package promo copy. That folder carries short/medium/long *teaser* copy tied to a specific rendered video; this folder carries standalone articles meant to be read on their own — Substack pieces first, other platforms as they come up.
 
 ## Structure
 

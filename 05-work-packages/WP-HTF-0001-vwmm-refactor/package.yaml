@@ -1,6 +1,6 @@
 id: WP-HTF-0001
 title: VWMM structural refactor — adopt the 00-meta-model .. 05-work-packages standard
-status: proposed
+status: done
 commitment: committed
 scope: >
   Restructure this repo onto the VWMM convention declared org-standard by
@@ -55,4 +55,4 @@ verification: >
   meta-ADR, mode.md, and the harvested TRT files — proving the "no content
   change" scope boundary held. research-start.py and research-wrap.py both run
   green against the new tree.
-disposition: open — awaiting JD approval; execute in a fresh session with clean context
+disposition: done 2026-08-18 — ADR-HTF-META-0001 Proposed, pending JD's acceptance

@@ -1,6 +1,6 @@
 id: WP-HTF-0007
 title: Programme rename — Catastrophic Hydrotectonic Flood Model
-status: proposed
+status: done
 commitment: committed
 scope: >
   Adopt "Catastrophic Hydrotectonic Flood Model" as the programme's name, at
@@ -93,5 +93,4 @@ verification: >
   `git diff` touches no file under research/ and no dated-record document. The
   GitHub old slug resolves by redirect. The Zenodo record is unchanged until
   the open decision is resolved.
-disposition: open — name and scope approved by JD 2026-08-18; executes this
-  session, ahead of WP-HTF-0001. Zenodo step blocked on the open decision.
+disposition: done 2026-08-18 except the Zenodo step, which became WP-HTF-0008

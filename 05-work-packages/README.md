@@ -46,6 +46,6 @@ Two fields carry extra meaning here, inherited from TRT's PI-planning practice:
   recorded resolution, not to a positive result.** A recorded refutation closes a stretch
   package successfully. This is deliberate: it prevents the failure recorded on 2026-08-17,
   where a refutation was logged as a cost against the programme rather than as completed work.
-- **`authority_boundary`** is where [`research-practices.md`](../00-program-methods/research-practices.md)
+- **`authority_boundary`** is where [`research-practices.md`](../04-construct/methods.md)
   rule 11 becomes structural rather than habitual. Belt commitments, Tier 3 registrations, and
   appraisal verdicts are JD's; a package that would touch them says so here.

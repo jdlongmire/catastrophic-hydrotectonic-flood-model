@@ -12,7 +12,7 @@ JD: "the heat problem that has traditionally plagued the other models is not suc
 
 ### 1. The condensation / latent-heat problem — sidestepped here, genuinely
 
-The traditional critique of vapor-canopy models: condensing enough atmospheric water vapor to produce a global deluge releases enormous latent heat. This model was never exposed to that critique, because the water is sourced mostly from crustal/mantle reservoirs, not atmospheric condensation — and the canopy itself was already found (see [`../02-theory/water-ledger/README.md`](../02-theory/water-ledger/README.md)) to be a negligible contributor (~0.1–0.4% of the budget at the only habitable canopy depth), not the water source. If this is what JD meant, the claim is correct and worth stating formally in the water-ledger writeup.
+The traditional critique of vapor-canopy models: condensing enough atmospheric water vapor to produce a global deluge releases enormous latent heat. This model was never exposed to that critique, because the water is sourced mostly from crustal/mantle reservoirs, not atmospheric condensation — and the canopy itself was already found (see [`../03-solutions-baseline/3.2-theory/water-ledger/README.md`](../03-solutions-baseline/3.2-theory/water-ledger/README.md)) to be a negligible contributor (~0.1–0.4% of the budget at the only habitable canopy depth), not the water source. If this is what JD meant, the claim is correct and worth stating formally in the water-ledger writeup.
 
 ### 2. The viscous-dissipation / rheological heat problem — NOT shown to be avoided
 

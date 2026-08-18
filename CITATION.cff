@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+title: "The Catastrophic Hydrotectonic Flood Model: A Layered Mechanism for Rapid Continental Reorganization"
+message: "If you use this work, please cite the position paper below."
+type: dataset
+authors:
+  - family-names: Longmire
+    given-names: James D.
+    orcid: "https://orcid.org/0009-0009-1383-7698"
+    email: jdlongmire@outlook.com
+version: "0.1"
+date-released: "2026-08-16"
+url: "https://github.com/jdlongmire/catastrophic-hydrotectonic-flood-model"
+repository-code: "https://github.com/jdlongmire/catastrophic-hydrotectonic-flood-model"
+license: CC-BY-4.0
+abstract: >
+  A Lakatosian research programme reconstructing a historical, catastrophic
+  hydrotectonic global Flood: a layered mechanism of impact-triggered continental
+  hydroplaning for lateral translation and localized subduction-channel softening
+  for vertical descent, within a Genesis-consistent chronology. Offered as a
+  research programme with an explicit protective belt and a standing self-audit,
+  not as a completed geophysical theory. Standing verdict at this release:
+  unappraised, with zero discriminators yet evaluated against data.
+# Top-level `type` is constrained by CFF 1.2 to software/dataset. This repository
+# is a research corpus rather than software, so `dataset` is the closer of the two;
+# the scholarly object to cite is the position paper given below.
+preferred-citation:
+  type: article
+  title: "The Global Hydrotectonic Flood Model: A Layered Mechanism for Rapid Continental Reorganization"
+  authors:
+    - family-names: Longmire
+      given-names: James D.
+      orcid: "https://orcid.org/0009-0009-1383-7698"
+  year: 2026
+  doi: "10.5281/zenodo.21972859"
+  notes: >
+    Position paper v0.1, published 2026-08-16. The published title reads "Global"
+    because the programme was renamed to "Catastrophic" on 2026-08-18, after
+    publication; the deposit's files are immutable. WP-HTF-0008 tracks the v0.2
+    revision that reconciles the two. Concept DOI 10.5281/zenodo.21972858 always
+    resolves to the newest version.
