@@ -1,6 +1,10 @@
-# Candidate rename — "Catastrophic Hydrotectonic Model"
+# Candidate rename — "Catastrophic Hydrotectonic Flood Model"
 
-**Status: open.** JD is considering it, has not landed on it. Using it as a session title only for now (`devops - catastrophic-hydrotectonic-model-20260818-02`). Nothing in the repo, the DOI, or the published paper has been changed. Captured here so the consideration survives the session rather than living in a chat transcript.
+**Status: name decided 2026-08-18, execution scope still open.** JD landed on **Catastrophic Hydrotectonic Flood Model** — "seems to carry the full scope." That settles the two substantive questions below: *add* "catastrophic," *keep* "flood." Still unanswered, and deliberately not assumed: whether the rename extends to the GitHub repo slug and the published Zenodo title, or only to the display title in-repo. **Nothing has been renamed yet** — repo, DOI, and position paper untouched.
+
+The note is kept in its original as-considered form below, since the reasoning against each option is the record of why the four-word name was chosen over the three-word one.
+
+**Acronym:** CHFM. Unclaimed as far as this programme's cited literature goes; CPT stays CPT, so the two are not confusable in prose. Worth using sparingly — the full name is what does the positioning work.
 
 ## The candidate
 
@@ -40,4 +44,6 @@ If JD lands on **no**, this note stays as the record of why the current name was
 
 ## Disposition
 
-Open. Nothing renamed. Session title only. Decision is JD's; the three separable questions are (1) add "catastrophic"? (2) keep "flood"? (3) rename the repo slug and the published title, or only the display title?
+**(1) add "catastrophic" — YES. (2) keep "flood" — YES.** JD, 2026-08-18: *Catastrophic Hydrotectonic Flood Model* "seems to carry the full scope." **(3) execution scope — still open**: repo slug and published Zenodo title, or in-repo display title only?
+
+Nothing renamed yet. The rename executes as its own work package after WP-HTF-0001 per the sequencing above, and question (3) is what that package needs answered before it can be written — the three scopes have materially different costs (in-repo title: trivial; + repo slug: 44 occurrences plus a GitHub redirect and a third lineage name; + published title: a Zenodo metadata edit against a live DOI, which is the one step that touches something already public and citable).
