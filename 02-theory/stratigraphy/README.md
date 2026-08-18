@@ -8,6 +8,51 @@ Belt content: which geological systems correspond to the pre-Fall interval, the 
 - Flood duration: ~1 year (reading of the Genesis narrative's internal day-counts)
 - Post-Flood relaxation: ~6,000 years (genealogical chronology) to present
 
+## Phase schema — adopted 2026-08-17, replacing layer-as-chronometer terminology
+
+JD-directed and approved. Drafted in [`../../dev-notes/20260817-phase-schema-draft.md`](../../dev-notes/20260817-phase-schema-draft.md), which carries the full literature research. **The programme no longer treats standard-column names as chronological claims.** Saying "Cambrian" or "K-Pg" while denying those labels mean what the standard model says was borrowing the rival's framework and rejecting its content in one breath. Column names remain usable as **locational shorthand** ("the unit at the K-Pg horizon") and never as time assignments.
+
+**Two axes, not one.** Tas Walker's biblical geologic model supplies a water-level axis, published and field-applied (Great Artesian Basin, Brisbane basement rocks). This programme has a mechanism Walker's general model lacks, so it adds an orthogonal **hydrotectonic** axis. A unit is assigned on both. Separating them is what makes assignment falsifiable rather than definitional. Confidence **MEDIUM** on Walker (secondary summaries plus his own chart titles; the ICC paper returned HTTP 500).
+
+**Pre-Flood**
+
+| Phase | Definition | Physical criteria |
+|---|---|---|
+| **P0 Deployment** | Functionally mature Araratia and its saturated crust (hard core, commitment 4; Walker: Foundational + Formative) | Not depositional. No sedimentary signature predicted; assignments here argue on other grounds |
+| **P1 Antediluvian** | Creation-to-Fall (~50–60 kyr belt est.) plus Fall-to-Flood | Stable Araratia; saturated crust; standing freshwater reservoirs; ecological provinces. In-place ecological structure, mature substrate relationships |
+
+**Flood year (~1 yr)**
+
+| Water level (Walker) | Hydrotectonic (this model) | Physical criteria |
+|---|---|---|
+| **Eruptive** | **F1 Trigger** — impact swarm, fracture, pore-pressure surge to near-lithostatic | Impact markers (Ir, shocked quartz, spherules); initial failure surfaces; onset of high-energy sedimentation |
+| **Ascending** | **F2 Peak translation** — hydroplaning at 9–40 cm/s over a moving bed | Coherent large-scale paleocurrents; strong hydraulic sorting; basin-margin megabreccia; fluid-dominated detachment fabric with minimal pseudotachylite |
+| **Zenithic** | **F2 → F3** — maximum inundation, translation continuing | Maximum-extent marine indicators; PPLC alternation; salinity-stratified refugia preserved in low-shear zones |
+| **Abative** | **F3 Deceleration / collision** — orogeny; sheet flow off a submerged surface | Mountain building, including present Everest-scale relief as a *product* of this phase; planation surfaces; sheet-flow deposits |
+| **Dispersive** | **F4 Isostatic settling** — channelized drainage as land emerges | Channel incision; **water and wind gaps**; basin fill; declining paleocurrent coherence |
+
+**Post-Flood (~6,000 yr)**
+
+| Phase | Definition | Physical criteria |
+|---|---|---|
+| **N1 Relaxation** | Residual catastrophism; the belt's existing $v(t) = v_0 e^{-t/\tau} + v_\infty$ | Scattered paleocurrents; locally high-energy but globally uncoordinated deposits; declining event magnitude |
+| **N2 Ice age** | **Single**, ~700 yr, warm ocean plus aerosol-cooled continents (Oard), with internal advance/retreat fluctuation | Till sheets and moraines forming **one build-and-decay envelope of declining amplitude**, not repeated comparable-amplitude cycles; loess; pluvial lakes |
+| **N3 Modern** | Present process rates (Walker: *Modern*) | Actualistic rates; the baseline against which N1/N2 are anomalies |
+
+**Why singular for N2**, on JD's question: the mechanism is a *relaxation from an initial condition*, not an oscillator. The ocean cools precisely because it powers the evaporation, and aerosols wash out as volcanism declines, so the driver cannot repeat — nothing post-Flood re-warms the ocean. Milankovitch is separately unavailable, since precession (~23 kyr), obliquity (~41 kyr) and eccentricity (~100 kyr) all exceed the 6,000-year window. Multiple till sheets are read as margin oscillation within the one event, per Oard.
+
+**Discipline that keeps this from being insulation.** Every phase carries stated physical criteria above; an assignment is a claim about signature. Assignments are recorded with evidence and revised individually — moving one unit is a local correction, moving the schema is a belt revision logged in the appraisal.
+
+### The boundary question, reframed — and it dissolves rather than resolves
+
+**The Flood/post-Flood transition is not a horizon. It is a diachronous phase transition,** $t_C(x)$.
+
+The three searches below failed because they asked for the wrong kind of object: *which single global horizon marks the Flood?* The founding research had already proposed a diachronous front, and a diachronous front is a phase concept. **This is recorded as a mis-specified question, not as three defeats.**
+
+That framing is not invented here. The creationist literature already contains a four-way debate — a low Paleozoic boundary; **K-Pg** (Snelling); **late Cenozoic** (Oard, on fourteen criteria including the Messinian evaporites, the Absaroka Volcanics, the African planation surface); and a **variable** boundary evaluated per area. Notably Snelling himself placed Israel at or near top-Oligocene while generally advocating K-Pg. **This programme adopts the variable/diachronous position**, which its own $t_C(x)$ already was. Confidence **MEDIUM** (secondary summaries).
+
+**Consequence to hold consciously:** this declines to adopt K-Pg as a global boundary, so the earlier three-line convergence on K-Pg is now read as evidence about *where the transition falls in those regions*, not as a global horizon. It also means the belt uses Oard's field results (ice age, paleosols) without adopting his late-Cenozoic global boundary — coherent, but deliberate rather than accidental.
+
 **Stratigraphic mapping — unresolved, and less settled than the first pass suggested.** The initial research tested Cambrian onset, then Permian-Triassic, Triassic-Jurassic, and Cretaceous-Paleogene as candidate catastrophic-phase boundaries, and called all of them failed on the same evidence: paleosols, coal, and reefs recurring past every candidate boundary, including K-Pg. That evidence is real, but whether it's correctly read is a genuine, live dispute among geologists working these exact formations — see [`../../dev-notes/20260816-boundary-search-literature.md`](../../dev-notes/20260816-boundary-search-literature.md). The research ends by proposing an undefined diachronous propagation front $t_C(x)$ rather than a fixed horizon. **This has zero specified content as of stand-up** — no candidate geometry, no committed initiating location. See ROADMAP item 5.
 
 ## Radiometric interpretation — assumption captured 2026-08-17, not yet a belt commitment

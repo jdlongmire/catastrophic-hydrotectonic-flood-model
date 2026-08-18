@@ -30,23 +30,31 @@
 
 11. **Surface a flipped result before writing it down.** When a check reverses the expected outcome of work in progress, bring the finding back before committing a verdict to the belt or the appraisal. The check itself is never optional — rule 1 requires it — but a result that changes the direction of a claim is a decision point for the principal, not a conclusion to be executed unilaterally.
 
+12. **Target the rival's conceded anomalies, and claim only use-novelty.** Lakatos's criterion for a progressive step is the prediction of a **novel fact**, and novelty there is not restricted to the temporally novel. A fact is **use-novel** if it was not used in constructing the theory — so an anomaly the rival already concedes, which this programme was not built to accommodate, *can* ground a progressive step even though it was known in advance. This is the programme's most efficient route to progressiveness, because it needs no new data. Three conditions, all required:
+
+    - **The rival must concede the anomaly in its own literature.** A problem asserted by this programme and denied by mainstream geology is a dispute, not an anomaly, and does no work. Cite the mainstream source stating the problem is open.
+    - **The explanation must be *derived* from mechanism already in the belt**, not introduced for the occasion. An explanation invented to fit the anomaly is accommodation — the exact move the three boundary revisions were logged as — and gains nothing.
+    - **State in advance what would count as failure**, i.e. what the model would have to say about the anomaly for the attempt to be judged unsuccessful. Without this the exercise is retrodiction with extra steps.
+
+    Recorded because rule 10 licenses retrodiction as ordinary belt work while this rule names the narrower conditions under which retrodiction becomes *progressive*. The two are not in tension: rule 10 governs Tier 2 construction, this governs what may be claimed at Tier 3.
+
 ## Computational work — scripts & notebooks
 
 This section was written *before* the programme's first script existed, so the discipline was in place rather than retrofitted. The first computational work landed 2026-08-17 — [`../02-theory/rheology/code/energy_partition_bounds.py`](../02-theory/rheology/code/energy_partition_bounds.py), an energy-partition completeness check — and exercised rules 12–18 including the negative-control rule, which retains a refuted framing rather than deleting it. [ROADMAP](ROADMAP.md) item 1 proper (heat *removal* capacity) is still open; that script bounds generation terms only.
 
-12. **Notebooks are drafts; scripts are the record.** Exploratory work can happen in a notebook. A number that lands in a belt README or an appraisal claim must be reproducible from a plain, deterministic script — a figure cited from a notebook cell that isn't independently re-runnable isn't yet citable.
+13. **Notebooks are drafts; scripts are the record.** Exploratory work can happen in a notebook. A number that lands in a belt README or an appraisal claim must be reproducible from a plain, deterministic script — a figure cited from a notebook cell that isn't independently re-runnable isn't yet citable.
 
-13. **State the model, the source, and the run command in the file's own header.** Every script's docstring states: what physical model it implements, the verified primary source for any parameter it uses (with the specific equation or figure, not just "the literature"), whether it's deterministic, and the exact command to reproduce it. A script that can't be re-run by someone else from its own header isn't finished.
+14. **State the model, the source, and the run command in the file's own header.** Every script's docstring states: what physical model it implements, the verified primary source for any parameter it uses (with the specific equation or figure, not just "the literature"), whether it's deterministic, and the exact command to reproduce it. A script that can't be re-run by someone else from its own header isn't finished.
 
-14. **No fitted parameters without saying so, explicitly.** If a script tunes a value to match a target output, the header says so in plain language. "No fitted parameters" is a claim that has to be true, not an aspiration — say it only when it's checked.
+15. **No fitted parameters without saying so, explicitly.** If a script tunes a value to match a target output, the header says so in plain language. "No fitted parameters" is a claim that has to be true, not an aspiration — say it only when it's checked.
 
-15. **Negative controls stay, and stay labeled.** A comparison calculation that turns out to be the wrong test (like the wrong-comparison $\dot\gamma$ control TRT's `coadmissibility_ratedep.py` keeps rather than deletes) remains in the code, explicitly marked as a control, so a reader can see what was ruled out and why — not just what worked.
+16. **Negative controls stay, and stay labeled.** A comparison calculation that turns out to be the wrong test (like the wrong-comparison $\dot\gamma$ control TRT's `coadmissibility_ratedep.py` keeps rather than deletes) remains in the code, explicitly marked as a control, so a reader can see what was ruled out and why — not just what worked.
 
-16. **Say what the result does *not* resolve.** A script closing one sub-question states plainly what it leaves open, so a green run against one narrow claim isn't read as the whole gate closing. The rheology gate in particular ([`02-theory/rheology/README.md`](../02-theory/rheology/README.md)) has several sub-parts (energy budget, heat-removal capacity, feedback-loop magnitude) — a script addressing one doesn't close the others.
+17. **Say what the result does *not* resolve.** A script closing one sub-question states plainly what it leaves open, so a green run against one narrow claim isn't read as the whole gate closing. The rheology gate in particular ([`02-theory/rheology/README.md`](../02-theory/rheology/README.md)) has several sub-parts (energy budget, heat-removal capacity, feedback-loop magnitude) — a script addressing one doesn't close the others.
 
-17. **Co-locate code with the belt claim it supports.** `02-theory/<topic>/code/`, not a monolithic top-level `scripts/` folder — the same pattern TRT uses (`3-prediction/<test>/code/`). Keeps the path from a README claim to the calculation behind it short and obvious.
+18. **Co-locate code with the belt claim it supports.** `02-theory/<topic>/code/`, not a monolithic top-level `scripts/` folder — the same pattern TRT uses (`3-prediction/<test>/code/`). Keeps the path from a README claim to the calculation behind it short and obvious.
 
-18. **Commit code with the doc it grounds, in the same commit.** A script and the README/appraisal claim citing its output land together — never a claim first with the code to follow, and never code with no claim pointing at it.
+19. **Commit code with the doc it grounds, in the same commit.** A script and the README/appraisal claim citing its output land together — never a claim first with the code to follow, and never code with no claim pointing at it.
 
 ## GitHub-safe math (for any derivations in prose)
 

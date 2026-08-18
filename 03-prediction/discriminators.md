@@ -57,6 +57,22 @@ Emerged from folding Woodmorappe (2006) into this model's framing (see [`../02-t
 
 **Not registered as a live discriminator yet.** Needs a defined sample (which formations, which ichnofabric-index range), an operational definition of what counts as an early-lithification surface versus a later diagenetic one, and its failure condition fixed before any outcrop or literature is consulted. Gated behind ROADMAP items 1 and 3 like the rest of Tier 3.
 
+### 8. Transverse drainage / water gaps — the first anomaly-targeting candidate (2026-08-17)
+
+**The strongest candidate currently on this list, because the sample problem that has stalled every other one is already solved.**
+
+**The rival concedes the anomaly, in its own words.** Transverse drainages — streams that bypass the path of least resistance and cut directly through topographic highs — are stated in the mainstream geomorphology literature as a standing problem: large streams through water gaps are "conspicuous geomorphic elements in mountain ranges of all ages, with each such stream and breached structure presenting a geomorphic problem," and theory here "has been slow to progress." Competing mechanisms (stream capture/piracy, antecedence, superimposition, structural weakness along faults or synclines) coexist with none dominant. This satisfies [`../00-program-methods/research-practices.md`](../00-program-methods/research-practices.md) rule 12's first condition: the problem is conceded by the rival, not asserted by this programme.
+
+**The sample exists and is already classified.** A published global survey identifies **1,549 large-scale transverse drainages** deeper than 100 m, classified by physical and topographic characteristics. Defined, uncontested, mainstream-published. Confidence **MEDIUM** (secondary summary; primary not yet retrieved — retrieval is the first task).
+
+**The explanation is derived, not invented for the occasion** (rule 12, second condition). Water and wind gaps fall directly out of **phase F4 / Dispersive** in the adopted phase schema — channelized drainage as land emerges from a wholly submerged surface, following the Abative sheet-flow phase. That phase was specified from the model's own mechanism before this anomaly was considered, which is exactly the use-novelty condition. The wider creationist literature reaches the same reading independently (Oard, water and wind gaps carved during channelized Flood runoff).
+
+**What each account predicts, and where they differ.** Ordinary geomorphology predicts gaps form individually, by locally contingent mechanisms, at times distributed across the age of each range — so gap-forming events should be **temporally scattered and mechanistically heterogeneous**, with the mechanism varying case by case. F4 predicts them as a **single drainage episode** — one regime, one relative time, with gap geometry reflecting sheet-to-channel transition rather than headward erosion or antecedent incision.
+
+**Declared failure condition, fixed before evaluation** (rule 12, third condition). The attempt fails if the 1,549-case database shows gap morphology and setting that are *systematically heterogeneous in a way tracking local range history* — i.e. gap characteristics correlating with individual range age, local structure, and independent drainage evolution — rather than showing a common morphological signature independent of range history. Stated now, before the database is retrieved.
+
+**Not yet run.** Retrieve the primary database, define the morphological signature F4 predicts, and evaluate. Unlike candidates 1–7 this is not gated on ROADMAP items 1–3, because it needs no reconstruction and no chronology commitment.
+
 ## Checked and rejected — kept, not deleted
 
 ### K-Pg boundary ichnofabric vs. physical sedimentary structure (proposed and killed 2026-08-17)
