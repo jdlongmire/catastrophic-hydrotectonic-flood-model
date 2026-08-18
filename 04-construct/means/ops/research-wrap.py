@@ -115,8 +115,11 @@ def main() -> int:
         add("PASS", "math-lint", "no \\operatorname in committed math")
 
     # --- Session journal reminder ---
+    # ':!*README.md' excludes the directory's own README: adding it is not
+    # writing a session entry, and counting it as one made the check lie on
+    # the very first run.
     _, recent, _ = run("git log -1 --since='12 hours ago' --name-only --pretty=format: "
-                       "-- 04-construct/means/sessions || true", shell=True)
+                       "-- 04-construct/means/sessions ':!*README.md' || true", shell=True)
     if recent.strip():
         add("PASS", "session journal", "entry touched recently")
     else:
