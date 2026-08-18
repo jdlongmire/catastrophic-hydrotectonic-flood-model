@@ -1,0 +1,46 @@
+id: WP-HTF-0004
+title: Phase assignments and chronology date-stamp — give the programme something that can be wrong
+status: proposed
+commitment: committed
+scope: >
+  ROADMAP item 3, raised in priority 2026-08-17. The phase schema landed that
+  day (P0-P1 / F1-F4 with Walker's water-level axis / N1-N3), but no formation
+  has been assigned to a phase and the chronology values inside it are not
+  date-stamped as a recorded commitment.
+
+  This is the programme's anti-degeneration move, and it is the one the
+  appraisal's own criteria demand. The belt now carries reinterpretations of
+  BOTH principal independent chronometers — radiometric ages as residuals, and
+  rhythmites as rapid laminae — with ice-core layer counts flagged as a likely
+  third. The appraisal lists "a moving target that's never pinned down is a
+  programme that can't be wrong by construction" among its degeneration markers.
+  Fixing the partition is what converts accumulated interpretive freedom back
+  into a falsifiable commitment.
+
+  Deliverable: formations assigned to phases WITH their evidence against the
+  stated physical criteria, and the chronology values (creation-to-Fall gap,
+  Flood duration, post-Flood duration) stamped with a date so later revisions
+  are visible as revisions.
+authority_boundary: >
+  Assignments are drafted here with evidence; **JD ratifies the chronology
+  partition as a belt commitment.** Date-stamping a value as committed is a
+  belt commitment in exactly the sense rule 11 reserves to him. Drafting,
+  evidence-gathering, and the assignment table proceed without re-asking;
+  marking the partition ratified does not.
+actions:
+  - Select an initial formation set with real published descriptions, avoiding
+    formations already used in constructing the schema (use-novelty, rule 12)
+  - Assign each on both axes, citing the physical criterion satisfied
+  - Record assignments in a form where a single unit can be moved without
+    moving the schema, per the schema's own stated discipline
+  - Date-stamp the three chronology values with their current justification
+  - Log to the appraisal, distinguishing a schema revision from an assignment
+    correction
+verification: >
+  Every assignment cites a specific physical criterion from the schema table
+  and a specific published description, not a narrative placement. At least one
+  formation is assigned where the evidence is genuinely awkward, and the
+  awkwardness is recorded rather than smoothed — a schema that has never
+  strained against a case has not been tested. The chronology values carry
+  dates and a stated basis.
+disposition: open — highest-value non-research package; sequence after WP-0001

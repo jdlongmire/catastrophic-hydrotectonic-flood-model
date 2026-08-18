@@ -1,0 +1,48 @@
+id: WP-HTF-0005
+title: Discriminator candidate 8 — evaluate transverse drainage against the Lee database
+status: proposed
+commitment: stretch
+scope: >
+  The only discriminator candidate not gated behind ROADMAP items 1-3, and
+  therefore the programme's nearest reachable evaluation and its only route off
+  "unappraised."
+
+  Rule 12's use-novelty conditions are partly met and the gap is known. The
+  sample is Lee (2019), Data in Brief 23:103650 — 1,549 transverse drainages
+  >=100 m, ten classification attributes, five segments each with bearing,
+  slope, gradient and depth. Retrieved and read; confidence HIGH. The
+  concession lives in the companion Lee (2021), SSRN 3980591, which evaluates
+  antecedence, superimposition, piracy and overflow and notes "a major
+  misconception about the power of headward eroding streams that has dogged
+  scholarship" — **not obtained**, 403 on SSRN and ResearchGate, and rule 12's
+  first condition is not firmly established until it is read.
+
+  The sharpened test, from the finding that OVERFLOW is already an accepted
+  mainstream mechanism: phase F4 does not propose an exotic process, it claims
+  an accepted one operated globally and synchronously rather than locally and
+  sporadically. So the question is what fraction of the 1,549 are overflow-type
+  and whether they cluster as a regime.
+authority_boundary: >
+  Retrieval, parsing, analysis scripting, and reporting the result proceed
+  without re-asking, **including a result that goes against the programme.**
+  Registering candidate 8 as a live discriminator, or recording any appraisal
+  verdict change, is JD's. The declared failure condition in
+  03-prediction/discriminators.md is FROZEN and must not be edited by this
+  package under any circumstances — rule 1.
+actions:
+  - Obtain Lee 2021 in full; escalate per rule 13 (open-access mirror, direct
+    PDF path, author contact, institutional access) rather than settling for
+    the abstract
+  - Obtain and parse the Lee 2019 supplementary data (KMZ + Excel by continent)
+  - Compute mechanism proportions and test for regime clustering
+  - "Handle the named confound: gap bearing is structurally controlled, so raw
+    bearing coherence is permitted by both accounts. Any bearing analysis uses
+    structurally-detrended residuals — stated in advance so it cannot be skipped"
+  - Land as a script under rules 14-20, co-located with the claim
+verification: >
+  The declared failure condition is evaluated as written, unedited, and the
+  verdict recorded whichever way it falls. If Lee 2021 cannot be obtained, the
+  package closes as BLOCKED with the access failures recorded per rule 13 —
+  it does NOT close by substituting search summaries for the primary.
+  A refutation closes this package successfully.
+disposition: open — the programme's highest epistemic value; blocked on Lee 2021 retrieval

@@ -1,0 +1,50 @@
+id: WP-HTF-0003
+title: Velocity and detachment-depth reconciliation — close the belt's oldest internal inconsistency
+status: proposed
+commitment: committed
+scope: >
+  02-theory/kinematics/README.md and POSITION-PAPER 3.4 carry an unresolved
+  three-way conflict imported from the source document: a summary claim of
+  "tens to hundreds of metres per hour" (~0.03-0.1 m/s), a worked force balance
+  yielding ~30 m/s (mislabelled "108 m/hr" via a unit-conversion error), and
+  this programme's own figure of 9-40 cm/s. Detachment depth is likewise stated
+  as both 50 km and 15 km.
+
+  This was internal tidiness until 2026-08-17, when it became load-bearing
+  against an external objection: energy_partition_bounds.py showed that at
+  30 m/s bulk kinetic energy is 60-117% of the ENTIRE gravitational budget,
+  so the figure is refuted on energy conservation independently of the units
+  error. The reconciliation now defends a published position.
+
+  A second, separate check flagged the same session and not yet run: the
+  position paper cites a 0.1 degree slope with friction collapsed to mu=0.01
+  giving a ~0.03 m/s^2 acceleration, but downslope sliding requires mu < tan(theta),
+  and tan(0.1 deg) is ~0.0017, below 0.01. Either the driving force is isostatic
+  rather than downslope-gravitational, or the stated parameters are inconsistent.
+  Resolve which.
+authority_boundary: >
+  Writes to 02-theory/kinematics/, the position paper's 3.4, and a code
+  artifact under the kinematics module. Selecting the surviving velocity figure
+  and detachment depth IS within this package's authority, because it is a
+  reconciliation of the programme's own inconsistent numbers, not a new claim.
+  Any change to the 1e25 J budget or the 94.2/5.0/0.5/0.25 partition is NOT —
+  those are imported and would be a separate package.
+actions:
+  - Redo the force balance against this programme's own block parameters rather
+    than the source document's, as a deterministic script under rules 14-20
+  - Resolve the slope-versus-friction question — establish whether the driving
+    force is isostatic settling or downslope gravity, and state it explicitly
+  - Pick one detachment depth with its derivation recorded
+  - Check the surviving velocity against the F2 ceiling already derived
+    (6.2-8.6 m/s within the friction allocation, 27.7-38.6 m/s absolute)
+  - Update kinematics/README.md, the position paper 3.4, and note the
+    consequence for the paleocurrent discriminator, which depends on the
+    motion field
+verification: >
+  One velocity figure and one detachment depth survive, each with a recorded
+  derivation from this programme's own parameters. The surviving figure sits
+  inside the energy ceiling from energy_partition_bounds.py — cross-checked by
+  running that script, not asserted. The slope/friction question has a stated
+  answer rather than remaining a flagged question. POSITION-PAPER 3.4 no longer
+  discloses an unreconciled inconsistency, or discloses a narrower one honestly.
+disposition: open — independent of WP-0001, can run in parallel

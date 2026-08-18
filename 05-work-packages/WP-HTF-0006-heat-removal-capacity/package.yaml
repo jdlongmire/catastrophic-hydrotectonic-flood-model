@@ -1,0 +1,41 @@
+id: WP-HTF-0006
+title: ROADMAP item 1 proper — heat REMOVAL capacity against generation
+status: proposed
+commitment: stretch
+scope: >
+  The programme's own declared gate on everything, and it has not moved since
+  stand-up. ROADMAP names it "not one item among several; it is what makes
+  every other item worth doing."
+
+  What exists: energy_partition_bounds.py (2026-08-17) bounded heat
+  GENERATION terms — kinetic energy, a velocity ceiling, impact energy against
+  marine survivability. It explicitly states it does not touch removal.
+
+  What is needed: total tectonic energy generated at v ~ 1e-1 m/s over the
+  catastrophic interval against total plausible heat-removal capacity —
+  ocean-atmosphere circulation, radiation to space, deep burial, and the
+  hypercane hypothesis given its strongest form per the founding research's own
+  proposed test. Includes the rheology gate's residual 3-4 orders of magnitude
+  of viscosity deficit, localized to subduction channels.
+authority_boundary: >
+  Analysis, scripting, and reporting proceed without re-asking, including a
+  result showing the requirement is physically unreachable. **A finding that
+  the gate cannot close is a real result under the programme's own standard,
+  not a failure to be softened, and is reported as such.** Changing the
+  appraisal verdict on the basis of it is JD's call.
+actions:
+  - State the removal-capacity model and its declared failure condition BEFORE
+    computing, per rule 1
+  - Give the hypercane hypothesis its strongest quantitative form, per rule 4
+    and the founding research's own instruction
+  - Compute generation at the reconciled velocity from WP-HTF-0003 rather than
+    a disputed figure
+  - Compare against removal capacity; report the margin or the deficit
+  - Retain any refuted variant as a labelled control per rules 6 and 17
+verification: >
+  Failure conditions fixed in the script header before the run and unchanged
+  after. Every parameter sourced with a confidence label. The result states
+  plainly whether the gate closes, does not close, or remains undetermined and
+  why — with "undetermined" requiring a specific named missing quantity rather
+  than a general hedge.
+disposition: open — depends on WP-HTF-0003 for the velocity input

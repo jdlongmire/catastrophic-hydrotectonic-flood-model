@@ -1,0 +1,47 @@
+id: WP-HTF-0002
+title: MOSA belt-interface declaration — make the dependency graph explicit
+status: proposed
+commitment: committed
+scope: >
+  VWMM's fourth M is MOSA: modular capability boundaries, open interface
+  contracts, replaceable components, dependency isolation. Lakatos's protective
+  belt is already a modular architecture — belt components are replaceable by
+  design, which is what distinguishes belt from core — but this programme's
+  belt currently declares no interfaces.
+
+  The gap is concrete. On 2026-08-17 a chain was traced by hand: continental
+  velocity (kinematics) feeds the sediment-transport regime, which feeds the
+  hydraulic sorting argument, which feeds the salinity-stratification argument,
+  which feeds the rhythmite reading. Every link is real. None is declared
+  anywhere. The warning that interpretive freedom was concentrating on the
+  chronology axis was only visible by reconstructing that chain manually.
+
+  Deliverable: each belt module declares what it PROVIDES and what it CONSUMES,
+  landing at 02-systems-baseline/2.4-interfaces/, plus a generated dependency
+  graph verified acyclic.
+
+  Out of scope: changing any belt claim. This declares existing couplings, it
+  does not create or sever them. A coupling found to be circular is REPORTED,
+  not silently cut.
+authority_boundary: >
+  Writes limited to 02-systems-baseline/2.4-interfaces/ and to adding an
+  interface block at the head of each belt module README. Does NOT authorize
+  changing a belt claim, resolving a discovered circularity, or removing a
+  dependency. A discovered circularity is escalated to JD as its own finding.
+actions:
+  - Define the interface schema — provides/consumes, each entry naming the
+    specific quantity or claim and the module it crosses to
+  - Author interface declarations for kinematics, rheology, stratigraphy,
+    water-ledger, and the phase schema
+  - Generate the dependency graph from the declarations and verify acyclicity
+  - Wire the acyclicity check into research-wrap.py so it runs every session
+  - Record which modules are load-bearing for which discriminator candidates,
+    so replacing a module shows exactly what it breaks
+verification: >
+  The generated graph is acyclic by machine check, not by inspection. Every
+  coupling identified by hand on 2026-08-17 appears in the declarations — that
+  chain is the regression test for completeness. Deleting any one module's
+  declaration causes the check to report specific downstream breakage rather
+  than passing silently. This also makes the circularity check that
+  research-practices.md mandates for derivations mechanical rather than manual.
+disposition: open — sequence after WP-HTF-0001; precondition for the PGE harness

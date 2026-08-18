@@ -1,0 +1,58 @@
+id: WP-HTF-0001
+title: VWMM structural refactor — adopt the 00-meta-model .. 05-work-packages standard
+status: proposed
+commitment: committed
+scope: >
+  Restructure this repo onto the VWMM convention declared org-standard by
+  mxm-assistant-001's ADR-MXM-META-0001 (2026-08-07), preserving every
+  Lakatosian distinction the current 00-03 ladder encodes.
+
+  Target tree: 00-meta-model/ (structural ADRs, trace spine) ·
+  01-strategic-baseline/ (1.1-vision, 1.2-strategy, 1.3-objectives-krs,
+  1.4-alignment-references) · 02-systems-baseline/ (2.1-requirements,
+  2.2-architecture, 2.3-behavior, 2.4-interfaces, 2.5-verification) ·
+  03-solutions-baseline/ (3.1-hypothesis, 3.2-theory, 3.3-prediction —
+  the Lakatos ladder preserved as sub-numbering) · 04-construct/ (5M+1) ·
+  05-work-packages/ · decisions/.
+
+  Content mapping: hard-core.md -> 3.1; the belt (kinematics, rheology,
+  stratigraphy, water-ledger) -> 3.2; appraisal.md and discriminators.md ->
+  3.3; the discriminator four conditions also surface at 2.5-verification;
+  research-practices.md -> 04-construct/methods.md; ROADMAP's positive
+  heuristic -> 1.2/1.3; mode.md added at root as the always-loaded doorway.
+
+  OUT OF SCOPE, explicitly: any change to the substance of a belt claim, an
+  appraisal entry, or a discriminator. This package moves and relinks. If a
+  content change looks necessary mid-move, it stops and becomes its own package.
+authority_boundary: >
+  Workspace writes limited to jdlongmire/hydrotectonic-flood-model. Structural
+  moves, link repair, and the accompanying meta-ADR proceed without re-asking.
+  Does NOT authorize: altering belt content, editing appraisal history,
+  changing any discriminator's stated failure condition, or force-pushing.
+  The meta-ADR recording the convention adoption is authored here but its
+  Accepted status is JD's call.
+actions:
+  - Author 00-meta-model/ADR-HTF-META-0001 recording adoption of the VWMM
+    convention, its deviations if any, and the content mapping above
+  - Create the target tree; git mv every existing file to its mapped location
+    so history follows
+  - "Script the link repair: enumerate every relative markdown link, rewrite
+    against the mapping table, then verify zero unresolved links — this is a
+    mandatory scripted step, not hand-editing, because the two rule-renumber
+    sweeps on 2026-08-17 both broke cross-references when done by hand"
+  - Add mode.md at root (always-loaded doorway, model-agnostic, routing table
+    into the 5M surfaces)
+  - Harvest TRT's operational layer into 04-construct/means/ — agents/ (four
+    profiles), ops/ (research-start.py, research-wrap.py), sessions/
+  - Add house standards absent here — CITATION.cff, LICENSE, traceability/
+  - Append the appraisal entry recording the refactor as a structural
+    milestone with no content change
+verification: >
+  Link-check script reports zero unresolved relative links across the whole
+  tree. `git log --follow` resolves history for a sampled file from each moved
+  directory. A diff of file *contents* (not paths) between pre- and post-refactor
+  trees is empty except for the deliberately-edited link targets, the new
+  meta-ADR, mode.md, and the harvested TRT files — proving the "no content
+  change" scope boundary held. research-start.py and research-wrap.py both run
+  green against the new tree.
+disposition: open — awaiting JD approval; execute in a fresh session with clean context
