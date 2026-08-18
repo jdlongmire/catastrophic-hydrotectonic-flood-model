@@ -47,6 +47,16 @@ Chaotic megabreccia at basin boundaries with multi-lithology mixing, fluid-flow 
 
 **Confidence on 4–6:** these are stated as candidate discriminators in the source document with real `forbids` content, but none has been run against actual data yet — same status as discriminators 1–3 above (real candidates, unevaluated).
 
+### 7. PPLC signature — penecontemporaneous lithification interleaved with bioturbated horizons (2026-08-17)
+
+Emerged from folding Woodmorappe (2006) into this model's framing (see [`../02-theory/stratigraphy/README.md`](../02-theory/stratigraphy/README.md) §Trace fossils). His Penecontemporaneous Partially Lithified Crusts hypothesis holds that zones of rapid lithification alternated with Flood deposition, shielding buried organisms from overburden and allowing *simultaneous* bioturbation of multiple superposed horizons rather than one at a time.
+
+**Forbidding content.** Thick, highly bioturbated intervals should preserve evidence of early, penecontemporaneous lithification fronts interleaved with the burrowed horizons — a cryptically composite fabric rather than a uniformly accumulated one. Ordinary historical geology explains the same intervals by prolonged accumulation at low sedimentation rates and has no reason to expect interleaved early-cementation surfaces at that spacing. The two accounts therefore predict different internal fabric for the same outcrop.
+
+**Why this one is worth developing.** Unlike candidate 3 (MTZ hydration), it is not a restatement of an already-known pattern. Unlike the rejected ichnofabric test below, the two accounts genuinely diverge rather than both permitting the observation. And the hydrotectonic model contributes something Woodmorappe's general treatment lacks: a *mechanism* for the required alternation, since hydroplaning under near-lithostatic pore pressure is inherently episodic at local scale (pore-pressure surges, transport pulses, settling intervals).
+
+**Not registered as a live discriminator yet.** Needs a defined sample (which formations, which ichnofabric-index range), an operational definition of what counts as an early-lithification surface versus a later diagenetic one, and its failure condition fixed before any outcrop or literature is consulted. Gated behind ROADMAP items 1 and 3 like the rest of Tier 3.
+
 ## Checked and rejected — kept, not deleted
 
 ### K-Pg boundary ichnofabric vs. physical sedimentary structure (proposed and killed 2026-08-17)

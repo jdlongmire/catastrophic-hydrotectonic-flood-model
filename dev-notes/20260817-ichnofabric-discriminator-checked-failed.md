@@ -1,6 +1,6 @@
 # Ichnofabric vs physical-structure test — proposed, checked, failed; then the check itself corrected
 
-**Status: discriminator dead; the reasoning that killed it partly retracted.** Two corrections are recorded here in sequence. The first killed a proposed discriminator. The second, prompted by JD, found that the first was reached from mainstream sources only and asserted a "cost" that the creationist literature had already addressed head-on. Both are kept per [`research-practices.md`](../00-program-methods/research-practices.md) rule 6.
+**Status: promoted to the belt 2026-08-17; discriminator dead; the reasoning that killed it partly retracted.** The interpretive content of this note now lives in [`../02-theory/stratigraphy/README.md`](../02-theory/stratigraphy/README.md) §Trace fossils and bioturbation as belt material tagged `forbids: none`, which is where it always belonged — this note had over-escalated Tier 2 interpretive work into a Tier 3 discriminator test. The PPLC signature is registered as candidate 7 in [`../03-prediction/discriminators.md`](../03-prediction/discriminators.md). Two corrections are recorded here in sequence. The first killed a proposed discriminator. The second, prompted by JD, found that the first was reached from mainstream sources only and asserted a "cost" that the creationist literature had already addressed head-on. Both are kept per [`research-practices.md`](../00-program-methods/research-practices.md) rule 6.
 
 ## How it arose
 
