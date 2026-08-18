@@ -47,8 +47,20 @@ Chaotic megabreccia at basin boundaries with multi-lithology mixing, fluid-flow 
 
 **Confidence on 4–6:** these are stated as candidate discriminators in the source document with real `forbids` content, but none has been run against actual data yet — same status as discriminators 1–3 above (real candidates, unevaluated).
 
+## Checked and rejected — kept, not deleted
+
+### K-Pg boundary ichnofabric vs. physical sedimentary structure (proposed and killed 2026-08-17)
+
+Proposed on the reasoning that the *kind* of disturbance in the K-Pg boundary clay should discriminate: biogenic mixing (ichnofabric — burrows, mottling, cross-cutting traces) implies substrate stability and favours the rival, while hydraulic reworking (grading, sorting, traction lamination, rip-up clasts) favours catastrophic deposition. The sample looked ideal — the boundary clay is among the most intensively sampled horizons in geology.
+
+**Killed on checking the literature before registering it.** A dedicated body of work already answers the question, and against the proposal: at the Caravaca section (SE Spain) the boundary layer is cross-cut vertically by *Zoophycos* and *Chondrites* and penetrated laterally by *Chondrites*, with a trace-fossil assemblage running continuously into the uppermost Maastrichtian (Rodríguez-Tovar & Uchman 2008, *Geobios*); Alegret et al. (2015, *Terra Nova*) is titled "How bioturbation obscured the Cretaceous–Palaeogene boundary record."
+
+Fails **condition 4** (the evaluation predates the claim, so registering it would be retrodiction) and, fatally, **condition 2** — both accounts permit bioturbation, so the observation discriminates nothing. Full analysis, including what the programme legitimately retains and the unpaid cost it does not, in [`../dev-notes/20260817-ichnofabric-discriminator-checked-failed.md`](../dev-notes/20260817-ichnofabric-discriminator-checked-failed.md).
+
+**Recorded because the failure is informative.** Deep-tier *Zoophycos* requires a stable substrate over a meaningful interval, so the evidence runs against a catastrophic reading of that horizon specifically — a real cost, logged rather than absorbed.
+
 ## What does not count
 
-- Citing a pattern already documented in the literature as though the model predicted it.
+- Citing a pattern already documented in the literature as though the model predicted it. **The rejected candidate above is the worked example** — it looked like a clean discriminator right up until the check showed the answer was already published.
 - "The model is compatible with X." Compatibility forbids nothing.
 - A retrodiction of a fact the stratigraphic mapping was revised to accommodate — this is precisely how the three boundary-redraws in the initial research should not be repeated.
