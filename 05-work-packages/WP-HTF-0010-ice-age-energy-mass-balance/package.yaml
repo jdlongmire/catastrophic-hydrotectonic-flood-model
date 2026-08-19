@@ -1,0 +1,59 @@
+id: WP-HTF-0010
+title: ROADMAP item 7 — post-Flood ice-age energy-mass balance
+status: proposed
+commitment: stretch
+scope: >
+  ROADMAP item 7, added 2026-08-18 via WP-HTF-0009's gap-ledger capture. The
+  N2 Ice age phase (stratigraphy/README.md phase schema) and the new
+  cryosphere/README.md state the structural mechanism (Oard: warm ocean +
+  aerosol-cooled continents, singular relaxation not an oscillator) and, as
+  of WP-HTF-0009, the initial condition (a surviving pre-Flood polar
+  cryosphere, not ice built from nothing). Neither has ever been run as a
+  quantitative energy-mass balance.
+
+  What exists: energy_partition_bounds.py bounds TECTONIC heat generation
+  against the friction/PE partition (rheology gate, WP-HTF-0006's territory).
+  That is a different energy budget entirely from the one this package
+  needs — atmosphere-ocean-cryosphere, not crust-mantle.
+
+  What is needed, per cryosphere/README.md's own list: surviving/preexisting
+  ice mass; ocean temperature after the catastrophe; evaporation and
+  moisture transport; aerosol forcing; accumulation rate; ablation;
+  ice-sheet flow; maximum ice volume; deglaciation energy and meltwater
+  budget — assembled into one energy-mass balance covering the ~700 yr N2
+  window, following the same discipline as energy_partition_bounds.py.
+authority_boundary: >
+  Analysis, scripting, and reporting proceed without re-asking, including a
+  result showing the ~700 yr accumulation/deglaciation envelope is not
+  reachable at the required rates. As with WP-HTF-0006, a negative result is
+  a real finding under this programme's own standard, not a failure to be
+  softened. Does not authorize changing the N2-singular structural call
+  (already settled, phase-schema draft) or the appraisal verdict — reporting
+  a result there is JD's call.
+actions:
+  - State the energy-mass balance model and its declared failure condition
+    BEFORE computing, per research-practices.md rule 1 — what accumulation
+    rate, ice volume, and deglaciation timeline would count as reaching or
+    missing the ~700 yr envelope
+  - Source every input with a confidence label (rule 2) — surviving ice mass
+    estimate, post-catastrophe ocean temperature, aerosol optical depth and
+    decay, precipitation/accumulation rate under the warm-ocean regime,
+    ablation rate, ice dynamics simplification used
+  - Compute accumulation-phase mass balance, then deglaciation-phase energy
+    and meltwater budget, against the ~700 yr window
+  - State the rival at its strength (rule 4) — conventional multi-cycle
+    Pleistocene glaciology's own accumulation/ablation rate literature, so
+    the comparison is against real numbers, not a strawman single-cycle case
+  - Report the margin or the deficit; retain any refuted variant as a
+    labelled control per rules 6 and 17
+verification: >
+  Failure conditions fixed in the script header before the run and unchanged
+  after. Every parameter sourced with a confidence label. The result states
+  plainly whether the ~700 yr envelope is reachable, not reachable, or
+  undetermined and why — "undetermined" requires a specific named missing
+  quantity, not a general hedge. Code lands in
+  03-solutions-baseline/3.2-theory/cryosphere/code/, same layout convention
+  as rheology/code/.
+disposition: open — reachable now, not gated on any other package (unlike
+  WP-HTF-0006, which needs WP-HTF-0003 first). JD flagged this as the
+  nearest new computational target when WP-HTF-0009 landed, 2026-08-18.
