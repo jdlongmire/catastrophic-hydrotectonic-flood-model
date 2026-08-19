@@ -29,6 +29,14 @@ A narrower disclosure specific to this programme: commitment 4 (a real creation-
 
 A second disclosure: the functional-maturity half of commitment 4 imports DFM, a framework JD is developing independently of this programme (see [designed-functional-maturity](https://github.com/jdlongmire/designed-functional-maturity)). DFM's own stated scope is worth carrying over rather than glossing: it explicitly "does not automatically validate any particular theological claim, young-earth chronology, or six-day historical sequence" — it's a methodological posture (design as an explanatory default), not a proof of this programme's chronology. Importing it here is a hard-core-level decision like the rest of this list, not a derivation from it.
 
+**Third disclosure, made explicit 2026-08-18** ([`../../dev-notes/20260818-dfm-boundary-conditions-gap-ledger.md`](../../dev-notes/20260818-dfm-boundary-conditions-gap-ledger.md) §9), stating a downstream chain that was implicit in the disclosure above but never spelled out: this programme sits inside a four-tier architecture, not as a self-contained account.
+
+$$\text{Methodological Designism} \rightarrow \text{Designed Functional Maturity (DFM)} \rightarrow \text{Hydrotectonic Programme (this repo)} \rightarrow \text{Post-Flood Recovery Models}$$
+
+DFM supplies **initialization, chronology, and biological starting conditions** as boundary conditions to this programme — the initialized isotopic state $R_0$ behind any radiometric account, initial biodiversity, the pre-Flood cryosphere, and the ~50–60 ka creation-to-Fall estimate itself. This programme's own job is narrower than "explain the whole geological and biological record": **given those upstream boundary conditions, is the proposed catastrophic transition from the DFM initial/pre-Flood state to the post-Flood state physically possible.** Post-Flood Recovery Models (glaciation/deglaciation relaxation, tectonic relaxation, ecological radiation) sit downstream, consuming this programme's output state as their own input.
+
+**This is not a new hard-core commitment — it is scope clarification of the existing one.** Commitment 4 already imports DFM; this disclosure states the chain DFM sits in and draws the resulting boundary. The practical consequence is in [`ROADMAP.md`](../../01-strategic-baseline/1.2-strategy/roadmap.md): items belonging to DFM or to Post-Flood Recovery are tracked there as **dependencies to consume**, not work this programme schedules and executes itself. Before 2026-08-18 this boundary was not drawn, and several open questions (a multi-system radiometric $R_0$ inventory; most of the population-genetics diversification-rate modeling) risked being treated as this repo's unfinished work rather than another programme's.
+
 ## What is *not* in the core
 
 Everything adjustable — the whole of the protective belt.
