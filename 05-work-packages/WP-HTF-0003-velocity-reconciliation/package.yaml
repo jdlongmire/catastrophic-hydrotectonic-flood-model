@@ -1,6 +1,6 @@
 id: WP-HTF-0003
 title: Velocity and detachment-depth reconciliation — close the belt's oldest internal inconsistency
-status: proposed
+status: done
 commitment: committed
 scope: >
   02-theory/kinematics/README.md and POSITION-PAPER 3.4 carry an unresolved
@@ -47,4 +47,20 @@ verification: >
   running that script, not asserted. The slope/friction question has a stated
   answer rather than remaining a flagged question. POSITION-PAPER 3.4 no longer
   discloses an unreconciled inconsistency, or discloses a narrower one honestly.
-disposition: open — independent of WP-0001, can run in parallel
+resolution: >
+  Executed 2026-08-18 via 02-theory/kinematics/code/velocity_detachment_reconciliation.py.
+  Driving force: isostatic/PE-release (tan(0.1deg) < source's own mu=0.01, so the
+  source's downslope-gravity model cannot initiate sliding on its own numbers).
+  Detachment depth: 15 km (above Moho, less extreme pore-pressure requirement than
+  50 km). Surviving velocity: 9-40 cm/s, unchanged, passes the F2 ceiling with a
+  15x margin. Disputed 30 m/s figure: rejected on a third independent ground.
+
+  One result required a principal decision before being written down (rule 11):
+  required pore-pressure ratio lambda = 0.999995 to 0.9999996 (five to six nines),
+  past typically documented overpressure ratios. Reported with two live readings
+  -- genuine mechanism feature, or a symptom the imported friction allocation
+  needs revisiting. JD's ruling (2026-08-18): fine-tuning is not an issue in this
+  model, closing the second reading, consistent with the hard core's own design
+  commitment (commitment 4). Promoted to research-practices.md rule 21.
+disposition: done — independent of WP-0001, ran in parallel. All four package
+  questions resolved; see resolution above.

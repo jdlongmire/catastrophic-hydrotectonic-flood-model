@@ -38,4 +38,6 @@ verification: >
   plainly whether the gate closes, does not close, or remains undetermined and
   why — with "undetermined" requiring a specific named missing quantity rather
   than a general hedge.
-disposition: open — depends on WP-HTF-0003 for the velocity input
+disposition: open — WP-HTF-0003 (velocity input) done 2026-08-18, unblocked.
+  Compute generation at 9-40 cm/s (WP-HTF-0003's surviving figure), not a
+  disputed one. Not yet started.
