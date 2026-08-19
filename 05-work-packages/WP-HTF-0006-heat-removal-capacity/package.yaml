@@ -1,6 +1,6 @@
 id: WP-HTF-0006
 title: ROADMAP item 1 proper — heat REMOVAL capacity against generation
-status: proposed
+status: done
 commitment: stretch
 scope: >
   The programme's own declared gate on everything, and it has not moved since
@@ -38,6 +38,30 @@ verification: >
   plainly whether the gate closes, does not close, or remains undetermined and
   why — with "undetermined" requiring a specific named missing quantity rather
   than a general hedge.
-disposition: open — WP-HTF-0003 (velocity input) done 2026-08-18, unblocked.
-  Compute generation at 9-40 cm/s (WP-HTF-0003's surviving figure), not a
-  disputed one. Not yet started.
+resolution: >
+  Executed 2026-08-18 via 02-theory/rheology/code/heat_removal_capacity.py.
+  Covers the LATERAL translation term only, per the stretch-commitment
+  standard (a recorded resolution, not a guaranteed positive result).
+
+  F7 (local sustained flux, actively-translating crust area): PASS, 2.1x
+  margin against the runaway-greenhouse radiative ceiling. 64-135 W/m^2,
+  only 11-23% of POSITION-PAPER Sec 2's naive full-friction 600 W/m^2
+  figure -- first quantitative confirmation that Terzaghi collapse reduces
+  dissipation, not just an assertion. Hypercane-scale heat export is NOT
+  necessary for the lateral term.
+
+  F8 (global-mean stacking, present-day OLR baseline + this programme's
+  diluted flux): PASS, but only ~4-6 W/m^2 of margin against a disputed
+  280-310 W/m^2 literature ceiling (~98.5% of headroom used). Surfaced
+  per rule 11 before being written down -- two live readings (real thin
+  margin vs. citation-precision noise). JD's ruling (2026-08-18):
+  PASS-with-thin-margin under rule 21, same interpretive posture as
+  WP-HTF-0003's pore-pressure finding.
+
+  F9 (vertical/subduction-channel heat): NOT computed. No channel
+  geometry established anywhere in this belt to derive Joules/Watts from
+  -- only the required viscosity range. Does not close ROADMAP item 1's
+  vertical half or the rheology/viscosity gate, which is unaffected.
+disposition: done — WP-HTF-0003 (velocity input) landed first, 2026-08-18.
+  Lateral half resolved (F7/F8); vertical half remains open, requiring
+  subduction-channel geometry not yet established anywhere in this belt.

@@ -12,10 +12,15 @@ scope: >
   >=100 m, ten classification attributes, five segments each with bearing,
   slope, gradient and depth. Retrieved and read; confidence HIGH. The
   concession lives in the companion Lee (2021), SSRN 3980591, which evaluates
-  antecedence, superimposition, piracy and overflow and notes "a major
-  misconception about the power of headward eroding streams that has dogged
-  scholarship" — **not obtained**, 403 on SSRN and ResearchGate, and rule 12's
-  first condition is not firmly established until it is read.
+  antecedence, superimposition, piracy and overflow. Its abstract, recovered
+  2026-08-18 via Wayback Machine (confidence HIGH), states the field's causal
+  mechanisms should be treated as "black box' systems whose outputs are
+  discordant patterns, but whose inputs are not fully understood" and gives
+  ~39% of the dataset as strong-possibility overflow origin. Full 52-page
+  text remains blocked by a Cloudflare JS challenge, not a plain paywall —
+  see resolution below. (The "major misconception about headward eroding
+  streams" line previously cited here was a misattribution, corrected in
+  discriminators.md 2026-08-18 to Larson et al. 2016, Annals of the AAG.)
 
   The sharpened test, from the finding that OVERFLOW is already an accepted
   mainstream mechanism: phase F4 does not propose an exotic process, it claims
@@ -45,4 +50,21 @@ verification: >
   package closes as BLOCKED with the access failures recorded per rule 13 —
   it does NOT close by substituting search summaries for the primary.
   A refutation closes this package successfully.
-disposition: open — the programme's highest epistemic value; blocked on Lee 2021 retrieval
+resolution: >
+  Retrieval attempt run 2026-08-18 (partial, first action item only). Full
+  escalation ladder worked: SSRN landing page and direct PDF-delivery URL
+  both return a Cloudflare JS challenge (not a simple 403 -- no available
+  fetch tool can solve it, since it requires executing JS and passing a bot
+  check in a live browser). ResearchGate 403. No mirror, cached PDF,
+  institutional repository copy, or author-hosted preprint found (checked
+  CORE, Semantic Scholar, ORCID, Academia.edu, personal/faculty pages).
+  Wayback Machine snapshot (2024-07-10, predates the Cloudflare gate)
+  recovered the full abstract, HIGH confidence -- see discriminators.md
+  candidate 8 for the quoted content. One citation error caught and fixed
+  in the process: the "misconception about headward eroding streams" line
+  belongs to Larson et al. 2016 (Annals of the AAG), not Lee 2021.
+disposition: open — the programme's highest epistemic value. Abstract in
+  hand (HIGH confidence); full 52-page text blocked on a Cloudflare
+  challenge that needs a human browser session, not further automated
+  retrieval. Lee 2019 supplementary-data parsing and the regime-clustering
+  analysis (actions 2-5) not yet started.
