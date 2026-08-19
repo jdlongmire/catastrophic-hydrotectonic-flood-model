@@ -55,6 +55,26 @@ That framing is not invented here. The creationist literature already contains a
 
 **Stratigraphic mapping — unresolved, and less settled than the first pass suggested.** The initial research tested Cambrian onset, then Permian-Triassic, Triassic-Jurassic, and Cretaceous-Paleogene as candidate catastrophic-phase boundaries, and called all of them failed on the same evidence: paleosols, coal, and reefs recurring past every candidate boundary, including K-Pg. That evidence is real, but whether it's correctly read is a genuine, live dispute among geologists working these exact formations — see [`../../../dev-notes/20260816-boundary-search-literature.md`](../../../dev-notes/20260816-boundary-search-literature.md). The research ends by proposing an undefined diachronous propagation front $t_C(x)$ rather than a fixed horizon. **This has zero specified content as of stand-up** — no candidate geometry, no committed initiating location. See ROADMAP item 5.
 
+## Depositional-regime partition — $D(x)$, not a Flood/no-Flood binary (2026-08-18)
+
+`forbids: none` — belt/interpretive content, extending rather than replacing the phase schema and $t_C(x)$ above. Full derivation in [`../../../dev-notes/20260818-dfm-boundary-conditions-gap-ledger.md`](../../../dev-notes/20260818-dfm-boundary-conditions-gap-ledger.md) §4.
+
+The phase schema already made the Flood/post-Flood transition diachronous rather than a single horizon. This section makes explicit a second, related move: this programme does not need to explain the *entire* sedimentary record inside the Flood year. Three depositional regimes, not one:
+
+$$G_{pre} + G_{Flood} + G_{post}$$
+
+with the ~50–60 ka pre-Flood interval (hard-core commitment 4's belt estimate) supplying ordinary-process time for reef construction, soils, erosion, river systems, ecological succession, fossilization, and sedimentation — including genuine annual varves, see §Rhythmites below — before any catastrophic mechanism is invoked, and ~5–6 ka post-Flood for further ordinary development.
+
+**Illustrative rate arithmetic, not yet sourced to a specific formation:** at 1 mm/yr, 60 ka permits ~60 m (~197 ft) of accumulation; at 10 mm/yr, ~600 m (~1,969 ft). Measured/reconstructed reef accretion rates are, on inspection, plausibly sufficient to generate substantial structures inside that window, but this specific claim has not been checked against primary reef-accretion literature (rule 2) and does not yet carry belt weight — flagged as open sourcing work, not asserted as a finding.
+
+**What this licenses:** replacing the working posture of "Flood deposit? yes/no" with an explicit partition,
+
+$$D(x) = \{D_{pre}, D_{Flood}, D_{post}\}$$
+
+which makes $t_C(x)$ considerably more powerful than the 2026-08-17 phase-schema draft stated — the transition need not correspond to one universal lithostratigraphic boundary *and* large fractions of column thickness on either side of it can be ordinary-process time, not catastrophic-interval time.
+
+**State: candidate mechanism identified ($D(x)$ partition concept), no formation-by-formation $D_{pre}/D_{Flood}/D_{post}$ assignment done, reef-accretion-rate claim unsourced.** Gated with ROADMAP item 3 (assign formations to phases, date-stamp the schema) — this is the same mechanical follow-through, applied to a finer partition.
+
 ## Radiometric interpretation — assumption captured 2026-08-17, not yet a belt commitment
 
 Until now this programme carried **no stated position on radiometric dating at all**, beyond using AMS radiocarbon's practical ceiling to anchor the creation-to-Fall gap above. That was a gap: the chronology partition above is incompatible with the standard model's absolute ages, and nothing in the belt said why.
@@ -64,6 +84,20 @@ JD's stated assumption (2026-08-17): the meteor swarm was **simultaneous**, its 
 **Captured, deliberately not promoted.** Full analysis with the mainstream counter-case stated at strength is in [`../../../dev-notes/20260817-radiometric-residuals-simultaneous-swarm.md`](../../../dev-notes/20260817-radiometric-residuals-simultaneous-swarm.md). Two problems block promotion. First, "similar" residuals explain why one event's products date *coherently* but cannot produce the column's *ordered* spread (Cambrian ~540 Ma to K-Pg ~66 Ma); similarity predicts a flat apparent-age profile, so an ordering mechanism is needed and none is stated. Second, excess argon is K-Ar/Ar-Ar specific and has no obvious purchase on U-Pb concordia, Rb-Sr, or Sm-Nd, while the column's framework rests substantially on agreement *between* systems that fail in unrelated ways.
 
 **What it does change here, immediately.** The three-boundary rejection recorded below was conducted using the standard model's stratigraphic assignments. If apparent ages are residual-derived, "above the boundary" does not mean "after the flood" in the sense that test assumed, and the rejection may be **mis-specified rather than correct**. That weakens the negative case further than the Oard & Klevberg field dispute alone did, and bears specifically on K-Pg — which is also where the Chicxulub-in-swarm commitment points (see [`../rheology/README.md`](../rheology/README.md) §F3 and [`../../../dev-notes/20260817-start-stop-energy-objection.md`](../../../dev-notes/20260817-start-stop-energy-objection.md)).
+
+### The broader question — DFM's $R_0$, not just excess argon (2026-08-18)
+
+`forbids: none` — the excess-argon material above remains a live, narrower candidate; this does not replace it, it names the larger question it sits inside. Full derivation in [`../../../dev-notes/20260818-dfm-boundary-conditions-gap-ledger.md`](../../../dev-notes/20260818-dfm-boundary-conditions-gap-ledger.md) §1.
+
+The programme's actual radiometric position, stated at the right altitude, is DFM's general formulation:
+
+$$R_{now} = F(R_0, \lambda, t, H)$$
+
+Functionally mature initialization (hard-core commitment 4) permits an initial isotopic state $R_0$ that need not have been produced by antecedent decay — which is also why this programme does not inherit accelerated decay's heat-generation problem, a different burden than the one this repo's own rheology gate carries. The research question this reframes to: can a coherent $R_0$, followed by ~50–60 ka pre-Flood history, Flood-year perturbation ($H$), and ~5–6 ka post-Flood history, reproduce the observed multi-system isotopic relationships — concordance across U-Pb, Pb-Pb, Rb-Sr, Sm-Nd, Lu-Hf, K-Ar/Ar-Ar and other systems with independent half-lives and different chemical behaviors. The discriminator is exactly what makes this hard: individually tuned $R_0$ per mineral or specimen is ad hoc; a compact initialization rule reproducing the relationships would not be. No constraint inventory across these systems exists.
+
+**Layering note.** $R_0$ itself belongs to DFM, not to this programme — see [`../../3.1-hypothesis/hard-core.md`](../../3.1-hypothesis/hard-core.md)'s third disclosure. This repo's stake in the question is narrower: whether the Flood-year term $H$ is consistent with whatever $R_0$-plus-history DFM eventually specifies, not deriving $R_0$.
+
+**State: candidate mechanism identified (DFM initialization hypothesis), multi-system quantitative formulation absent.** Not gated on this programme's own ROADMAP items — the $R_0$ inventory is DFM's work to schedule.
 
 ## Rhythmites in freshwater basins — refugia as depositional settings (JD, 2026-08-17)
 
@@ -88,6 +122,16 @@ JD's extension of the salinity-refugia mechanism ([`../water-ledger/README.md`](
 **A caution this programme's own appraisal requires.** With this addition the belt now carries proposed reinterpretations of **both** principal independent chronometers — radiometric ages as residuals (§Radiometric interpretation) and rhythmites as rapid laminae. Each is individually defensible and each is standard in the wider literature. But [`../../3.3-prediction/appraisal.md`](../../3.3-prediction/appraisal.md) lists among its degeneration markers "a moving target that's never pinned down is a programme that can't be wrong by construction," and a programme that accumulates a reinterpretation for every chronometer approaches exactly that shape. **This is not a reason to stop**, and reinterpreting a chronometer is legitimate belt work. It is a reason to prioritise ROADMAP item 3 — fixing and date-stamping a specific chronology partition as a recorded commitment — so the programme has something chronological that *can* be wrong. Recorded here as a live watch item, per the appraisal's own instruction to catch this pattern rather than to be surprised by it later.
 
 **Open.** Whether the pycnocline-trapping mechanism produces couplet *regularity* of the kind observed is unaddressed; spontaneous segregation (Berthault) and pulsed delivery both produce lamination, but the conventional case rests substantially on rhythmic regularity and its correlation with seasonal proxies. That is the specific thing this reading has to account for, and it has not been attempted.
+
+**Three-regime model, made explicit 2026-08-18** ([`../../../dev-notes/20260818-dfm-boundary-conditions-gap-ledger.md`](../../../dev-notes/20260818-dfm-boundary-conditions-gap-ledger.md) §5), applying the $G_{pre}/G_{Flood}/G_{post}$ partition above specifically to laminated sequences rather than leaving the reading above to imply every lamination needs a catastrophic account:
+
+$$L_{pre} = \text{genuine annual varves over tens of thousands of years}$$
+$$L_{Flood} = \text{rapid event/subannual rhythmites}$$
+$$L_{post} = \text{post-Flood annual/seasonal accumulation}$$
+
+**Why this is worth stating separately rather than leaving implicit:** it removes an unintended burden the reading above risked carrying — that this model needs a rapid-lamination account for laminated sequences generally. It does not. $L_{pre}$ can be conventional annual varves at no cost to the model, since it falls inside the ~50–60 ka pre-Flood window; only $L_{Flood}$ needs the rapid-deposition mechanism (Berthault, Mount St Helens, PPLC) developed above. This is a **narrowing** of the model's own claim, which cuts against rather than adds to the appraisal's moving-target concern (§A caution, above) — fewer chronometers need reinterpreting, not more.
+
+**The discriminator sharpens accordingly:** not "is this sequence annual" in the abstract, but whether a given sequence's independently-demonstrated annual-cycle count (seasonal proxies, cross-basin correlation) exceeds the chronology available to whichever regime — $L_{pre}$, $L_{Flood}$, or $L_{post}$ — this model's own $D(x)$ partition assigns it to. Testable sequence by sequence; a sharpening of the existing discriminator, not a new one.
 
 ## Trace fossils and bioturbation — this model's reading
 

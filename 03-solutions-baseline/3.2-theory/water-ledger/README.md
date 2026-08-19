@@ -55,4 +55,12 @@ JD's addition: the non-uniformity of the flood-water column (see [`../kinematics
 
 **Discriminator candidate, flagged not registered.** If freshwater refugia persisted *during* the catastrophe, freshwater and marine indicators should appear as **contemporaneous lateral facies** within flood-year strata. Ordinary historical geology explains freshwater/marine interfingering by transgression–regression cycles, i.e. as **time-separated** rather than coeval. The two accounts therefore differ on whether such juxtapositions are synchronous. Needs a defined sample, an operational test for contemporaneity that does not presuppose either chronology, and its failure condition fixed in advance. Gated like the rest of Tier 3.
 
+**Prediction sharpened, 2026-08-18** ([`../../../dev-notes/20260818-dfm-boundary-conditions-gap-ledger.md`](../../../dev-notes/20260818-dfm-boundary-conditions-gap-ledger.md) §6) — same mechanism, no new claim, but the single contemporaneity predicate above is restated as a correlated observable set. Global inundation under moving continental blocks, differential subsidence, large freshwater discharge, and changing basin connectivity does not imply instantaneous hydrological homogeneity:
+
+$$W(x,t) = f(D, S, T, Q, C, B)$$
+
+(depth, salinity, temperature, discharge, sediment concentration, basin connectivity, all varying continuously). A genuine refugium site should show several of the following **together**, which is a stronger test than any one alone: coherent freshwater ecosystems; independent low-salinity geochemistry; nearby or adjacent marine conditions; relatively abrupt environmental boundaries; evidence of temporary basin isolation. A site showing one of these in isolation is weaker evidence than one showing several jointly, since isolated instances are more easily explained by either account.
+
+**State: candidate mechanism identified, prediction sharpened; still not registered.** Gating unchanged — ROADMAP item 2 (motion-vector reconstruction) and a defined sample are still required before this clears discriminators.md's four conditions.
+
 **Source:** [`../../../research/GPT-hydrotectonic-flood-model.md`](../../../research/GPT-hydrotectonic-flood-model.md), lines ~285–464. The atmospheric-canopy term is new content, not in the source research. The salinity-refugia section is likewise new content, JD-directed 2026-08-17.

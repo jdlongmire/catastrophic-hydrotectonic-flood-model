@@ -1,0 +1,113 @@
+id: WP-HTF-0009
+title: DFM boundary-conditions gap ledger — capture conceptual middle-state across 8 domains
+status: done
+commitment: committed
+scope: >
+  A correspondence thread (external interlocutor, then JD directly) worked
+  through conceptual gaps the appraisal currently records as "nothing exists"
+  or "candidate only" — radiometric, ice cores, glaciation, stratigraphy,
+  varves, freshwater ecology, fossil succession, biology — plus a structural
+  point about where Hydrotectonic's explanatory burden actually stops.
+
+  This package captures that conceptual development into the repo, using a
+  three-state model JD supplied explicitly:
+
+    Gap -> Candidate mechanism identified -> Quantitatively tested
+
+  Several items move from the first state to the second. NONE move to the
+  third. That distinction is the entire point of this package: capture the
+  reframing without letting it read as empirical progress it is not.
+three_state_model: >
+  Gap: no stated position, or a position narrower than the actual research
+  question (radiometric was "K-Ar excess-argon candidate only," not the
+  general DFM R0 question; ice cores, glaciation's initial condition,
+  freshwater ecology's structural prediction, biology, and the coupled
+  ecological-hydraulic forward-model idea had no stated position at all).
+
+  Candidate mechanism identified: a structural architecture and a research
+  question are now stated precisely enough that a quantitative attempt could
+  in principle be scoped and run. This is where all 8 domains land in this
+  package.
+
+  Quantitatively tested: a calculation or data check has actually been run
+  against the stated question, with a declared failure condition, per
+  research-practices.md rule 1. This package does none of that. It is
+  entirely Tier 2 construction (rule 10) — forbids: none throughout.
+architecture_clarification: >
+  JD's layering point, captured because it changes what belongs in THIS
+  repo's ROADMAP versus a sibling programme's:
+
+    Methodological Designism
+      -> Designed Functional Maturity (DFM): initialization, chronology,
+         biological starting conditions
+      -> Hydrotectonic Programme (this repo): Flood mechanics, crustal
+         failure, continental displacement, hydrology, sediment transport
+      -> Post-Flood Recovery Models: glaciation/deglaciation relaxation,
+         tectonic relaxation, ecological radiation
+
+  Hydrotectonic should not independently re-derive DFM's R0, initial
+  biodiversity, the pre-Flood cryosphere, or the 50-60 ka chronology --
+  those are upstream boundary conditions supplied TO this model. This
+  repo's own job is narrower and harder: given those boundary conditions,
+  is the proposed catastrophic transition from the DFM initial/pre-Flood
+  state to the post-Flood state physically possible. hard-core.md already
+  disclosed the DFM import (commitment 4, second disclosure) without
+  stating the full downstream chain; this package makes it explicit and
+  uses it to sort which new ROADMAP items belong here versus upstream/
+  downstream.
+authority_boundary: >
+  Authorizes: capturing the thread as a dev-note; extending belt READMEs
+  (02-theory/) with forbids:none interpretive/structural content; sharpening
+  already-flagged discriminator candidates' prediction content; adding
+  ROADMAP items; extending hard-core.md's existing DFM-disclosure language
+  with the layering architecture (not a new hard-core commitment); logging
+  the appraisal.md entry.
+
+  Does NOT authorize: registering any new Tier 3 discriminator (the four
+  conditions in discriminators.md still require an evaluable, pre-registered
+  claim -- none of the 8 domains reach that here); changing the appraisal
+  verdict; running any computation (that is its own package, gated behind
+  ROADMAP item 1 same as the rest of Tier 3 except where separately noted
+  reachable); adding a new hard-core commitment (the DFM import is already
+  core via commitment 4 -- this package documents its scope, not its
+  existence).
+actions:
+  - Write dev-notes/20260818-dfm-boundary-conditions-gap-ledger.md as the
+    drafting record and full capture of the thread
+  - Extend hard-core.md's DFM disclosure with the four-tier architecture
+    and the resulting scope boundary
+  - Broaden 02-theory/stratigraphy/README.md radiometric section to the
+    DFM R0 multi-system question; add depositional-regime (G_pre/Flood/
+    post) content with the rate-calc illustration; extend the rhythmites
+    section with the three-regime varve model
+  - Create 02-theory/cryosphere/README.md (ice cores + glaciation initial
+    condition and the post-Flood ice-age energy-balance problem)
+  - Create 02-theory/biology/README.md (designed-diversity through
+    bottleneck-through-radiation architecture, scoped to what belongs here
+    vs. upstream/downstream)
+  - Extend 02-theory/water-ledger/README.md's freshwater-refugia section
+    with the sharpened discriminator prediction bullets
+  - Extend discriminators.md candidate 1 (ecological-province co-occurrence)
+    with the forward-model framing; cross-reference the sharpened freshwater
+    candidate
+  - Add new ROADMAP items, explicitly marking which belong to this
+    programme versus upstream (DFM) or downstream (Post-Flood Recovery)
+  - Log an appraisal.md entry stating the gap-ledger state changed while
+    the verdict did not
+  - Update dev-notes/README.md index; run linkcheck.py and
+    research-wrap.py before closing
+verification: >
+  Every new claim in the belt traces to this package's dev-note, not to
+  conversation. Every new/extended section carries forbids: none. The
+  appraisal verdict after this package still reads "unappraised, zero
+  discriminators evaluated" -- if it reads anything stronger, that is a
+  defect in this package's own execution, since nothing here was
+  quantitatively tested. linkcheck.py at 0 unresolved. research-wrap.py
+  passes (clean tree, attribution invariant, WP schema).
+disposition: done — JD requested this capture 2026-08-18, directing it be
+  pushed into the repo before further calculations proceed, "because
+  otherwise the programme's own appraisal is evaluating an older and
+  substantially narrower version of the model." All actions executed on
+  branch gap-ledger-dfm-boundary-conditions; linkcheck.py clean (296
+  links, 0 unresolved). Push to origin deferred pending JD's explicit
+  go-ahead per standing git discipline.
