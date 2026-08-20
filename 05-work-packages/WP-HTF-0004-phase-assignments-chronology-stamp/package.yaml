@@ -1,6 +1,6 @@
 id: WP-HTF-0004
 title: Phase assignments and chronology date-stamp — give the programme something that can be wrong
-status: proposed
+status: done
 commitment: committed
 scope: >
   ROADMAP item 3, raised in priority 2026-08-17. The phase schema landed that
@@ -43,4 +43,32 @@ verification: >
   awkwardness is recorded rather than smoothed — a schema that has never
   strained against a case has not been tested. The chronology values carry
   dates and a stated basis.
-disposition: open — highest-value non-research package; sequence after WP-0001
+disposition: >
+  CLOSED 2026-08-19 as PI-02 objective P1. Register landed at
+  03-solutions-baseline/3.2-theory/stratigraphy/phase-assignments.md with six
+  use-novel units (Tapeats, Coconino, Redwall nautiloid bed, Whopper Sand,
+  Peoria Loess, Green River), each citing a named schema criterion and a
+  published description. Chronology values date-stamped in stratigraphy/README.md
+  with basis and revision conditions -- PROPOSED, pending JD's ratification,
+  which the authority_boundary reserves to him.
+
+  TWO GENUINE STRAINS RECORDED RATHER THAN SMOOTHED, which is what the
+  verification clause demanded. (1) A5 Peoria Loess -- N2's ~700 yr commitment
+  yields ~8-9 m at the highest reported mass accumulation rate, against sections
+  exceeding 20 m. Open, not fatal, not resolved. (2) A6 Green River, the real
+  product of the pass -- this programme's OWN family is split on it (Oard &
+  Klevberg 2008 argue Flood; Austin, Brand, Whitmore, Wise, Whitmore & Garner
+  argue post-Flood lake), and both camps agree about the rock while disagreeing
+  about the phase. THE SCHEMA THEREFORE UNDER-DETERMINES THE UNIT. Recorded as a
+  limitation rather than repaired by adding a criterion after seeing the case,
+  which would violate rule 1.
+
+  HONEST SOURCING STATE: only A2 (Coconino) rests on a retrieved open-access
+  mainstream primary (Brand & Maithel 2021, Frontiers in Earth Science 9:723495,
+  confidence HIGH). The other five rest on search summaries and are labelled
+  MEDIUM or LOW. This is a first pass, not a sourced baseline. Four retrieval
+  failures logged per rule 13, including creation.com at HTTP 403.
+
+  NAMED RESIDUAL: A3 rests entirely on the creationist literature with no
+  independent mainstream description of that bed retrieved -- rule 8 cuts both
+  ways and this row does not yet satisfy it.

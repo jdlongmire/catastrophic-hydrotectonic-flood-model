@@ -2,11 +2,21 @@
 
 Belt content: which geological systems correspond to the pre-Fall interval, the Flood-year catastrophe, and post-Flood relaxation — and the specific durations assigned to each. **The most heavily revised part of the belt so far; see [`../../3.3-prediction/appraisal.md`](../../3.3-prediction/appraisal.md) for the full audit.**
 
-**Current chronology partition** (belt, calibrated, not core — see [`../../3.1-hypothesis/hard-core.md`](../../3.1-hypothesis/hard-core.md)):
+**Current chronology partition** (belt, calibrated, not core — see [`../../3.1-hypothesis/hard-core.md`](../../3.1-hypothesis/hard-core.md)).
 
-- Creation-to-Fall gap: ~50,000–60,000 years (estimate — creation itself read as a functionally mature deployment per DFM, hard-core commitment 4 — anchored to AMS radiocarbon's practical detection ceiling / calibration-saturation range, ~50–60 kyr, verified 2026-08-16, plus the Biblical premise of a real but unspecified-length gap)
-- Flood duration: ~1 year (reading of the Genesis narrative's internal day-counts)
-- Post-Flood relaxation: ~6,000 years (genealogical chronology) to present
+## Chronology values — date-stamped (`WP-HTF-0004`, 2026-08-19)
+
+**Status: PROPOSED, pending JD's ratification.** Date-stamping a value as a belt commitment is JD's call under the package's `authority_boundary` and rule 11; this table records the values, their basis and their revision conditions so that **any later change reads as a revision rather than a silent redraw.** That is the whole point of the stamp, and it is this programme's answer to its own degeneration marker: *"a moving target that's never pinned down is a programme that can't be wrong by construction."*
+
+| Value | Figure | Stamped | Basis | What would revise it |
+|---|---|---|---|---|
+| **Creation-to-Fall gap** | ~50,000–60,000 yr | 2026-08-19 (figure unchanged since 2026-08-16) | Two independent grounds, neither sufficient alone: the Biblical premise of a real but unspecified-length gap, and AMS radiocarbon's practical detection ceiling / calibration-saturation range at ~50–60 kyr (verified 2026-08-16). Creation itself read as functionally mature deployment per DFM, hard-core commitment 4 | A revision of the radiocarbon ceiling, or a DFM-side $R_0$ specification that constrains the interval independently. **Note the weakness:** the radiocarbon ceiling is a limit of the *method*, not a measurement of the gap, and the coincidence of the two figures is not itself evidence |
+| **Flood duration** | ~1 yr | 2026-08-19 (unchanged since stand-up) | Reading of the Genesis narrative's internal day-counts | Only a re-reading of the narrative. This is the value the mechanism is built around — F7/F8's fluxes, the 9–40 cm/s velocity and the $10^{25}$ J budget are all divided by it — so revising it revises most of the belt |
+| **Post-Flood relaxation** | ~6,000 yr | 2026-08-19 (unchanged since stand-up) | Genealogical chronology | A different genealogical reading. Contains N1 + N2 + N3, and **N2 is separately committed to ~700 yr** — see the strain that commitment takes in [`phase-assignments.md`](phase-assignments.md) row A5 |
+
+**The three are not equally exposed.** The Flood year and the post-Flood interval are read off a text and are stable by construction; the creation-to-Fall gap is the only one carrying an empirical anchor, and that anchor is the weakest of the three because a method's detection ceiling is not a measurement of the thing.
+
+**Assignments of actual formations to phases are in [`phase-assignments.md`](phase-assignments.md)**, kept separate so a unit can be moved without moving the schema.
 
 ## Phase schema — adopted 2026-08-17, replacing layer-as-chronometer terminology
 
