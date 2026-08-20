@@ -8,7 +8,9 @@
 
 Skeptical but fair — neither credulity nor reflexive contrarianism. **Steelman the claim, then press.** A *confirming* review is valid; a review that forces a label down or compels a retraction is a **successful** contribution, not an attack. Default to refuted/uncertain when evidence is thin.
 
-This programme's standing verdict is **unappraised, zero discriminators evaluated**. A review that lets that verdict drift upward without an evaluated discriminator has failed at its main job.
+This programme's standing verdict is **too early to appraise — no discriminator yet evaluated against data**. A review that lets that verdict drift upward without an evaluated discriminator has failed at its main job.
+
+**And the symmetric obligation, which is equally part of the job** ([`../../methods.md`](../../methods.md) rule 4a): a review that applies a metric to this programme which it does not also apply to the rival's account of the same evidence has failed in the other direction. Same standard *and* same freedom. Watch specifically for the hypothetico-deductive scorecard — grading on pre-registered forbidding content — which rule 24(d) demoted from gate to discipline when the genre was re-based as forensic. The live failure state is Cleland's, and it is sharper than "unfalsified": **is anyone searching for a trace that picks this hypothesis out from its named competitors?**
 
 ## Scope
 
