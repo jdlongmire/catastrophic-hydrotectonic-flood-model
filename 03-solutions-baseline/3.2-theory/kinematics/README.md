@@ -60,3 +60,13 @@ This is the lateral twin of the gap F9 already names on the vertical side ([`../
 **Not resolved here.** Establishing $h$ from detachment-zone and fault-core field literature is `WP-HTF-0012`'s first action, and the resulting band is a candidate *forbidding* claim — the mechanism would require thickness outside the hot band, falsifiable against measured thicknesses.
 
 **Source:** [`../../../research/GPT-hydrotectonic-flood-model.md`](../../../research/GPT-hydrotectonic-flood-model.md), lines ~27–127.
+
+## `WP-HTF-0012` first run — 2026-08-19, RESULT PENDING JD's RULING
+
+Code: [`code/gruntfest_detachment_stability.py`](code/gruntfest_detachment_stability.py). Deterministic, stdlib-only. Conditions F10–F13 fixed in the script header before the run, with the rule-1 integrity disclosure carried from the package (two prior scoping passes; clean pre-registration is *not* claimed).
+
+**Committed now for compaction-resilience, with no belt verdict written.** The run surfaced a result whose reading is not mine to settle — per [`research-practices.md`](../../../04-construct/methods.md) rule 11, it is reported to JD before being written down as a finding. Raw output stands in the script; the interpretation section below is deliberately empty pending that ruling.
+
+**What ran:** F10 Gruntfest number vs the Frank-Kamenetskii slab critical value; F11 peak temperature rise from the transient slab solution (series, not a `min()` of limiting cases); F12 the forbidding thickness band; F13 confrontation with ordinary fault displacement-thickness scaling per rule 4a.
+
+**Known specification problem, found on inspecting the output rather than before the run:** F10 applies a *stress-controlled* runaway criterion to a system this programme elsewhere treats as *energy-limited* (a fixed 10²⁵ J budget with a 5% friction allocation). Those are different boundary conditions and the verdict is sensitive to which one holds. Recorded here rather than quietly re-specified.
