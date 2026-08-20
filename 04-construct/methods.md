@@ -134,6 +134,26 @@ This section was written *before* the programme's first script existed, so the d
 
     **(e) Do not overclaim the precedent.** Cleland's example is the K-Pg impact, and this programme declares Chicxulub a swarm member — but iridium points to *an impact*, which both accounts accept, and discriminates on chronology not at all. The alignment supplies a methodological model for the kind of trace worth hunting, not evidential support. Citing it as support would be the rule 4a error in its most tempting form.
 
+25. **Name which kind of failure you are recording. Five things have been called "failure" and only one is a cost to the model.** (Added 2026-08-19, JD-directed: *"failure to discriminate is not model failure in my eyes."* He is right, and the conflation had become routine.)
+
+    | Kind | What it is | Cost to CHFM | Worked example in this repo |
+    |---|---|---|---|
+    | **F-a. Executor error** | The person or agent doing the work reasoned wrongly | **None.** Not a result at all | `U1`'s original "strong hydraulic sorting" justification — a criterion chosen to fit a conclusion already picked |
+    | **F-b. Criterion defect** | The model was *written down* wrong; the schema misstates what the mechanism predicts | **None, and it may cut either way** | F2's "strong hydraulic sorting" criterion, which appears to contradict the mechanism F2 describes. Correcting it would *improve* CHFM's fit |
+    | **F-c. Candidate non-discrimination** | A proposed trace turns out to be permitted by several hypotheses in the set | **None.** A result about the **test**, not the model | K-Pg ichnofabric (both accounts permit bioturbation); `U1`'s texture argument (absorbed by the wet-interdune and no-translation alternatives) |
+    | **F-d. Under-determination** | The available evidence is insufficient to decide between competitors | **None.** A result about the **evidence** | `U6` Green River — both camps agree about the rock and disagree about the phase |
+    | **F-e. Belt refutation** | A CHFM claim is **contradicted by evidence** | **This is the only one that is a cost** | — |
+
+    **The distinction that matters most, stated in the form that keeps getting lost.** *"This unit does not discriminate CHFM"* means **CHFM is not yet shown to be the better explanation.** It does **not** mean CHFM is shown to be worse. Those are different findings and collapsing them has been a recurring defect, not a one-off.
+
+    **What the hard core does and does not protect.** The Flood is hard-core commitment 3, immune *by decision*. So no `F-e` can ever reach it — belt refutations falsify claims about **mechanism, phase, rate and geometry**, never the event. That is legitimate Lakatosian structure and it is **per-instance, never cumulative**: if belt claim after belt claim took `F-e` while the core survived by successive retreats, the immunity would have become insulation, which is exactly what [`../03-solutions-baseline/3.3-prediction/appraisal.md`](../03-solutions-baseline/3.3-prediction/appraisal.md)'s degeneration markers exist to catch.
+
+    **The one real edge, so this rule is not read as a blanket amnesty.** A *single* `F-c` costs nothing. A **pattern** of `F-c` does cost something — not to the model, to the **search**. That is rule 24(c) and Cleland's named failure state: a belt that grows in coherence while nobody finds a discriminating trace becomes a just-so story however well-formed it is. **The exposure is evidential grounding, not refutation**, and the remedy is more and better-targeted searches, not defensive re-reading of the ones already run.
+
+    **Rule 4a bounds even that.** Mainstream historical geology's account of most *particular* formations is not discriminated against catastrophist alternatives either; it is held on other grounds. So *"CHFM has no discriminated units yet"* is a mark against CHFM **only if the same card is handed to the rival**, and it usually is not.
+
+    **The obligation.** Any entry in [`../03-solutions-baseline/3.3-prediction/appraisal.md`](../03-solutions-baseline/3.3-prediction/appraisal.md), [`../03-solutions-baseline/3.3-prediction/discriminators.md`](../03-solutions-baseline/3.3-prediction/discriminators.md) or the unit register that records a failure **names its kind**. An entry that says only "failed" is incomplete, because the reader cannot tell whether the model lost anything. This applies to the rival's failures too, per rule 4a — the Baumgardner cold-slab grading is an `F-c`-adjacent result about *his* candidate, not a refutation of CPT as a model, and should not be reported as one.
+
 ## GitHub-safe math (for any derivations in prose)
 
 - `\mathrm`, not `\operatorname`.
