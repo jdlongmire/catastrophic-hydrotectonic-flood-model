@@ -1,6 +1,6 @@
 id: WP-HTF-0012
 title: Gruntfest thermal-stability check on the lateral detachment — component harvest, not model adoption
-status: proposed
+status: done
 commitment: stretch
 scope: >
   JD's framing correction, 2026-08-19: the objective is to harvest separable
@@ -97,7 +97,17 @@ verification: >
   Closing condition: dev-notes/20260816-heat-problem-clarification.md moves off
   "open" with its section 2 pushback either upheld or corrected in writing.
 disposition: >
-  open, seeded 2026-08-19. Reachable now, blocked on nothing — the only input
-  needed is a literature-sourced shear-zone thickness range. Alongside
-  WP-HTF-0011 this makes two unblocked packages, where before 2026-08-19 the
-  programme had none that were not gated or paywalled.
+  CLOSED 2026-08-19. JD ruled the detachment energy-limited, not stress-controlled,
+  so F10's stress-controlled Gruntfest criterion is re-specified rather than read as
+  a failure. F11 PASS (peak 150 K vs ~900 K solidus margin, no melting at any
+  thickness). F12 delivered the forbidding band: h <= 3.55 m OR h >= 17.8 m for
+  dT <= 100 K. F13 recorded as a confrontation both accounts owe. Closes
+  dev-notes/20260816-heat-problem-clarification.md. Named residual: the
+  duration-coupled case, where self-acceleration shortens the event and raises flux,
+  is NOT computed. Seeded and closed the same day.
+
+  Shear-zone thickness, the load-bearing input, is carried at MEDIUM confidence:
+  the fault-zone field literature gives principal slip zones <1-5 mm, incremental
+  trench slip "tens of cm or less", fault cores mm to several m. Primary NOT
+  retrieved — Torabi & Berg (2011) and Torabi et al. (2019, Geofluids 2918673)
+  both returned HTTP 402 on every mirror, same blocker class as Lee 2021.

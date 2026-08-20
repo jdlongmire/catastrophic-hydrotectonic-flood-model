@@ -1,6 +1,6 @@
 # Discriminators — the critical path
 
-> **Tier 3.** This directory holds claims that *forbid* something. **None has yet been evaluated against data.** This file states what a discriminator would have to look like here, names the eight candidates and one checked-and-rejected casualty, and names the gate most of them sit behind. **Two candidates are not gated on ROADMAP items 1–3 and are therefore the nearest reachable evaluations: candidate 8 (transverse drainage), blocked on a Cloudflare-gated paywall requiring a human browser session, and — as of 2026-08-19 — candidate 4 (seismic texture discontinuity), which now has a named public dataset and a seeded package (`WP-HTF-0011`) and is blocked on nothing.**
+> **Tier 3.** This directory holds claims that *forbid* something. **Two exclusions are registered (E1, E2, 2026-08-19); no smoking-gun discriminator has yet been evaluated against data.** This file states what a discriminator would have to look like here, names the eight candidates and one checked-and-rejected casualty, and names the gate most of them sit behind. **Two candidates are not gated on ROADMAP items 1–3 and are therefore the nearest reachable evaluations: candidate 8 (transverse drainage), blocked on a Cloudflare-gated paywall requiring a human browser session, and — as of 2026-08-19 — candidate 4 (seismic texture discontinuity), which now has a named public dataset and a seeded package (`WP-HTF-0011`) and is blocked on nothing.**
 
 ## Why this is the critical path
 
@@ -28,6 +28,55 @@ The belt (kinematics, rheology, water ledger, stratigraphy) can all be built out
 
 Nothing below is reachable in a way that survives scrutiny until the programme can show that transient mantle viscosity in the 10¹³–10¹⁴ Pa·s range is physically achievable during the catastrophic interval, via some quantified combination of water-weakening and thermal feedback — or concedes it isn't, which would itself be a real result. Every kinematic claim in the initial research (continental velocities ~10⁻¹ m/s, slab descent to transition-zone depths within the Flood year) is conditioned on this. Checked against current geodynamic literature (2026-08-16), and against the model's own specified mechanism (water content in ringwoodite/wadsleyite, not partial melt): the largest documented water-specific viscosity reduction on the correct mineral (Fei et al. 2017, ~3.5 orders of magnitude, anhydrous→water-saturated ringwoodite) narrows the gap from a standard transition-zone baseline to roughly 3–4 orders of magnitude short of the requirement — down from the 5–6 orders found when the requirement was compared against an unrelated partial-melt floor (~10¹⁹ Pa·s). See [`../3.2-theory/rheology/README.md`](../3.2-theory/rheology/README.md) and [`../../dev-notes/20260816-water-weakening-mechanism.md`](../../dev-notes/20260816-water-weakening-mechanism.md). This is not a preliminary to the discriminator hunt. It is the discriminator hunt, stated precisely: a real, correctly-targeted mechanism narrows the gap; whether the remaining 3–4 orders can be reached — via thermal feedback, strain-rate localization, or an effect not yet in the literature — is still what determines whether the programme's core mechanism is physically excluded, regardless of how the stratigraphy comes out.
 
+## REGISTERED — exclusions, 2026-08-19
+
+**The first entries on this page to move from candidate to registered.** Both were derived before the forensic re-base gave them a category; registering them completes that change rather than lowering a bar to admit them. Both are **exclusions** — results that rule a mechanism *out* — which forensic practice holds as securely as identifications ([`research-practices.md`](../../04-construct/methods.md) rule 24b).
+
+Neither is registered as favouring this programme over deep-time geology. **Both discriminate *within* the Flood-model family**, and both bind this programme as hard as its rivals. That is stated first because it is the limit of what they establish.
+
+### E1. The vapor ceiling — no vapor-mediated mechanism supplies the 40-day rain
+
+**The claim.** Condensation releases $L_v = 2.26\times10^6$ J/kg, which must be radiated to space. At the runaway-greenhouse ceiling already used by F7/F8 (280–310 W/m²), 40 days permits $\sim1.04\times10^9$ J/m², buying **≈459 kg/m², about 0.46 m of rain in total**. Any mechanism delivering the bulk of a 40-day global deluge *as condensed vapor* exceeds the planet's radiative capacity.
+
+**Competing-hypothesis set** (rule 24a — the claim is defined relative to this set, not against "the rival" as a monolith):
+
+| Hypothesis | Verdict under E1 |
+|---|---|
+| Pre-Flood vapor canopy collapse (Whitcomb-Morris lineage; Vardiman's modelling) | **Excluded** as bulk source |
+| CPT supersonic steam jets (Baumgardner 2003) | **Excluded** as bulk source — and independently on an enthalpy ceiling, see E2 |
+| Impact-lofted liquid seawater (this programme, 2026-08-19) | **Survives** — ballistic lofting never enters the vapor phase, so the ceiling does not apply |
+| Ordinary meteorological precipitation | Not in scope; makes no 40-day global-deluge claim |
+
+**What it forbids.** A vapor-dominated precipitation mechanism, for *any* Flood account including this one. This programme is not exempt: were its own impact-lofting mechanism to turn out vapor-dominated once `WP-HTF-0013` sources the coupling, E1 would exclude it too.
+
+**Evidential basis.** Latent heat and the Simpson-Nakajima radiative limit are **measurements**, not historical inferences (rule 23a). The 40-day duration is a **historical premise** taken from the account under test. So E1 is properly read as: *given a 40-day global deluge, the vapor route cannot supply it.* Confidence **MEDIUM** on the ceiling value — the 280–310 W/m² range is disputed and not independently retrieved in primary this session.
+
+**Independently corroborated by the rival.** Baumgardner (2003) reaches the same conclusion against his own field: *"explanations that involve the condensation of water vapor fail because, even assuming ideal black body conditions, radiation is incapable of removing the latent heat of condensation to space at a sufficient rate."* A constraint both sides derive independently is stronger than one only this programme asserts.
+
+### E2. The enthalpy ceiling — steam jets cannot reach escape velocity
+
+**The claim.** A nozzle converts at most the working fluid's specific enthalpy into directed kinetic energy, $v_{max} = \sqrt{2h}$. Steam at 1500–3000 K carries $h \approx 4.5$–$7.5\times10^6$ J/kg, giving $v_{max} \approx$ **3.0–3.9 km/s**. Earth escape velocity requires $6.3\times10^7$ J/kg; the 14 km/s figure CPT's cooling mechanism specifies requires $9.8\times10^7$ J/kg — **an order of magnitude more energy per kilogram than the steam contains**.
+
+**Competing-hypothesis set:**
+
+| Hypothesis | Verdict under E2 |
+|---|---|
+| CPT lithospheric cooling via steam jets escaping to space (Baumgardner 2003) | **Excluded** |
+| CPT cooling by some other route | Untouched — E2 excludes the jet mechanism, not CPT itself |
+| This programme's lateral heat removal (F7/F8, radiative) | Untouched — different mechanism, does not rely on escape-velocity ejection |
+
+**What it forbids.** Escape-velocity steam ejection as a heat-disposal route. Secondarily it bears on water inventory: the mechanism as specified requires 1000–1500 m of seawater lost to space, **27–41% of the present ocean**.
+
+**Evidential basis.** Specific enthalpy and the de Laval relation are **measurements and analysis**, carrying no historical premise at all — E2 is the more securely grounded of the two. Baumgardner's own internal arithmetic was reproduced exactly ($9.8\times10^7$ J/kg, 138 kg of rock cooled per kg of steam), so the failure is located in the mechanism rather than in his algebra. Confidence **HIGH**.
+
+**Stated plainly, because it cuts toward this programme:** E2 excludes a *rival's* mechanism, which is the easiest kind of result to overvalue. It establishes nothing positive about hydrotectonics. Its actual worth here is that it shows this programme never needed the component — its own impact-lofting route covers the same function, and is observationally anchored rather than proposed, since Chicxulub is a declared swarm member.
+
+### What registering these does and does not change
+
+**Does:** the programme now holds two registered claims that forbid something, where it previously held none. Both bind it as well as its rivals. Both are checkable by anyone from stated constants.
+
+**Does not:** move the appraisal verdict. Neither is a *smoking gun* in Cleland's sense — neither picks this programme out from its competitors as the better causal explanation of an observed trace. They narrow the live hypothesis set, which is real forensic work and is what eliminative method looks like early, but **no discriminator has yet been evaluated against data.** The verdict stands at too-early-to-appraise.
+
 ## Re-scored under the forensic criteria, 2026-08-19
 
 Done in the same pass as the re-base, so the new standard is applied to the existing candidates rather than only to future ones.
@@ -47,6 +96,8 @@ Done in the same pass as the re-base, so the new standard is applied to the exis
 
 ### 1. Ecological-province co-occurrence → stratigraphic co-occurrence
 
+**Competing-hypothesis set (rule 24a, added 2026-08-19).** (a) Temporal succession — ordinary historical geology: co-occurrence tracks *when* taxa lived. (b) Hydraulic sorting — the older creationist account, including Whitcomb-Morris: co-occurrence tracks body density, shape and settling velocity. (c) **Ecological-province destruction order — this programme:** co-occurrence tracks pre-catastrophic *geography*. (d) Preservation/facies bias — a null: co-occurrence tracks depositional environment rather than any of the above. **Discriminating content lives in (c) vs (a) and (c) vs (b) separately**, and (d) must be controlled for or it explains any result. Note this candidate discriminates against a *creationist* rival as much as against deep time — hydraulic sorting is the account this programme displaces.
+
 The initial research's strongest candidate. If stratigraphic ordering is produced primarily by progressive geographic destruction of ecological provinces — rather than hydrodynamic sorting, or, on the rival account, temporal succession — then taxa that co-occurred geographically/ecologically before the catastrophe should co-occur stratigraphically more often than taxa separated by habitat geography, controlling for transport and preservation. This has real discriminating content: ordinary historical geology's explanation for stratigraphic ordering is temporal succession, not geographic-province destruction order, so the two accounts make different structural predictions about *which* co-occurrences should be strong. Needs: an operational definition of "ecological province" from the pre-catastrophic record, a defined statistical test, and the failure condition (what co-occurrence pattern would falsify it) written down before the formations are checked.
 
 **Forward-model framing added, 2026-08-18** ([`../../dev-notes/20260818-dfm-boundary-conditions-gap-ledger.md`](../../dev-notes/20260818-dfm-boundary-conditions-gap-ledger.md) §7) — sharpens *how* this candidate should eventually be tested, not what it claims. The full multivariate sorting function this candidate implies, stated explicitly:
@@ -56,6 +107,8 @@ $$R_f = f(E_c, H, Q, S, \rho, B, v, t)$$
 (initial ecological province, habitat, discharge, salinity, density, basin geometry, transport velocity, time). The addition worth recording is the **method**: start with a plausible pre-Flood ecological geography, impose the modeled catastrophe, and ask what fossil distribution results — a forward model with a real failure mode — rather than starting from the observed column and constructing a sorting explanation for it after the fact, which is retrodiction by construction regardless of how many variables the function carries. This is a substantially larger undertaking than anything else gated behind ROADMAP items 1–3: it needs the Euler-pole reconstruction (ROADMAP item 2), the hydraulic-coupling magnitude [`../3.2-theory/kinematics/README.md`](../3.2-theory/kinematics/README.md) leaves undetermined, and an actual ecological-province map, none of which exist. Not a new candidate — an addendum to how this one would eventually be run.
 
 ### 2. Cross-basin coherent propagation front
+
+**Competing-hypothesis set (rule 24a, added 2026-08-19).** (a) Independent basin histories — ordinary historical geology: onsets are unrelated and scatter across the age of each basin. (b) A single global synchronous boundary — the older creationist position, still held by parts of the field. (c) **One diachronous propagation front — this programme:** onsets are geographically ordered and ~1-year-bounded. The test separates (c) from (a) *and* from (b), and (b) is the more demanding comparison, since this programme's own phase schema abandoned a fixed global boundary after three failed candidate horizons.
 
 The initial research's own proposed "next decisive analysis": strip ages from several well-characterized basins on different continents, identify the last persistent pre-catastrophic surface and the onset of high-energy catastrophic sedimentation in each, and test whether the onsets compose into one geographically coherent, ~1-year-bounded propagation field. Currently zero specified content — no candidate geometry, no proposed initiating location committed to beyond "maybe Chicxulub, maybe not." Promotion to a real discriminator requires actually proposing a geometry and a rule for what a basin's data would have to show to break it, before checking basins against it.
 
@@ -81,15 +134,21 @@ If lateral translation was hydroplaning-driven and confined to the shallow litho
 
 ### 5. Fluid-dominated detachment fabric — 2026-08-16, ported
 
+**Competing-hypothesis set (rule 24a, added 2026-08-19).** (a) Ordinary tectonic exhumation over geological time — pseudotachylite present, generated episodically at seismic slip rates. (b) Dry catastrophic sliding — sustained high friction, so pseudotachylite abundant. (c) **Terzaghi-collapsed hydroplaning — this programme:** fluid-related fabrics dominant, pseudotachylite scarce because friction collapsed. (b) is the sharpest comparison and is *within* the catastrophist family: a dry fast-sliding account and a fluid-lubricated one predict opposite fabrics for the same horizon.
+
 Large-scale detachment horizons should show predominantly fluid-related fabrics with minimal pseudotachylite (frictional melt) — expected under near-lithostatic pore pressure (friction collapsed, so little frictional heating to produce melt). The rival account (ordinary tectonics, or a dry catastrophic-friction model) predicts the opposite: significant pseudotachylite from sustained high-friction sliding. Not yet checked against field exposures.
 
 ### 6. Basin-margin megabreccia signature — 2026-08-16, ported
+
+**Competing-hypothesis set (rule 24a, added 2026-08-19).** (a) Slow accumulation with episodic mass-wasting — ordinary geology: megabreccia present but localized, texturally mature, single-lithology dominated. (b) Seismite/tsunamite generation without continental translation — a catastrophist account that does not require hydroplaning. (c) **Hydroplaning-driven emplacement — this programme:** multi-lithology mixing, fluid-flow textures, rapid emplacement at basin boundaries specifically. (b) is the load-bearing comparison, since it produces catastrophic deposits without this programme's mechanism and must be separated from (c) by something other than "the deposit looks violent."
 
 Chaotic megabreccia at basin boundaries with multi-lithology mixing, fluid-flow textures, and rapid-emplacement signatures — a specific depositional signature distinguishing rapid hydroplaning-driven emplacement from slow accumulation. Not yet checked against a defined sample of basin margins.
 
 **Confidence on 4–6:** these are stated as candidate discriminators in the source document with real `forbids` content, but none has been run against actual data yet — same status as discriminators 1–3 above (real candidates, unevaluated).
 
 ### 7. PPLC signature — penecontemporaneous lithification interleaved with bioturbated horizons (2026-08-17)
+
+**Competing-hypothesis set (rule 24a, added 2026-08-19).** (a) Prolonged accumulation at low sedimentation rates — ordinary geology: no reason to expect early-cementation surfaces at the predicted spacing. (b) Rapid burial without lithification fronts — the simpler catastrophist account: fast deposition, but no mechanism for simultaneous bioturbation of superposed horizons. (c) **PPLC as Woodmorappe proposes it** — episodic lithification alternating with deposition, mechanism unspecified. (d) **PPLC with this programme's mechanism:** hydroplaning under near-lithostatic pore pressure is inherently episodic at local scale, supplying the required alternation. (c) and (d) predict the same fabric, so this candidate discriminates (c)+(d) from (a) and (b), and does **not** discriminate this programme from Woodmorappe's general treatment — a limit worth stating rather than discovering later.
 
 Emerged from folding Woodmorappe (2006) into this model's framing (see [`../3.2-theory/stratigraphy/README.md`](../3.2-theory/stratigraphy/README.md) §Trace fossils). His Penecontemporaneous Partially Lithified Crusts hypothesis holds that zones of rapid lithification alternated with Flood deposition, shielding buried organisms from overburden and allowing *simultaneous* bioturbation of multiple superposed horizons rather than one at a time.
 

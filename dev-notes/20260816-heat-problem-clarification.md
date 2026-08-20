@@ -1,6 +1,6 @@
 # Heat problem clarification
 
-**Status: open, but the resolution path is now defined.** Pending JD's answer on which problem he meant. Not yet promoted anywhere.
+**Status: CLOSED 2026-08-19 by `WP-HTF-0012`.** §2's pushback is **upheld on volumetric dissipation and overturned on temperature** — $\Delta T$ falls linearly with thinning at fixed surface flux, so localization genuinely helps rather than merely relocating the problem. Peak rise across the full sourced thickness range is 150 K against a ~900 K solidus margin: **no thickness melts**. Verdict and residuals in [`../03-solutions-baseline/3.2-theory/kinematics/README.md`](../03-solutions-baseline/3.2-theory/kinematics/README.md) §`WP-HTF-0012`.
 
 > **Update 2026-08-19 — §2's pushback is half right, and the wrong half is the conclusion.**
 > §2 below argues that "concentrating the same total displacement work into a smaller volume doesn't
