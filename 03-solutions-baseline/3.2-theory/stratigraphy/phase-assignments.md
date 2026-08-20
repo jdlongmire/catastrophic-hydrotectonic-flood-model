@@ -19,7 +19,7 @@ The schema states that standard-column names are **locational shorthand and neve
 | # | Unit | Walker axis | Hydrotectonic axis | Criterion satisfied | Confidence |
 |---|---|---|---|---|---|
 | A1 | Tapeats Sandstone (Grand Canyon, AZ) | Eruptive → Ascending | **F1 → F2** | "Initial failure surfaces; onset of high-energy sedimentation" + "coherent large-scale paleocurrents" | MEDIUM |
-| A2 | Coconino Sandstone (northern AZ) | Ascending | **F2** | "Strong hydraulic sorting"; fluid-involved deformation | MEDIUM-HIGH |
+| A2 | Coconino Sandstone (northern AZ) | Ascending | **F2** | "Coherent large-scale paleocurrents" — **corrected 2026-08-19; the original "strong hydraulic sorting" justification failed** | **LOW-MEDIUM** |
 | A3 | Redwall Limestone nautiloid bed (AZ/NV) | Zenithic | **F2 → F3** | "Maximum-extent marine indicators" | MEDIUM |
 | A4 | "Whopper Sand", deepwater Wilcox-equivalent (Gulf of Mexico) | Abative | **F3** | "Sheet-flow deposits" off a submerged surface | MEDIUM |
 | A5 | Peoria Loess (US midcontinent) | — (post-Flood) | **N2** | "Loess" | **LOW — strains, see below** |
@@ -49,7 +49,17 @@ The schema states that standard-column names are **locational shorthand and neve
 
 **The deformation inventory.** Brand & Maithel documented 77 individual folds or ridges (2–10 cm wide, 20 cm to 10 m long), 32 complex folds, 18 groups of rotated blocks, 2 metre-scale monoclinal folds, 14 groups of conical pits, and 1 convoluted bedding zone. They propose **liquidization** as the mechanism and **seismic events** as a trigger, and state that **"more water was present during Coconino SS deposition than previously recognized."**
 
-**Why this assignment.** *Strong hydraulic sorting* (F2) is satisfied by the quartz purity and grain-size uniformity. The deformation inventory is the more interesting half: **liquidization requires elevated pore-fluid pressure in a saturated granular mass**, which is the same physical state this programme's mechanism requires at the detachment (Terzaghi collapse, near-lithostatic $\lambda$). A unit whose own mainstream description invokes pore-fluid liquidization is a natural F2 host.
+**Why this assignment — CORRECTED 2026-08-19, same day, JD-flagged (*"I'm not following you on Coconino"*). The original justification was wrong and is retained here per rule 6.**
+
+> **Withdrawn:** *"Strong hydraulic sorting (F2) is satisfied by the quartz purity and grain-size uniformity."*
+>
+> **Why it fails.** It conflates **compositional maturity** (quartz percentage) with **textural sorting** (grain-size distribution). These are different measures and only the second is what the criterion asks for. And the textural data run the *other way*: **Whitmore, J.H., Strom, R., Cheung, S. & Garner, P. (2014), "The Petrology of the Coconino Sandstone (Permian), Arizona, USA," *Answers Research Journal* 7:499–532** measured sorting at **0.61–0.94 Φ standard deviation** — moderately to very poorly sorted — grains **sub-angular to sub-rounded**, K-feldspar **up to 18%**, muscovite in nearly every thin section, and conclude that *"the Coconino should not be characterized as 'well-sorted'."*
+>
+> **The incoherence, which is the worse half.** *"Fine-grained, well-sorted, rounded"* is the **mainstream eolian** description (McKee; Middleton, Elliott & Morales 2003). The original row leaned on the creationist petrology to argue subaqueous deposition **while claiming a criterion only the mainstream description supports** — taking the convenient half of each literature. That is precisely the failure rules 3, 4 and 4a exist to prevent, committed while writing a register whose stated purpose is to be checkable.
+
+**Surviving justification: *coherent large-scale paleocurrents* (F2), not sorting.** The Coconino's transport-direction consistency across its outcrop belt is the criterion this unit plausibly satisfies. **It is not sourced in this pass** — no specific paleocurrent dataset was retrieved — so the row is carried at reduced confidence with that retrieval named as outstanding work.
+
+**The deformation inventory is suggestive, not load-bearing, and the original row overstated it.** Liquidization does require elevated pore-fluid pressure in a saturated granular mass, which is formally the same state the programme's mechanism requires at the detachment. But the **scale and setting differ by orders of magnitude** — centimetre-to-metre soft-sediment structures in a surface sand body against Terzaghi collapse at a 15 km detachment in crystalline crust. Sharing "elevated pore pressure" is a weak link, and presenting it as convergent support was reaching.
 
 **Rival at strength, and the overclaim to avoid (rule 4).** The paper's own framing is that the Coconino is **"commonly interpreted as a dry, eolian environment"** and the authors propose seismic influence *within* that interpretation. They do **not** propose a flood, and reading their liquidization mechanism as support for a global catastrophe is not what they argue. Note also that both authors are affiliated with a creation-friendly institution while publishing in a mainstream venue — which is worth stating in either direction rather than only when convenient.
 
@@ -125,6 +135,26 @@ The schema states that standard-column names are **locational shorthand and neve
 **The finding about the schema itself, which is the real product of this row.** The schema's criteria are stated in terms of *depositional signature*. Green River's signature is lacustrine and rapidly laminated under **both** readings — the two camps agree about the rock and disagree about the phase. **So the schema, as written, under-determines this unit.** That is a genuine limitation surfaced by testing it against a hard case rather than an easy one, and it is the kind of thing rule 24a's hypothesis-set discipline exists to expose. It is recorded here rather than repaired by adding a criterion after seeing the case, which would be exactly the rule 1 violation the programme forbids.
 
 ---
+
+## FLAGGED TO JD — a possible defect in the schema itself, surfaced not acted on (rule 11)
+
+**The A2 correction above exposed something larger than one bad row, and it is a schema question, so it is JD's.** Per the schema's own discipline, *"moving one unit is a local correction, moving the schema is a belt revision logged in the appraisal."* The A2 fix was a local correction and was made. This is not, and was not.
+
+**The question: is *"strong hydraulic sorting"* the right F2 criterion for this programme's own mechanism?**
+
+F2 is *peak translation* — hydroplaning at 9–40 cm/s over a moving bed, under near-lithostatic pore pressure. But **well-sorted sediment is characteristically the product of prolonged, low-concentration, repeated-winnowing transport** — beach and dune settings, wind, long residence. **High-concentration, rapid, mass-flow transport characteristically produces *poorer* sorting**, because grains are supported en masse and never winnowed.
+
+If that is right, then an F2 criterion demanding *strong hydraulic sorting* is **selecting against the very mechanism F2 describes** — and the Coconino case is the illustration. Whitmore et al.'s poor-sorting result is standardly read as an argument *against* the eolian interpretation and *for* rapid subaqueous deposition. Under the criterion as currently written, that same result counts as **failing** F2. The criterion and the mechanism point in opposite directions.
+
+**Three things to weigh before touching it, because the case is not one-sided:**
+
+1. The founding research does invoke **hydraulic sorting** as this programme's account of stratigraphic ordering, and discriminator candidate 1's hypothesis set names hydraulic sorting as the *rival creationist* account this programme displaces. So "sorting" already carries a specific, contested meaning in the belt, and a schema criterion using the same words for a different thing is a live equivocation — an Aristotelian defect independent of which reading is right.
+2. **Sorting is a continuum, not a binary**, and mass-flow deposits are not uniformly poorly sorted; some traction-dominated regimes at the base of high-energy flows do sort well. A blanket "catastrophic implies poorly sorted" would be as wrong as the current criterion may be.
+3. Changing a criterion **after seeing a case fail it** is exactly the rule 1 violation this programme forbids, and the appearance is bad regardless of merit. If it changes, the reasoning must stand on the mechanism's own physics, argued independently of the Coconino, and be logged as a belt revision.
+
+**Recommended, if JD wants it pursued:** treat it as its own small package rather than an edit here — state what grain-size distribution the F2 mechanism actually predicts, from the mechanism, before looking at any formation. That ordering is what keeps it from being an accommodation.
+
+**Until then the criterion stands as written and A2 is carried on paleocurrents alone.**
 
 ## Retrieval failures (rule 13)
 
