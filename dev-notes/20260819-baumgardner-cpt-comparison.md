@@ -89,7 +89,9 @@ genuinely novel item is whole-mantle slab penetration through the 660 km discont
 himself co-authored in the mainstream literature on it. **Shared corroboration, not discriminating
 corroboration**, which by this programme's own standard contributes nothing to progressiveness.
 
-**Condition 2 (the rival permits it) — fails outright, on a one-line calculation.** Slab thermal
+**Condition 2 (the rival permits it) — fails, and the framing below needs one correction stated first.**
+
+> **Rule 23b correction, 2026-08-19.** The paragraph that follows originally read as though the thermal-diffusion calculation *observationally refuted* Baumgardner. It does not, and cannot. The sinking rate (1–5 cm/yr) and the transit duration (58–289 Myr) are the rival's **reconstruction**, not readings off an instrument — what is observed is seismic wave speed. What the calculation legitimately shows is that **the rival's own account accommodates cold lower-mantle slabs**, which is exactly what condition 2 asks and is sufficient to fail the candidate. The verdict stands; the epistemic framing did not. Corrected forward per rule 6 rather than rewritten. Slab thermal
 equilibration is $\tau \approx L^2/\kappa$. At $\kappa = 10^{-6}$ m²/s a 100 km slab stays thermally
 distinct for **79 Myr**, a 200 km slab for **317 Myr**. Whole-mantle transit at ordinary 1–5 cm/yr
 sinking rates takes **58–289 Myr**. The slab arrives at the core-mantle boundary still cold *under

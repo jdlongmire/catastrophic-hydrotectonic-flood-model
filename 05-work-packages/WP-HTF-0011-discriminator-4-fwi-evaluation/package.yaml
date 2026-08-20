@@ -56,6 +56,15 @@ actions:
     the single most likely reason the package returns outcome (c), and it is
     cheaper to establish first than to discover after a 19 GB download.
     If it does not support the test, name the model that would and stop.
+  - RULE 23c GATE, ordered before any texture claim is made. Tomography is an
+    INVERSION, not an observation - regularised, model-dependent, non-unique,
+    with waveform data as the actual observable. Establish that any discontinuity
+    found survives the inversion's own damping and parameterisation before it
+    counts as a result either way. A discontinuity that tracks the model's
+    regularisation scale rather than the Earth refutes nothing and confirms
+    nothing. Same caveat applies to the rival's reading of the same model, per
+    rule 4a. If this cannot be established, that IS outcome (c) and the package
+    closes there.
   - Define "texture discontinuity" operationally before measuring it - what
     statistic on the velocity field (lateral heterogeneity spectrum, gradient
     magnitude, correlation length as a function of depth) is being tested, and
