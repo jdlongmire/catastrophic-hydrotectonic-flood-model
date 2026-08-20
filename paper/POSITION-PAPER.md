@@ -40,9 +40,9 @@ Every prior version of catastrophic plate tectonics has foundered on the same co
 
 ## 3. Mechanism I: Hydroplaning (Lateral Translation)
 
-![Hydrotectonic breakup sequence and continental positions through time](../assets/images/continental-shift-cropped.png)
+![Hydrotectonic breakup sequence and continental positions through time](../assets/images/hydrotectonic-breakup-sequence.png)
 
-**Figure 3.** The proposed breakup sequence (pre-impact supercontinent through post-catastrophic relaxation) and continental positions through time. Cropped from the source infographic to exclude its displacement-statistics panel, which stated a plate-velocity figure (~0.01 to 0.1 m/s) inconsistent both with this programme's own kinematics figure (9 to 40 cm/s) and with the internal inconsistency documented in Section 3.4; the uncropped original and the discrepancy are recorded in `04-visualization-assets/images/README.md`. The displacement distances shown elsewhere in the source infographic (2,000 to 6,000 km average, 8,000 to 12,000+ km maximum) are not affected and are consistent with the kinematics literature. Illustrative of sequence and geometry only; not a validated plate-motion reconstruction (Section 3.4).
+**Figure 3.** The proposed breakup sequence (pre-impact supercontinent through post-catastrophic relaxation) and continental positions through time. Revised 2026-08-19; supersedes the earlier `continental-shift` pair, now archived. The revision names the supercontinent Pangaea per the naming decision of the same date, and states plate velocity as an order of magnitude (centimetres to decimetres per second) rather than as the hard range that conflicted with this programme's own kinematics figure of 9 to 40 cm/s. Two residual mismatches are recorded rather than absorbed: the trigger is drawn as a single impact where the model commits to a swarm, and one panel reads "pore pressure exceeds lithostatic stress" where the derived requirement is a pore-pressure ratio just below unity. Full audit in `assets/images/README.md`. Illustrative of sequence and geometry only; not a validated plate-motion reconstruction (Section 3.4), and the subduction it depicts is subject to the unresolved rheology gate.
 
 ### 3.1 Principle
 
