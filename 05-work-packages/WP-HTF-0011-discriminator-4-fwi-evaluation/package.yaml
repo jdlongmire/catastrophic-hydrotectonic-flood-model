@@ -1,0 +1,91 @@
+id: WP-HTF-0011
+title: Evaluate discriminator 4 (seismic texture discontinuity) against the Schouten et al. 2024 FWI model
+status: proposed
+commitment: stretch
+scope: >
+  Discriminator 4 has been carried since 2026-08-16 as "ported from JD's prior
+  slice; not yet checked against actual tomographic datasets here." It predicts
+  a texture discontinuity between chaotic, reworked upper lithosphere
+  (0-200 km) and coherent, undisturbed deep mantle (>400 km), against ordinary
+  plate tectonics' prediction of smoother, gradational structure.
+
+  What changed, 2026-08-19 (dev-notes/20260819-baumgardner-cpt-comparison.md):
+  a named, public, mainstream-published dataset now exists that is the right
+  instrument for the test. Schouten, Gebraad, Noe et al. (2024), "Full-waveform
+  inversion reveals diverse origins of lower mantle positive wave speed
+  anomalies," Scientific Reports 14:26708, doi:10.1038/s41598-024-77399-2.
+  Supplementary model on Zenodo, record 13991965 (~19 GB).
+
+  Why FWI specifically and not any tomographic model: full-waveform inversion
+  is markedly less dependent on source-receiver geometry than travel-time
+  tomography, whose smoothing is exactly what would blur a depth-localized
+  texture discontinuity into nothing. A negative result from a smoothed
+  travel-time model would be uninformative; a negative result from FWI is not.
+
+  Second, subordinate objective: the same dataset bears on the intra-family
+  comparison with Baumgardner-style CPT. This programme's shallow-lithoplaning
+  mechanism (15 km detachment, WP-HTF-0003) predicts a largely undisturbed deep
+  mantle; CPT predicts a deep mantle full of recently-subducted pre-Flood ocean
+  floor. Schouten et al.'s reported absence of a statistically significant
+  correlation between FWI-imaged positive anomalies and reconstructed
+  subduction over the past 200 Myr bears on both. Record what the dataset
+  actually supports; do not assert the differentiator ahead of the check.
+authority_boundary: >
+  Retrieval, analysis, scripting, and reporting proceed without re-asking,
+  including a result that refutes discriminator 4. A clean refutation is a real
+  finding under this programme's own standard (research-practices.md rules 6
+  and 17) and closes this package successfully.
+
+  Does NOT authorize: promoting discriminator 4 to an evaluated discriminator
+  in appraisal.md, or moving the programme's verdict off "zero discriminators
+  evaluated" — reporting a result there is JD's call. Does NOT authorize
+  restating the CPT differentiator as a belt commitment without JD's ruling.
+actions:
+  - Fix the failure conditions in the script header BEFORE any data is
+    inspected, per research-practices.md rule 1. Three outcomes must be
+    pre-registered, not two, because the third is live and known in advance -
+    (a) a texture discontinuity is present at the predicted depth band;
+    (b) structure is gradational across 200-400 km with no discontinuity,
+    refuting the claim; (c) the model's shallow resolution or
+    parameterization cannot decide the question. Outcome (c) requires naming
+    the specific missing resolution quantity, per rule 18 - a general hedge
+    does not qualify.
+  - Establish, before running anything, whether the Schouten model's shallow
+    (0-400 km) resolution actually supports the test. The paper's own focus is
+    the LOWER mantle; discriminator 4's boundary sits at 200-400 km. This is
+    the single most likely reason the package returns outcome (c), and it is
+    cheaper to establish first than to discover after a 19 GB download.
+    If it does not support the test, name the model that would and stop.
+  - Define "texture discontinuity" operationally before measuring it - what
+    statistic on the velocity field (lateral heterogeneity spectrum, gradient
+    magnitude, correlation length as a function of depth) is being tested, and
+    what value separates "discontinuity" from "gradational." A claim about
+    texture that is not reduced to a computed statistic is not evaluable.
+  - State the rival at its strength (rule 4) - what does ordinary plate
+    tectonics over geological time actually predict for the depth dependence
+    of upper-mantle heterogeneity? Cratonic keels, the lithosphere-asthenosphere
+    boundary, and the 410 km discontinuity all produce real depth structure that
+    is NOT this programme's claim. If the rival independently predicts
+    structure at the same depths, condition 2 fails and the candidate dies -
+    the same way the K-Pg ichnofabric candidate died.
+  - Record the CPT comparison from the same dataset, bounded to what the data
+    supports, per the authority boundary above.
+  - Retain any refuted variant as a labelled control, rules 6 and 17.
+verification: >
+  Failure conditions fixed in the script header before the run and unchanged
+  after. Every parameter and dataset field sourced with a confidence label
+  (rule 2). The result states plainly which of the three pre-registered
+  outcomes obtained. Code lands in 03-solutions-baseline/3.3-prediction/code/,
+  alongside the claim it evaluates, per the layout convention established by
+  rheology/code/.
+
+  Explicit anti-pattern check before closing: this package must not repeat the
+  K-Pg ichnofabric failure - confirm that the specific structural question has
+  not already been answered in the seismological literature, and that both
+  accounts do not simply permit the observation. If either holds, the candidate
+  is killed and kept, not quietly weakened.
+disposition: >
+  open, seeded 2026-08-19. Not gated on ROADMAP items 1-3, unlike discriminators
+  1-7 - this is the second reachable evaluation after WP-HTF-0005 (candidate 8),
+  and unlike that one it is not blocked on a paywall. Retrieval cost is the main
+  risk (19 GB), which is why the resolution-adequacy check is ordered first.
