@@ -1,0 +1,103 @@
+id: WP-HTF-0012
+title: Gruntfest thermal-stability check on the lateral detachment — component harvest, not model adoption
+status: proposed
+commitment: stretch
+scope: >
+  JD's framing correction, 2026-08-19: the objective is to harvest separable
+  components from Baumgardner-style CPT, not to adopt its architecture. The
+  2026-08-19 dev-note's "importing his rheology reimports his ~5,800x larger
+  energy budget" framing was package-shaped and is corrected there — the budget
+  travels with whole-mantle overturn, not with the components.
+
+  Two components are genuinely upstream of his architecture and cost nothing to
+  take: (1) the Gruntfest (1963) shear-layer thermal-runaway criterion, which is
+  a general stability result applying to ANY shear zone, and (2) Kirby's (1983)
+  olivine deformation map, which is laboratory mineral physics that Baumgardner
+  applied rather than produced.
+
+  This package takes (1) and applies it to THIS programme's own lateral
+  detachment — not to his slab. The question: is the 15 km detachment
+  (WP-HTF-0003) thermally stable under sustained shear at this programme's own
+  F7 flux (64-135 W/m^2, WP-HTF-0006), or does it meet the Gruntfest runaway
+  criterion? Either answer is informative. Stability is a favourable result the
+  belt has never been able to claim; runaway would be a real problem for the
+  lateral half that F7/F8 did not detect, because F7/F8 bound flux at the
+  SURFACE and say nothing about temperature inside the shear zone.
+
+  It also closes standing open business: dev-notes/20260816-heat-problem-
+  clarification.md has been marked **open** since 2026-08-16 on exactly this
+  question, and its section 2 pushback ("concentrating the same total
+  displacement work into a smaller volume doesn't reduce that flux; it may raise
+  the local peak") is correct about volumetric dissipation and incorrect about
+  temperature. Resolving that is in scope.
+disclosure_scoping_already_done: >
+  RULE 1 INTEGRITY DISCLOSURE, stated so this package cannot later claim its
+  failure conditions were fixed in ignorance. Two scoping passes were run
+  conversationally on 2026-08-19 BEFORE this package existed, and the second
+  corrected the first. What they showed:
+
+  - Steady-state rise across a shear zone of half-width h is dT = q*h/(2k), so
+    it scales LINEARLY with h — thinner is cooler, which reverses the intuition
+    in the 2026-08-16 dev-note.
+  - But steady state is only reached if h^2/kappa is short against the event
+    duration. Above the one-year diffusion length, sqrt(2*kappa*t) ~ 7.9 m, the
+    adiabatic limb dT = (q/h)*t/(rho*c) governs instead, and that limb FALLS
+    with h.
+  - The two limbs cross at h ~ 7.9 m, so the worst case is at INTERMEDIATE
+    thickness, not at either extreme: peak dT ~ 102 K (q=64) to ~215 K (q=135).
+    Both thin films and thick zones are cooler than the crossover.
+  - Granite solidus is ~900-1200 K above ambient, so on this scoping arithmetic
+    no thickness produces melting.
+
+  The first pass reported the steady-state limb only and was therefore wrong at
+  large h. That error is retained here rather than deleted, per rules 6 and 17.
+  This package's job is to redo the whole thing properly under the rules — with
+  sourced parameters, a defensible geometry, and the transient treatment done as
+  an actual solution rather than a min() of two limiting cases — NOT to ratify
+  the numbers above.
+authority_boundary: >
+  Retrieval, analysis, scripting, and reporting proceed without re-asking,
+  including a result showing the detachment is thermally unstable — which would
+  be a genuine problem for the lateral half of the mechanism and must be
+  reported plainly, not softened. Does NOT authorize revising the F7/F8 verdicts
+  in rheology/README.md, changing the 15 km detachment depth (settled by
+  WP-HTF-0003), or moving the appraisal verdict.
+actions:
+  - Fix falsification conditions F10+ in the script header before the run,
+    acknowledging the disclosure above rather than pretending to a clean
+    pre-registration.
+  - Establish a defensible shear-zone thickness range from the field literature
+    on detachment horizons and fault cores — mylonite zone widths, fault-core
+    vs damage-zone thickness, principal slip surface thickness. THIS IS THE
+    LOAD-BEARING INPUT and the belt has never stated it anywhere. Source with
+    confidence labels per rule 2. Note that F9 (rheology/README.md) named the
+    same missing quantity for the VERTICAL channel; this is its lateral twin.
+  - Compute the Gruntfest number properly, not by analogy — the criterion is
+    that the viscous-heating time constant be short against the layer's thermal
+    diffusion time. State the critical value used and its source.
+  - Solve the shear-zone thermal problem across the sourced h range, with the
+    transient handled as a solution rather than as min(steady, adiabatic).
+  - State the rival at its strength per rule 4 — ordinary tectonic shear zones
+    demonstrably do NOT run away at their own strain rates, so the criterion
+    must be checked against a case known not to run away, or the calculation is
+    unanchored.
+  - If stability holds, convert it into a FORBIDDING claim — the mechanism
+    requires shear-zone thickness within a stated band, which is falsifiable
+    against measured detachment-zone thicknesses. A stability result that
+    forbids nothing is Tier 2 content, not progress.
+verification: >
+  Failure conditions in the script header, unchanged after the run. Every
+  parameter sourced with a confidence label. The result states plainly whether
+  the lateral detachment is stable, unstable, or undetermined — "undetermined"
+  requires a specific named missing quantity per rule 18. Code lands in
+  03-solutions-baseline/3.2-theory/kinematics/code/, alongside the mechanism it
+  tests, not in rheology/code/ — this is a kinematics-side question about the
+  detachment, distinct from the mantle-viscosity gate.
+
+  Closing condition: dev-notes/20260816-heat-problem-clarification.md moves off
+  "open" with its section 2 pushback either upheld or corrected in writing.
+disposition: >
+  open, seeded 2026-08-19. Reachable now, blocked on nothing — the only input
+  needed is a literature-sourced shear-zone thickness range. Alongside
+  WP-HTF-0011 this makes two unblocked packages, where before 2026-08-19 the
+  programme had none that were not gated or paywalled.

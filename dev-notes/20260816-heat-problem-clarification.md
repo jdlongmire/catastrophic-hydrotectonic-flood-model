@@ -1,6 +1,26 @@
 # Heat problem clarification
 
-**Status: open.** Pending JD's answer on which problem he meant. Not yet promoted anywhere.
+**Status: open, but the resolution path is now defined.** Pending JD's answer on which problem he meant. Not yet promoted anywhere.
+
+> **Update 2026-08-19 — §2's pushback is half right, and the wrong half is the conclusion.**
+> §2 below argues that "concentrating the same total displacement work into a smaller volume doesn't
+> reduce that flux; it may raise the local peak." That is **correct about volumetric dissipation**
+> $\Phi$ and **incorrect about temperature**, which is what actually matters. Steady-state rise
+> across a shear zone of half-width $h$ at fixed surface flux $q$ is $\Delta T = qh/2k$ — it *falls*
+> linearly as the zone thins. Localization helps; it does not merely relocate the problem.
+>
+> The full picture is non-monotonic and neither limb was considered here in 2026-08-16: above the
+> one-year diffusion length $\sqrt{2\kappa t} \approx 8$ m the steady state is never reached, and the
+> transient limb $\Delta T = (q/h)t/\rho c$ governs instead, *falling* with $h$. The worst case is
+> therefore at intermediate thickness. Scoping arithmetic is disclosed in
+> [`../05-work-packages/WP-HTF-0012-gruntfest-lateral-stability/package.yaml`](../05-work-packages/WP-HTF-0012-gruntfest-lateral-stability/package.yaml)
+> and is explicitly **not** a result.
+>
+> **`WP-HTF-0012` closes this note** — it applies the Gruntfest (1963) shear-layer runaway criterion
+> to this programme's own 15 km detachment, harvested as a separable component from CPT rather than
+> adopted with it. Its stated closing condition is that this note moves off "open" with §2's pushback
+> either upheld or corrected in writing. The load-bearing input is a shear-zone thickness the belt has
+> never stated — now named in [`../03-solutions-baseline/3.2-theory/kinematics/README.md`](../03-solutions-baseline/3.2-theory/kinematics/README.md).
 
 ## The claim
 

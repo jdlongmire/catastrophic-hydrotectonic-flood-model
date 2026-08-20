@@ -47,4 +47,16 @@ JD's addition: the continents are not gliding through a vacuum. They translate b
 
 Two things follow, and both need JD's call before anything is registered. First, this is gated on **ROADMAP item 2** — correlating against motion vectors requires the actual Pangaea-fit reconstruction (Euler poles), since the current anchor-distance proxy supplies no directional field. Second, the reported Paleozoic/Mesozoic-coherent, Cenozoic-scattered pattern is **an independent third line converging on a terminal catastrophic boundary near the Mesozoic–Cenozoic transition**, alongside Chicxulub-in-swarm ([`../rheology/README.md`](../rheology/README.md) §F3) and the radiometric-residual argument's weakening of the three-boundary rejection ([`../stratigraphy/README.md`](../stratigraphy/README.md)). That convergence is noted here and left for the belt call already pending.
 
+## Shear-zone thickness — an unstated load-bearing quantity, 2026-08-19
+
+Named here because `WP-HTF-0012` cannot run without it and because it went unnoticed until a CPT component harvest went looking for it.
+
+The mechanism specifies a **detachment depth** (15 km, reconciled in `WP-HTF-0003`) but has never anywhere specified the **thickness of the shearing zone at that depth** — whether translation is accommodated on a sub-metre water film, a metre-scale principal slip surface, or a hundred-metre fault core. Every heat result the belt currently holds bounds flux at the *surface* (F7: 64–135 W/m², `WP-HTF-0006`) and is silent about temperature *inside* the zone, which is where a thermal-runaway failure would occur if one occurs.
+
+This is the lateral twin of the gap F9 already names on the vertical side ([`../rheology/README.md`](../rheology/README.md) — "no channel geometry exists anywhere in this belt"). Both are geometry, both are unstated, and both gate a heat calculation.
+
+**Why it matters more than it looks.** Scoping arithmetic (disclosed in full in [`../../../05-work-packages/WP-HTF-0012-gruntfest-lateral-stability/package.yaml`](../../../05-work-packages/WP-HTF-0012-gruntfest-lateral-stability/package.yaml) under `disclosure_scoping_already_done`, and explicitly *not* treated as a result) indicates the temperature rise is non-monotonic in thickness: the steady-state limb grows with $h$, the transient limb falls with $h$, and they cross near the one-year diffusion length $\sqrt{2\kappa t} \approx 8$ m. So the worst case sits at *intermediate* thickness rather than at either extreme. A mechanism claim of "thin water film" and a mechanism claim of "thick fault core" would both be thermally comfortable; the metre-to-ten-metre band is the one that is not. Until $h$ is stated, the belt cannot say which case it is claiming.
+
+**Not resolved here.** Establishing $h$ from detachment-zone and fault-core field literature is `WP-HTF-0012`'s first action, and the resulting band is a candidate *forbidding* claim — the mechanism would require thickness outside the hot band, falsifiable against measured thicknesses.
+
 **Source:** [`../../../research/GPT-hydrotectonic-flood-model.md`](../../../research/GPT-hydrotectonic-flood-model.md), lines ~27–127.

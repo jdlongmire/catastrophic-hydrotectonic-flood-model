@@ -185,6 +185,37 @@ mantle, while discriminator 4's boundary sits at 200–400 km. Whether that mode
 resolution supports the test is an open question and is written into `WP-HTF-0011` as a
 pre-registered third outcome, not assumed away.
 
+## Correction, same day — the harvest is component-level, not package-level
+
+**JD, 2026-08-19:** *"I'm not trying to adopt his entire model but to harvest the components that are
+useful to mine."* The framing in §What transfers item 3 above — that adopting his route "would
+reimport a budget three orders of magnitude larger" — is package-shaped and wrong as a general
+statement. **The ~5.8×10²⁸ J travels with whole-mantle overturn, not with the components.** Kept
+above rather than rewritten, per rule 6; corrected here.
+
+The separable inventory, stated properly:
+
+| Component | Verdict |
+|---|---|
+| **Gruntfest (1963) shear-layer runaway criterion** | **Take.** A general stability result for *any* shear zone, not mantle-specific and not his. Applies directly to this programme's 15 km detachment — `WP-HTF-0012` |
+| **Kirby (1983) olivine deformation map** (Arrhenius + dislocation creep $\dot\gamma^{-2/3}$ + plastic yield $\dot\gamma^{-1}$) | **Take.** Laboratory mineral physics Baumgardner *applied*, did not produce. What mainstream contests is his claim that mantle conditions reach the runaway criterion, not the law |
+| **The envelope insight** — heating concentrates in the mechanical boundary layer *surrounding* the moving block, not in the block | **Take.** Geometric, no mantle assumptions. This programme's detachment *is* an envelope |
+| Yang's matrix-dependent-transfer multigrid solver | Separable but low value — this programme runs scalar budget calculations, not FEM |
+| Gravitational PE from emplaced density contrast as the energy source; designed initial condition | **Already held** — convergent, not borrowed. His open statement that the initial state was *"built into the Earth as God originally formed it"* is worth citing as precedent that a CPT-family figure makes the same move |
+| **Whole-mantle overturn architecture** | **Leave.** This is what carries the 5.8×10²⁸ J |
+| **Supersonic steam-jet cooling** | **Leave.** Fails the enthalpy ceiling above by an order of magnitude in energy per kilogram |
+| **Deep cold-slab prediction** | **Leave.** Fails discriminator condition 2 on the thermal-diffusion check above |
+| **Accelerated nuclear decay** (he cites Humphreys/RATE) | **Leave.** This programme's DFM $R_0$ route avoids it and is the better position |
+
+**The harvest payoff is a calculation on this programme's own mechanism, not a borrowed claim.**
+Applying Gruntfest to the lateral detachment tests something F7/F8 never touched: those bound flux at
+the *surface*, and say nothing about temperature *inside* the shear zone, which is where a runaway
+would occur. It also closes standing open business — [`20260816-heat-problem-clarification.md`](20260816-heat-problem-clarification.md)
+has been marked open since 2026-08-16 on exactly this question, and its §2 pushback is correct about
+volumetric dissipation and incorrect about temperature. Seeded as `WP-HTF-0012`; the load-bearing
+input is a shear-zone thickness the belt has never stated, now named in
+[`../03-solutions-baseline/3.2-theory/kinematics/README.md`](../03-solutions-baseline/3.2-theory/kinematics/README.md).
+
 ## Status
 
 **Tier 2 conceptual work plus verification of external claims. `forbids: none` in itself.**
