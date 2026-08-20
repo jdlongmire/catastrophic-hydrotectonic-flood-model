@@ -18,8 +18,8 @@ JD-directed and approved. Drafted in [`../../../dev-notes/20260817-phase-schema-
 
 | Phase | Definition | Physical criteria |
 |---|---|---|
-| **P0 Deployment** | Functionally mature Araratia and its saturated crust (hard core, commitment 4; Walker: Foundational + Formative) | Not depositional. No sedimentary signature predicted; assignments here argue on other grounds |
-| **P1 Antediluvian** | Creation-to-Fall (~50–60 kyr belt est.) plus Fall-to-Flood | Stable Araratia; saturated crust; standing freshwater reservoirs; ecological provinces. In-place ecological structure, mature substrate relationships |
+| **P0 Deployment** | Functionally mature Pangaea and its saturated crust (hard core, commitment 4; Walker: Foundational + Formative) | Not depositional. No sedimentary signature predicted; assignments here argue on other grounds |
+| **P1 Antediluvian** | Creation-to-Fall (~50–60 kyr belt est.) plus Fall-to-Flood | Stable Pangaea; saturated crust; standing freshwater reservoirs; ecological provinces. In-place ecological structure, mature substrate relationships |
 
 **Flood year (~1 yr)**
 

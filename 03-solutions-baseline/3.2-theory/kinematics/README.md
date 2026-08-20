@@ -1,6 +1,8 @@
 # Kinematics
 
-Belt content: continental and slab displacement rates required to reconstruct present geometry from a Pangaea-type $S_0$ — the pre-Flood supercontinent, named **"Araratia"** in the visualization set and adopted 2026-08-16 as this programme's standing term for it — within the Flood year, and post-Flood relaxation.
+Belt content: continental and slab displacement rates required to reconstruct present geometry from $S_0$ — the pre-Flood supercontinent, **Pangaea** — within the Flood year, and post-Flood relaxation.
+
+> **Naming, 2026-08-19, JD-directed: "Araratia" is retired; the pre-Flood supercontinent is Pangaea.** The bespoke term was adopted 2026-08-16 from the visualization set and is no longer used in belt content. **Pangaea** is the traditional spelling — Wegener's 1920 *Pangäa*, transliterating Greek παν + Γαῖα, with the αι digraph rendered *ae* as the geological literature has printed it since; *Pangea* is the American-simplified variant. It is also the form this repo already used 9 times against 1, so it is both the scholarly convention and the lower-churn choice. See [`../../../dev-notes/20260819-retire-araratia.md`](../../../dev-notes/20260819-retire-araratia.md) for what this commits the programme to, which is more than a word swap.
 
 **From the initial research:** order-of-magnitude continental velocities ~10⁻¹ m/s and slab-descent velocities ~10⁻² m/s, derived using present-day centroid distances from a Middle East anchor as an upper-envelope proxy — explicitly not a reconstructed plate-motion field. Post-Flood relaxation was modeled as $v(t) = v_0 e^{-t/\tau} + v_\infty$ rather than constant velocity, since >99.99% of large-scale displacement must occur in the Flood year for present plate velocities to emerge naturally from the 6,000-year relaxation window.
 
