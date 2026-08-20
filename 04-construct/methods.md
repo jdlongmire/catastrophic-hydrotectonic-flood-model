@@ -12,6 +12,14 @@
 
 4. **State the rival at its strongest.** Ordinary historical geology's account of the same observation gets its best form, not a weak one — an accommodation or discriminator claim that doesn't do this isn't assessable.
 
+    **4a. Score the rival on the same card — same standard *and* same freedom (added 2026-08-19, JD-directed).** Stating the rival at strength is necessary and not sufficient. Whatever metric is applied to this programme is applied to the rival's account *of the same evidence*, in the same pass, and both scores are reported. JD's formulation, which governs: *"I don't mind being held to the same standards that the naturalistic models have for themselves as well as the freedom they also have."* Both halves bind.
+
+    **Same standard.** If this programme's claim is graded on whether it was pre-registered, forbids an observation, or rests on sourced rather than stipulated parameters, the rival's competing claim is graded on the same three and the result is written down next to it.
+
+    **Same freedom.** Where the rival legitimately enjoys a liberty — free parameters fit rather than derived (rule 22), retrodictive reconstruction, auxiliary hypotheses introduced after an observation, provisional mechanisms carried while unresolved — this programme may claim the same liberty without it being logged as a defect. Denying this programme a freedom the rival exercises routinely is as much a rule-4 failure as strawmanning the rival, and it is the harder failure to notice because it looks like rigour.
+
+    **Why this was needed.** Repeatedly through 2026-08-19 the appraisal foregrounded "zero discriminators evaluated" and "free parameters that forbid nothing" as if these were indictments, without ever asking how the rival scores on the same measures. It often scores no better on the specific evidence in dispute: much of historical geology's account of any given basin is retrodictive rather than predicted-then-corroborated, and Schouten et al.'s (2024) lower-mantle anomalies drew delamination and compositional-heterogeneity explanations *after* the observation. A one-sided scorecard makes an ordinary early-stage position read as a failing grade. **This does not lower the bar** — the programme's high internal standard is its chief asset against rival Flood models and is retained in full (see [`methodology.md`](methodology.md)). It requires the bar be applied to both sides.
+
 5. **Ask what the step forbids.** At every belt step, computational or not. If the answer is "nothing," it's coherence work, and it's logged as such in `03-prediction/appraisal.md`.
 
 6. **Record refuted variants of your own.** A superseded calculation stays in the repository with the reason it died, rather than being deleted. A belt that shows no casualties is not a belt.
