@@ -10,31 +10,37 @@ Cross-section of the pre-Flood water-rich porous crust — pore water, fracture 
 
 Five-panel sequence: multiple impacts → energy deposition → crustal shock/fracturing → pore-pressure surge → hydrotectonic failure. Matches the mechanism as actually stated in the source research — impacts as threshold-crossing triggers, not literal displacement engines ("the collective meteoritic event provides the trigger; the water-rich porous crust provides the mechanism"). **Does not bear on the rheology gate** ([`../../03-solutions-baseline/3.2-theory/rheology/README.md`](../../03-solutions-baseline/3.2-theory/rheology/README.md)): it renders the qualitative failure sequence, not whether the required 10¹³–10¹⁴ Pa·s viscosity collapse is physically reachable. Treat as illustration of mechanism, not as progress on the gating open problem.
 
-## `hydrotectonic-breakup-sequence.png` — second revision, filed 2026-08-19
+## `hydrotectonic-breakup-sequence.png` — third revision, filed 2026-08-19. **No open discrepancies.**
 
-**Figure of record for the breakup sequence.** Supersedes an earlier same-day revision (archived) and, before that, the `continental-shift` pair. Canonical filename kept stable across revisions so [`../../paper/POSITION-PAPER.md`](../../paper/POSITION-PAPER.md) Figure 3 does not need re-pointing.
+**Figure of record for the breakup sequence, and the first image in this set to clear its audit outright.** Supersedes two earlier same-day revisions and, before those, the `continental-shift` pair — all four archived. Canonical filename held stable across revisions so [`../../paper/POSITION-PAPER.md`](../../paper/POSITION-PAPER.md) Figure 3 never needs re-pointing.
 
 Five-panel mechanism sequence over a six-frame continental-positions timeline, with a displacement/velocity banner.
 
-**All three discrepancies flagged against the first revision are fixed:**
+**Every claim checked against the belt, and every previously-flagged defect is now fixed:**
 
-- **Impact swarm, not a single impact.** Panel 2 now renders eight-plus distinct impact points with separate fireballs and bolides still in flight, and the second globe shows multiple impact sites. Caption: *"A swarm of impacts over days to weeks."* This resolves what was a **regression against sibling figure `initial-meteor-event.png`**, and it is now consistent with the swarm commitment in [`../../03-solutions-baseline/3.2-theory/rheology/README.md`](../../03-solutions-baseline/3.2-theory/rheology/README.md) F3/F4 and with the 2026-08-19 requirement that the swarm be temporally distributed across the 40 days.
-- **Pore pressure corrected to approach-from-below.** Panel 1: *"Pore pressures approach lithostatic stress."* Panel 2: *"drive fluid pressurization toward the lithostatic limit."* Both now match `WP-HTF-0003`'s derived λ = 0.999995 to 0.9999996, and the figure is internally consistent where the previous revision contradicted itself.
-- **Subduction no longer asserted as accomplished.** Panel 4 reads *"Proposed subduction recycles crust"* — the hedge survived the render, which matters because the vertical half remains the open rheology gate.
+| Flag | Raised | Status |
+|---|---|---|
+| Plate velocity conflicts with the research figure | 2026-08-16 | **Fixed** — states **9 to 40 cm/s** in panel caption, peak-transport bullet, and banner; the belt's own figure verbatim |
+| Displacement distances lost to the paper-use crop | 2026-08-16 | **Recovered** — 2,000–6,000 km average, 8,000–12,000+ km maximum, in a dedicated banner strip deliberately separated from the velocity figure |
+| Pacing front-loads rifting ahead of peak transport | 2026-08-16 | **Fixed** — rifting at days-weeks, dispersion at weeks-months, peak at months-to-a-year |
+| Displays the retired name "Araratia" | 2026-08-19 | **Fixed** — Pangaea throughout |
+| Trigger drawn as a single impact | 2026-08-19 | **Fixed** — a dense swarm with bolides visibly still inbound, conveying arrival distributed over days to weeks |
+| "Pore pressure exceeds lithostatic stress" | 2026-08-19 | **Fixed** — "approach lithostatic stress" / "toward the lithostatic limit," matching `WP-HTF-0003`'s λ = 0.999995 to 0.9999996 |
+| Subduction asserted as accomplished | 2026-08-19 | **Fixed** — labelled "**proposed**," since the vertical half remains the open rheology gate |
+| Sub-header spelled "Pangea" against title "PANGAEA" | 2026-08-19 | **Fixed** — verified by magnifying the region rather than reading at full-figure scale: "Supercontinent (Pangaea)" |
 
-**The velocity discrepancy is CLOSED.** Open since the 2026-08-16 audit, when the original stated ~0.01–0.1 m/s against a research figure of 9–40 cm/s — a conflict severe enough to force a crop for paper use. This render states **"9 to 40 cm/s"** in the panel caption, in the peak-transport bullet, and in the banner. It is now the belt's own figure verbatim, so [`../../03-solutions-baseline/3.2-theory/kinematics/README.md`](../../03-solutions-baseline/3.2-theory/kinematics/README.md) no longer carries a live image-vs-research conflict.
+**Timescales.** ~50,000–60,000 yr pre-impact (the belt's full 50–60 kyr range); days-to-weeks, weeks-to-months, months-to-a-year, ~1 year, 6,000 years. Consistent with the belt's $v(t) = v_0 e^{-t/\tau} + v_\infty$ relaxation.
 
-**The 2026-08-16 crop loss is recovered.** The banner restores the displacement distances that were discarded with the cropped row — **2,000–6,000 km average, 8,000–12,000+ km maximum** — consistent with the research's 2,940–12,800 km anchor-to-present table. Placing them in a dedicated strip rather than beside the velocity figure means a future velocity dispute cannot take them down again.
+**Two cosmetic items, neither a claim:** the subtitle terminates in a full stop, and a small render speck sits over the "p" in "rapid" in the deck line. Recorded for completeness; neither affects a stated claim, and neither is worth another render on its own.
 
-**Timescales.** ~50,000–60,000 yr pre-impact (the belt's full 50–60 kyr range, where the prior render gave only the low end); days-to-weeks, weeks-to-months, months-to-a-year, ~1 year, 6,000 years. Matches the belt's $v(t) = v_0 e^{-t/\tau} + v_\infty$ relaxation.
-
-**One residual defect, minor and recorded rather than absorbed.** The bottom-row first globe is sub-headed **"Supercontinent (Pangea)"** — the American-simplified spelling — against **"PANGAEA"** in the title and panel 1. The programme adopted the traditional *ae* form on 2026-08-19 with stated reasoning ([`../../dev-notes/20260819-retire-araratia.md`](../../dev-notes/20260819-retire-araratia.md)), so the figure displays the rejected variant in one place and is internally inconsistent on it. **Not a blocker** — every substantive claim is now correct — but it is the single item for any future render. A stray full stop also terminates the subtitle.
-
-**Verdict: viable, and the strongest version of this figure to date.** Filed as the figure of record.
+**Standing caveat, unchanged and not a defect.** This is an illustration. It does not bear on the rheology gate, and the subduction it depicts is labelled proposed precisely because that gate is open — the same caution this README applies to `initial-meteor-event.png`.
 
 ## `archive/` — superseded, retained
 
-- **`hydrotectonic-breakup-sequence-superseded-20260819.png`** — the first 2026-08-19 revision, superseded the same day by the second. It fixed the naming and pacing defects of the `continental-shift` pair but drew the trigger as a single impact, stated "pore pressure exceeds lithostatic stress," and gave velocity only as an order of magnitude ("~cm–dm/s"). Retained so the two-step correction stays checkable, per rules 6 and 17.
+- **`hydrotectonic-breakup-sequence-superseded-20260819-r1.png`** — first 2026-08-19 revision. Fixed the naming and pacing defects of the `continental-shift` pair, but drew the trigger as a single impact, stated "pore pressure exceeds lithostatic stress," and gave velocity only as an order of magnitude ("~cm–dm/s").
+- **`hydrotectonic-breakup-sequence-superseded-20260819-r2.png`** — second revision. Fixed all three of r1's defects and closed the 2026-08-16 velocity conflict; carried one residual, a bottom-row sub-header spelling "Pangea" against the title's "Pangaea."
+
+Both retained per rules 6 and 17. The correction took three passes and the record shows all three: a final-state-only record would misrepresent how the figure was arrived at, and each intermediate is the artifact its audit was written against.
 
 - **`continental-shift.png`** — the predecessor infographic. Displays the retired name "Araratia" and the conflicting ~0.01–0.1 m/s velocity range. Kept as the record of what was audited on 2026-08-16 and what the 2026-08-19 revision was measured against.
 - **`continental-shift-cropped.png`** — the paper-use derivative created 2026-08-16 (JD-directed) with the disputed displacement-statistics row cropped out, formerly Figure 3 in the position paper. The crop was a workaround for the velocity conflict; the revision addresses that conflict directly, so the derivative has no remaining use. Its real cost is now recoverable: the displacement distances (2,000–6,000 km average, 8,000–12,000+ km maximum) that were lost with the cropped row and are consistent with the research could be restored on a future render.
