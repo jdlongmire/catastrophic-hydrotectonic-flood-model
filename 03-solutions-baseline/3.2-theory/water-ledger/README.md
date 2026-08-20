@@ -63,4 +63,44 @@ $$W(x,t) = f(D, S, T, Q, C, B)$$
 
 **State: candidate mechanism identified, prediction sharpened; still not registered.** Gating unchanged — ROADMAP item 2 (motion-vector reconstruction) and a defined sample are still required before this clears discriminators.md's four conditions.
 
-**Source:** [`../../../research/GPT-hydrotectonic-flood-model.md`](../../../research/GPT-hydrotectonic-flood-model.md), lines ~285–464. The atmospheric-canopy term is new content, not in the source research. The salinity-refugia section is likewise new content, JD-directed 2026-08-17.
+## Precipitation mechanism — impact-lofted, not vapor-condensed (JD-directed, 2026-08-19)
+
+**JD's claim:** *"My model doesn't need the vast geysers of CPT sending water up into the atmosphere; the meteor swarm impacting the water rich crust could have been a significant mechanism for that."* Checked quantitatively rather than accepted. Scoping arithmetic, disclosed as such — sourcing is `WP-HTF-0013`'s job. Full working in [`../../../dev-notes/20260819-impact-lofted-precipitation.md`](../../../dev-notes/20260819-impact-lofted-precipitation.md).
+
+### The vapor route has a hard ceiling — 0.46 m, total
+
+Condensing water vapor releases latent heat that must be radiated to space. At the same runaway-greenhouse ceiling F7/F8 already use (300 W/m², upper end of the 280–310 range; [`../rheology/README.md`](../rheology/README.md)), 40 days permits $1.04\times10^9$ J/m², which at $L_v = 2.26\times10^6$ J/kg buys **459 kg/m² — roughly 0.46 m of rain, total**.
+
+**This generalises the canopy finding above rather than repeating it.** The section on the vapor canopy rejected a canopy as a *reservoir*, on habitability grounds. This is the stronger and more general statement: **no vapor-mediated mechanism, canopy or otherwise, can deliver more than ~0.46 m of the 40-day rain**, because the constraint is on the phase transition, not on where the vapor was stored. It is also precisely the constraint Baumgardner names against his own field — *"explanations that involve the condensation of water vapor fail because, even assuming ideal black body conditions, radiation is incapable of removing the latent heat of condensation to space at a sufficient rate"* (ICC 2003) — which is why he reached for entrainment in supersonic jets rather than condensation.
+
+### Ballistic lofting avoids the ceiling and is cheaper per kilogram
+
+Lofting liquid seawater to 50 km costs $gh \approx 4.9\times10^5$ J/kg, against $c_p\Delta T + L_v \approx 2.6\times10^6$ J/kg to vaporise it — **5× cheaper**, and it incurs **no condensation penalty at all**, because the water never leaves the liquid phase. The mechanism is the same one Baumgardner used to escape his own critique (entrained liquid, not condensed vapor), reached here through a mechanism this programme already holds.
+
+### Swarm capacity is not the binding constraint
+
+Using F3's own affordable swarm sizes ([`../rheology/README.md`](../rheology/README.md)), total swarm energy is ~$1.2\times10^{26}$ J across **all three** of F3's cases — a useful robustness property, since F3 solved for body count against the survivability bound, so the total is insensitive to the disputed Chicxulub energy range.
+
+| Coupling into water lofting | Rain-equivalent delivered |
+|---|---|
+| 1% | ~4.7 m |
+| 10% | ~47 m |
+
+Against a 40-day benchmark near 100 mm/day (~4 m), **1% coupling already suffices.** The margin is large enough that the result is unlikely to be overturned by better sourcing of the coupling fraction, though `WP-HTF-0013` must establish it rather than stipulate it.
+
+**Consequence for the CPT harvest.** The steam-jet cooling component is recorded in [`../../../dev-notes/20260819-baumgardner-cpt-comparison.md`](../../../dev-notes/20260819-baumgardner-cpt-comparison.md) as "leave behind," since it fails an enthalpy ceiling by an order of magnitude. That is **not a loss to this programme** — this mechanism never needed it, and the substitute is observationally anchored rather than hypothetical, because Chicxulub is a declared swarm member (F3).
+
+### What the mechanism now owes — two constraints, both new
+
+**1. The swarm must be temporally distributed across the 40 days.** Ballistically lofted water returns in **1.5 to 5 minutes** (apex 10–100 km; launch velocities 443–1400 m/s). That is a violent deluge, not sustained rain. Forty days of rain therefore requires impacts spread across the 40 days rather than delivered instantaneously. This is a real claim with a failure condition available, and it is the first constraint the belt carries on swarm *timing* as opposed to swarm *size* — which is what F4 named as open and did not compute.
+
+**No conflict with the simultaneous-swarm assumption** in [`../stratigraphy/README.md`](../stratigraphy/README.md) §Radiometric: 40 days is ~$10^{-7}$ Myr, still simultaneous to any radiometric method by seven orders of magnitude. "Simultaneous" there means "indistinguishable in apparent age," and that survives a 40-day spread intact.
+
+**2. The precipitation was saline, not fresh.** If most rain is ballistically lofted seawater rather than condensed fresh vapor, it falls as brine. Stated here before a critic reaches it. Two consequences pull in opposite directions and both are recorded:
+
+- **Potentially a discriminator.** Ordinary historical geology has no reason to expect a globally synchronous saline-precipitation episode; this mechanism requires one. It would bear on evaporite distribution and brine-signature deposits. Not registered — it has no defined sample or failure condition yet.
+- **A tension with the salinity-refugia section above.** That section predicts transient freshwater reservoirs and low-salinity geochemistry in places. Those refugia are sourced from *continental discharge*, not rain, so this is not a contradiction — but a mechanism raining brine globally while producing freshwater refugia locally owes an account of how the two coexist, and it does not have one yet.
+
+**Status: scoping arithmetic, not a result.** The 50 km loft height and the 1%/10% coupling fractions are **stipulated, not sourced**; impact-cratering literature carries real ejecta-partitioning and vapor-plume numbers that have not been retrieved. `WP-HTF-0013` sources them and converts the 0.46 m vapor ceiling into a registered forbidding claim.
+
+**Source:** [`../../../research/GPT-hydrotectonic-flood-model.md`](../../../research/GPT-hydrotectonic-flood-model.md), lines ~285–464. The atmospheric-canopy term is new content, not in the source research. The salinity-refugia section is likewise new content, JD-directed 2026-08-17. The precipitation-mechanism section is new content, JD-directed 2026-08-19.

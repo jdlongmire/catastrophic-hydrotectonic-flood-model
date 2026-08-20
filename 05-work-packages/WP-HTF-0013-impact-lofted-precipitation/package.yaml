@@ -1,0 +1,99 @@
+id: WP-HTF-0013
+title: Source the impact-lofted precipitation mechanism and register the vapor ceiling as a forbidding claim
+status: proposed
+commitment: stretch
+scope: >
+  JD, 2026-08-19 — "My model doesn't need the vast geysers of CPT sending water
+  up into the atmosphere, the meteor swarm impacting the water rich crust could
+  have been a significant mechanism for that." Checked in scoping arithmetic
+  the same day and the substitution holds with a large margin. This package
+  converts that scoping pass into sourced belt content and registers the one
+  genuinely forbidding result it produced.
+
+  Three deliverables, in descending order of value.
+
+  (1) REGISTER THE VAPOR CEILING. Condensing water vapor releases latent heat
+  that must be radiated. At the 280-310 W/m^2 runaway-greenhouse ceiling already
+  used by F7/F8, 40 days permits ~459 kg/m^2, about 0.46 m of rain, TOTAL. This
+  forbids something real and general — no vapor-mediated mechanism, canopy or
+  otherwise, can supply the bulk of the 40-day rain — and it forbids it for
+  rival Flood models as much as for this one, which is why it is worth stating
+  formally rather than leaving as an aside. It generalizes the existing
+  vapor-canopy finding in water-ledger/README.md from a reservoir argument to a
+  phase-transition argument.
+
+  (2) SOURCE THE COUPLING EFFICIENCY. The scoping pass STIPULATED a 50 km loft
+  height and 1%/10% of impact energy coupling into water lofting. Impact
+  cratering literature carries real numbers for ejecta partitioning, vapor
+  plume mass, and water-target impact behaviour. Retrieve them. The margin is
+  large (1% already suffices against a ~4 m benchmark), so the expected outcome
+  is confirmation — but a stipulated parameter carrying a belt claim is exactly
+  what rule 2 exists to prevent.
+
+  (3) ASSESS THE SALINE-PRECIPITATION CONSEQUENCE. Ballistically lofted seawater
+  falls as brine. Determine whether this is registrable as a discriminator (a
+  globally synchronous saline-precipitation episode is something ordinary
+  historical geology has no reason to expect) and how it coexists with the
+  salinity-refugia freshwater prediction already in water-ledger/README.md.
+disclosure_scoping_already_done: >
+  RULE 1 INTEGRITY DISCLOSURE, same posture as WP-HTF-0012. A scoping pass was
+  run conversationally on 2026-08-19 before this package existed. What it gave —
+
+  - vapor ceiling 1.04e9 J/m^2 over 40 d at 300 W/m^2, /2.26e6 J/kg = 459 kg/m^2
+    = 0.46 m of rain
+  - ballistic loft to 50 km costs 4.9e5 J/kg vs 2.6e6 J/kg to vaporize, 5x cheaper
+  - total swarm energy ~1.2e26 J across ALL THREE of F3's affordable swarm sizes,
+    so the result is insensitive to the disputed Chicxulub energy range
+  - 1% coupling delivers ~4.7 m rain-equivalent; 10% delivers ~47 m
+  - ballistic return time 1.5-5 min for apex 10-100 km, launch v 443-1400 m/s
+
+  These are NOT results. The package's job is to redo them with sourced
+  parameters and a defensible treatment, not to ratify them.
+authority_boundary: >
+  Retrieval, analysis, scripting, and reporting proceed without re-asking,
+  including a result showing the coupling efficiency required is implausibly
+  high once sourced — which would return the model to needing a CPT-style
+  geyser mechanism and must be reported plainly.
+
+  Does NOT authorize: registering the saline-precipitation claim as a live
+  discriminator in discriminators.md (that needs a defined sample and failure
+  condition, and is JD's call), revising F3/F4, or changing the simultaneous-
+  swarm radiometric assumption in stratigraphy/README.md.
+actions:
+  - Fix falsification conditions in the script header before the run,
+    acknowledging the disclosure above rather than claiming clean
+    pre-registration.
+  - Source impact ejecta partitioning for water/volatile-rich and marine targets
+    — what fraction of impact energy goes to vapor plume, ballistic ejecta, and
+    target heating, and to what altitudes. Confidence labels per rule 2.
+    Chicxulub is the anchor case since F3 already declares it a swarm member,
+    so its own impact-plume literature is the primary target.
+  - Recompute the vapor ceiling with the OLR range carried as a range
+    (280-310 W/m^2) rather than the single 300 figure, per rule 3, since F8
+    already showed this programme sits close enough to that ceiling for the
+    choice of endpoint to matter.
+  - Recompute lofted mass with sourced coupling and a loft-height distribution
+    rather than a single stipulated altitude.
+  - State the rival at its strength per rule 4 — the vapor ceiling constrains
+    ANY 40-day-rain mechanism including mainstream extreme-precipitation
+    reconstructions, so establish what ordinary meteorology says the radiative
+    limit on sustained global precipitation actually is, and confirm the ceiling
+    is not being applied more strictly here than the literature warrants.
+  - Assess whether the required swarm temporal distribution across 40 days is
+    consistent with any plausible orbital-debris or fragmented-body delivery,
+    or whether it is an unpaid requirement. Report either way.
+  - Determine the coexistence account for saline precipitation alongside the
+    salinity-refugia freshwater prediction, or record the tension as unresolved.
+verification: >
+  Failure conditions in the script header, unchanged after the run. Every
+  parameter sourced with a confidence label; no stipulated value carries a belt
+  claim at close. The vapor ceiling is stated as a registered forbidding claim
+  with its failure condition, or explicitly not registered with a reason. Code
+  lands in 03-solutions-baseline/3.2-theory/water-ledger/code/, alongside the
+  ledger it extends.
+disposition: >
+  open, seeded 2026-08-19. Reachable now, blocked on nothing — literature
+  retrieval only. Third unblocked package alongside WP-HTF-0011 and
+  WP-HTF-0012. Deliverable (1) is the highest-value item in the set because it
+  is the only one that forbids something, and it forbids it generally rather
+  than only for this programme.
