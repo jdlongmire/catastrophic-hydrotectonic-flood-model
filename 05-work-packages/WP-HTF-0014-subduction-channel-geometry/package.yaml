@@ -1,0 +1,100 @@
+id: WP-HTF-0014
+title: Subduction-channel geometry — supply the one missing quantity the vertical gate has never had
+status: proposed
+commitment: stretch
+scope: >
+  ROADMAP item 1 is stated as the gate on everything. Its LATERAL half closed
+  2026-08-18 (WP-HTF-0006, F7 PASS 2.1x, F8 PASS thin). Its VERTICAL half has
+  not moved since stand-up, and F9 in rheology/README.md names exactly why:
+
+    "No channel geometry (width, length, depth extent) exists anywhere in this
+     belt to derive an energy or power figure from -- only the required
+     VISCOSITY range (1e13-1e14 Pa*s), not Joules or Watts."
+
+  This package supplies that geometry, or establishes that current literature
+  does not constrain it. Nothing else in the present inventory unblocks as much
+  from one quantity. Three separate items wait on it:
+
+    (1) ROADMAP item 1's vertical heat term -- the gate itself.
+    (2) ROADMAP item 11b -- applying Kirby's (1983) olivine deformation map at
+        subduction-channel conditions, which is what would test whether the
+        gate's "3-4 orders short" verdict is a category error (a STATIC law
+        benchmarked against what a DYNAMICAL runaway meets as an emergent
+        output).
+    (3) The vertical-descent rate calculation flagged open in
+        kinematics/README.md, distinct from (1) and also downstream of geometry.
+
+  IN SCOPE: channel width, along-strike length, downdip depth extent, and the
+  thickness of the low-viscosity layer, sourced from subduction-zone geology and
+  from the exhumed-channel field literature. Also in scope: stating which of
+  these are constrained by observation, which by mainstream geodynamic modelling
+  (rule 23 -- a model output is not an observation), and which by neither.
+
+  OUT OF SCOPE: computing the vertical heat term itself. That is the follow-on
+  this package makes possible, and separating them is deliberate -- the geometry
+  must be fixed and sourced BEFORE a falsification condition is written against
+  it, or rule 1 is violated by construction.
+rationale_for_stretch: >
+  The honest outcome may be that the literature does not constrain subduction-
+  channel geometry tightly enough to carry a heat calculation at this programme's
+  required precision. That is a legitimate close under rule 18 and a real result:
+  it converts the vertical gate from UNQUANTIFIED to UNQUANTIFIABLE-FROM-CURRENT-
+  SOURCES, which is a different and more useful thing to know, and it would
+  redirect ROADMAP item 1's vertical half toward what would have to be measured
+  rather than toward a calculation that cannot be grounded.
+
+  Committed status is therefore wrong for it. The commitment is to run the
+  attempt to a recorded resolution, per 05-work-packages/README.md.
+authority_boundary: >
+  Retrieval, sourcing, analysis and reporting proceed without re-asking,
+  INCLUDING a result showing the geometry is unobtainable, which must be reported
+  plainly rather than softened into a range that looks more constrained than the
+  sources support.
+
+  Does NOT authorize: computing or asserting the vertical heat term; revising the
+  required 1e13-1e14 Pa*s viscosity range; revising the ~3-4 order-of-magnitude
+  residual gap; declaring ROADMAP item 1 closed or closeable; moving the appraisal
+  verdict. Any of those is a belt commitment and is JD's.
+actions:
+  - Establish what "subduction channel" denotes in the mainstream literature
+    before sourcing dimensions for it -- the term carries at least two distinct
+    senses (the serpentinized subduction interface / plate-boundary shear zone,
+    and the wider low-viscosity wedge corner), and sourcing dimensions across
+    both without saying so would produce a spuriously wide range. Define terms
+    first.
+  - Source channel dimensions from BOTH the geophysical-imaging literature and
+    the exhumed-terrane field literature (channel rocks brought to the surface),
+    with confidence labels per rule 2. The field literature is the more
+    observational of the two, and rule 23c makes that distinction load-bearing --
+    imaged channel thickness is an inversion output; an exhumed melange width
+    measured in outcrop is not.
+  - Search the creationist technical literature in the same pass, per rule 8 --
+    Baumgardner's own CPT papers specify mantle-scale geometry and are already
+    retrieved; whether any of that work states a CHANNEL geometry, as against a
+    whole-mantle one, is exactly the kind of question rule 8 exists to force
+    before a verdict is recorded.
+  - State the rival at its strength per rule 4 -- mainstream subduction-channel
+    geometry is derived under ordinary plate-tectonic rates and boundary
+    conditions. Whether those dimensions transfer to a catastrophic-interval
+    channel is a question this package must RAISE, not silently assume either
+    way. If they do not transfer, say so; a borrowed geometry that its own source
+    would not extend to these conditions is worse than none.
+  - Record every access failure with URL, status and date, per rule 13, and
+    escalate via direct PDF paths rather than HTML landing pages. Two prior
+    retrievals in this programme (Lee 2021, Torabi et al. 2019) died on this and
+    the ladder is now known.
+  - Land the sourced geometry in rheology/README.md as a named, dated belt entry
+    tagged forbids:none per rule 10 -- geometry is Tier 2 interpretive input, not
+    a Tier 3 claim, and mislabelling it would be a tier error.
+verification: >
+  A geometry section exists in rheology/README.md stating width, length, depth
+  extent and low-viscosity-layer thickness, each with a source and a confidence
+  label, and each marked as observation-derived or model-derived per rule 23c.
+  F9 in that file moves off "not computed, no geometry exists" to either "geometry
+  established, heat term computable" or "geometry unobtainable from current
+  sources, with the specific missing measurement named."
+
+  Closing condition either way: the follow-on package for the vertical heat term
+  can be written with its falsification conditions fixed against real numbers --
+  or it is stated plainly that it cannot be, and why.
+disposition: open

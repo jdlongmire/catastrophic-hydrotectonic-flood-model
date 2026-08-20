@@ -6,7 +6,9 @@
 
 A **Lakatosian research programme** reconstructing a historical, catastrophic hydrotectonic global Flood, evaluated against a **Popperian** standard. Not a completed theory and not presented as one.
 
-**Standing verdict: unappraised. Zero discriminators evaluated.** Any session that ends with that sentence still true has not failed — but any session that quietly changes it without an evaluated discriminator has.
+**Standing verdict: too early to appraise. No discriminator yet evaluated against data.** Any session that ends with that sentence still true has not failed — but any session that quietly changes it without an evaluated discriminator has.
+
+*Recalibrated wording, 2026-08-19 — no standard relaxed.* This line previously read *"unappraised. Zero discriminators evaluated."* It led with a count that reads as a verdict on the **model** when it is a description of its **age**, on a scorecard the rival is never handed ([`methods.md`](04-construct/methods.md) rule 4a). The programme is days from stand-up and Lakatos's framework has no "failing" category for a programme this young. The substantive fact is unchanged and is the one that governs: **no trace has yet been checked that picks this programme out from its competitors.** Two registered exclusions (E1, E2) now exist and are real evidential products under rule 24(b), but neither is a smoking gun and neither moves the verdict.
 
 ## The one thing to understand before contributing
 

@@ -15,4 +15,6 @@ Read the authoritative statement, the registered candidates, and the checked-and
 
 **Tier discipline (see [`methods.md`](../../04-construct/methods.md) rule 10):** these four conditions govern **Tier 3 only**. Retrodiction and re-description are expected Tier 2 work, tagged `forbids: none`; holding interpretive work to the Tier 3 bar is a tier error, and has been made once already.
 
-**Standing state:** nine candidates registered, two checked and rejected (retained, not deleted), and **zero evaluated against data**. The programme's verdict is *unappraised* for exactly this reason.
+**Standing state (refreshed 2026-08-19):** **12** candidates registered, **3** checked and rejected (retained, not deleted), **2 exclusions registered** (E1 vapor ceiling, E2 enthalpy ceiling), and **zero discriminators evaluated against data**. The programme's verdict is *too early to appraise* for exactly that last reason.
+
+**The exclusions count as results, and the verdict still does not move.** Per [`methods.md`](../../04-construct/methods.md) rule 24(b), forensic practice treats excluding a mechanism as a first-class product — E1 rules out vapor-mediated precipitation as the bulk mechanism for *any* Flood account, this one included. But an exclusion narrows the live hypothesis set; it is not a smoking gun picking this programme out from its competitors, and only the latter moves the verdict.

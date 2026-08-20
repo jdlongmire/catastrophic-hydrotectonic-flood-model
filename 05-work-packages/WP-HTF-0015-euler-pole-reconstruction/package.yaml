@@ -1,0 +1,79 @@
+id: WP-HTF-0015
+title: Euler-pole paleo-reconstruction — retire the present-day-centroid velocity table
+status: proposed
+commitment: committed
+pi_status: >
+  Not a PI-02 objective. Carried as a standing candidate in PI-02's
+  opportunistic lane. "committed" here describes the WORK -- bounded and
+  mechanical, it will land once scheduled -- not a claim that PI-02 schedules it.
+scope: >
+  ROADMAP item 2, open since stand-up: replace the Middle-East-anchor
+  upper-envelope continental-velocity table with an actual Pangaea-type paleo-
+  reconstruction using Euler poles, rather than present-day centroid distances.
+
+  WHY IT IS REACHABLE NOW AND WAS NOT BEFORE. Until 2026-08-19 this programme
+  named its pre-Flood supercontinent "Araratia" -- a name adopted here, not
+  found in the literature, with no published reconstruction attached to it. That
+  name was retired the same day and the supercontinent is Pangaea. The
+  consequence is direct and was not the reason for the retirement: published
+  Pangaea reconstructions, with their Euler-pole rotation parameters, now apply
+  to this programme's own supercontinent by name. The blocker on ROADMAP item 2
+  was never the mathematics; it was that the programme's starting configuration
+  had no published counterpart.
+
+  IN SCOPE: sourcing a published Pangaea reconstruction with its rotation poles;
+  recomputing continental displacement paths as rotations about those poles;
+  deriving the displacement DISTANCES that follow; comparing them against the
+  present table's 2,000-6,000 km average / 8,000-12,000+ km maximum figures.
+
+  OUT OF SCOPE: revising the surviving 9-40 cm/s velocity or the 15 km
+  detachment depth, both settled by WP-HTF-0003. This package supplies the
+  displacement field those numbers act over; it does not reopen them. If the
+  reconstruction produces displacements INCONSISTENT with the settled velocity
+  over the Flood-year duration, that is a flipped result and rule 11 applies --
+  surface it before writing anything down.
+authority_boundary: >
+  Retrieval, computation, scripting and reporting proceed without re-asking,
+  including a result showing the reconstruction's displacements conflict with the
+  current table or with the settled velocity.
+
+  Does NOT authorize: revising the WP-HTF-0003 velocity or detachment depth;
+  changing the supercontinent identification; asserting a specific initiating
+  location or breakup geometry as a belt commitment. The breakup figure of record
+  in assets/ was audited to a clean close 2026-08-19 and this package must
+  reconcile with it or report the discrepancy, not overwrite it.
+actions:
+  - Source a published Pangaea reconstruction WITH its Euler-pole rotation
+    parameters, primary where obtainable, confidence-labelled per rule 2. Name
+    which reconstruction was used and why that one -- reconstructions differ, and
+    picking the convenient one without saying so would violate rule 3.
+  - State plainly, per rule 23, that a paleo-reconstruction is a historical
+    interpretation and not a direct observation. Its Euler poles are derived from
+    magnetic-anomaly and hotspot-track fits under an assumed chronology -- the
+    same chronology this programme's phase schema partitions differently. The
+    geometry is usable; the timescale attached to it is not this programme's, and
+    conflating the two would be exactly the category error rule 23 names.
+  - Recompute displacement paths as rotations about the sourced poles. Code lands
+    in 03-solutions-baseline/3.2-theory/kinematics/code/ per rule 19, alongside
+    the mechanism it serves, deterministic and re-runnable from its own header
+    per rules 14 and 15.
+  - Compare the resulting displacements against the existing table and against
+    the archived continental-shift figure pair. Report agreement or discrepancy
+    in the same place; do not silently supersede.
+  - Ask what the step forbids, per rule 5. A displacement field is very likely
+    Tier 2 coherence work tagged forbids:none -- but if the reconstruction
+    implies a paleocurrent direction field, that is the input discriminator
+    candidate 2 (cross-basin coherent propagation front) has always lacked, and
+    PI-01's own sequencing note flags that "the paleocurrent discriminator needs
+    the motion field." Say so if it materialises; do not register it here.
+verification: >
+  A sourced reconstruction is named with its rotation parameters and confidence
+  label; a deterministic script reproduces the displacement paths from those
+  parameters; kinematics/README.md carries the resulting displacement figures
+  with the present-day-centroid table explicitly superseded rather than deleted,
+  per rule 6. ROADMAP item 2 moves off open.
+
+  If the displacements conflict with the settled velocity over the Flood-year
+  duration, the conflict is reported and left for JD rather than reconciled by
+  adjusting either side.
+disposition: open
