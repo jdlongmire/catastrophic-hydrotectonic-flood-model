@@ -45,6 +45,149 @@ rationale_for_stretch: >
 
   Committed status is therefore wrong for it. The commitment is to run the
   attempt to a recorded resolution, per 05-work-packages/README.md.
+architecture_reframing: >
+  ADDED 2026-08-19, JD-directed, from external reviewer feedback. This reframes
+  what the geometry this package delivers is FOR, so it is recorded here rather
+  than in a dev-note.
+
+  THE MOVE. Do not treat Baumgardner-style CPT as an external rival in toto.
+  Decompose it. His whole-mantle architecture carries a severe thermal burden
+  because it couples rapid plate motion to large-scale mantle deformation,
+  viscous dissipation, rapid lithosphere production and whole-mantle overturn.
+  CHFM does not need to inherit that package to use the piece that does work.
+
+  The valuable piece is the VERTICAL dynamics -- thermally and mechanically
+  unstable slabs undergoing runaway descent under strongly reduced effective
+  viscosity. CHFM subsumes that as the vertical leg of a layered model, under
+  rule 26:
+
+    impact forcing -> hydraulic failure -> { hydroplaning     = lateral
+                                             runaway subduction = vertical }
+
+  WHY THIS CHANGES THE HEAT PROBLEM RATHER THAN RESTATING IT. Baumgardner asks
+  ONE mechanism to accomplish both global lateral redistribution and rapid
+  subduction, through mantle-scale viscous deformation. CHFM already has a
+  separate low-dissipation mechanism for the lateral term -- near-lithostatic
+  pore pressure collapsing effective normal stress along the detachment, giving
+  translation at ~1e-1 m/s without mantle convection dragging continents
+  thousands of km. So the programme is no longer trying to solve "Baumgardner's
+  heat problem." It is asking which portions of his thermal burden belong
+  INTRINSICALLY to rapid vertical slab descent, and which are consequences of
+  his particular global dynamical architecture.
+
+  PROPOSED FORMULATION, the cleanest statement of CHFM reached so far --
+  a hybrid catastrophic tectonic architecture in which hydrotectonic decoupling
+  governs horizontal continental translation while a localized, hydrous,
+  thermomechanically unstable subduction regime governs vertical slab descent.
+  Baumgardner's runaway-subduction insight is retained at the scale where it
+  performs useful mechanical work; the whole-mantle architecture responsible for
+  much of CPT's thermal burden is discarded.
+
+  WHAT IS INHERITED -- slab gravitational potential energy, thermal-softening /
+  runaway rheology, Gruntfest-type shear instability, experimentally grounded
+  olivine deformation behaviour, and the numerical insight that catastrophic
+  vertical velocities can emerge once a strongly nonlinear rheological threshold
+  is crossed.
+
+  WHAT IS REPLACED -- his lateral driver, by hydrotectonic decoupling and
+  hydroplaning.
+
+  WHAT IS REJECTED -- mechanisms failing independent physical constraints. Done
+  once already with his steam-jet cooling, via E2. Note the logic there, because
+  it is the point of rule 26 -- the programme did NOT need to reject catastrophic
+  subduction because one proposed COOLING mechanism failed.
+
+  THE CAUTION, and it binds this package directly. "Subsumes Baumgardner" means
+  inheriting his strongest physically defensible component ALONG WITH ITS
+  LIABILITIES (rule 26 condition 4). It does NOT mean his numerical model becomes
+  evidence for CHFM. His calculations were built under a different architecture,
+  geometry, constitutive assumptions and boundary conditions. The EQUATIONS and
+  INSTABILITY PRINCIPLES may transfer. THE NUMERICAL OUTPUTS GENERALLY WILL NOT,
+  without rerunning them under CHFM boundary conditions. Any figure of his that
+  appears downstream of this package without a rerun is a defect.
+decomposed_heat_ledger: >
+  NEW, and the substantive addition. The total thermal accounting should be
+  decomposed as
+
+    Q_CHFM = Q_hydroplane + Q_subduction + Q_impact + Q_deformation - Q_removal
+
+  rather than inherited as
+
+    Q_CPT ~ Q_whole_mantle_overturn + Q_rapid_spreading + Q_subduction
+            + Q_friction + ...
+
+  ITS DEFENSIVE VALUE IS THE POINT. The decomposition prevents the classic CPT
+  heat objection from smuggling whole-mantle-overturn energy back into CHFM
+  AFTER CHFM has removed the mechanism that generates it. Without the ledger
+  written out, a critic can attack CHFM using an energy term belonging to an
+  architecture CHFM discarded, and the programme has no clean way to say so.
+
+  THREE EXPLICITLY SEPARATED THERMAL PROBLEMS, replacing the current two-way
+  lateral/vertical split -
+
+  1. Lateral translation heat. Provisionally closed via hydraulic decoupling
+     (WP-HTF-0006, F7 PASS 2.1x, F8 PASS thin under rule 21).
+  2. Localized vertical-subduction heat. OPEN, and potentially addressable using
+     a modified Baumgardner runaway mechanism. This package supplies its missing
+     geometry.
+  3. Global environmental heat rejection. Whether the spatially and temporally
+     localized heat generated by (2) can be transported, stored, buried,
+     advected or radiated without violating survivability constraints. NOT
+     currently a named problem in the belt, and distinct from F8's global-mean
+     stacking check, which diluted a LATERAL flux over the whole planet rather
+     than asking where a LOCALIZED vertical source puts its heat.
+
+  BELT-LEVEL RECOMMENDATION, not executed here. This decomposition is belt
+  structure, not a package artifact, and it should also land in
+  03-solutions-baseline/3.2-theory/rheology/README.md, replacing the current
+  two-way split. That is a belt commitment and therefore JD's.
+gate_reframing_and_its_rule_1_hazard: >
+  THE REFRAMING. The standing "3-4 orders of magnitude viscosity deficit" may be
+  partly mis-framed, because it compares a REQUIRED CATASTROPHIC EFFECTIVE
+  viscosity directly against a STATIC LABORATORY weakening factor. A runaway
+  instability is nonlinear and its variables are coupled --
+
+    eta = eta(T, P, C_H2O, strain_rate, grain_size, stress, porosity, ...)
+
+  Water lowers viscosity; higher strain raises deformation heating; heating
+  lowers viscosity further; localization raises strain rate; grain-size
+  evolution can change creep regime; slab gravitational energy drives further
+  deformation. The CHFM vertical hypothesis is therefore the feedback chain
+
+    C_H2O up -> eta down -> v_slab up -> strain_rate up -> Q_def up -> T up
+              -> eta down
+
+  with slab gravitational potential energy supplying the sustained reservoir.
+
+  SO THE QUESTION CHANGES. Not "can water alone lower 1e21 Pa*s to 1e13 Pa*s?"
+  -- the answer to that already appears to be no. But "can water weakening move a
+  localized subduction system across a dynamical instability threshold, after
+  which coupled thermal, mechanical and strain-localization feedback produces the
+  required effective viscosity TRANSIENTLY?" The critical issue becomes whether
+  the feedback reaches a stable catastrophic branch BEFORE melting, mechanical
+  disaggregation, or some other physical bound terminates it. That is a far
+  sharper research problem than "we need another four orders of water weakening."
+
+  ALREADY PARTLY RECORDED, and the convergence is worth noting rather than
+  claiming novelty -- rheology/README.md section "Read against Baumgardner's CPT,
+  2026-08-19 -- a possible category error in this gate" and ROADMAP item 11b both
+  state this reading. External reviewer feedback arriving independently at the
+  same reframing is corroboration, not a new finding.
+
+  THE RULE 1 HAZARD, stated because this reframing is exactly the shape an
+  accommodation takes. A reframing that makes a failing gate stop failing, adopted
+  AFTER the gate was seen to fail, is an accommodation however good the physics.
+  Two conditions therefore bind any work under this reframing.
+
+  (a) The instability-threshold criterion and what would count as REACHING or
+  NOT REACHING a catastrophic branch must be fixed in writing BEFORE any
+  constitutive law is evaluated at channel conditions. Terminating bounds --
+  melting, disaggregation -- are declared in the same pass, not discovered.
+
+  (b) A NEGATIVE result must be recordable as a real outcome. If the feedback
+  does not reach a sustained catastrophic branch under sourced parameters, that
+  is a genuine finding about the vertical leg and gets logged under rule 25 as
+  what it is. The reframing must be able to fail, or it is insulation.
 authority_boundary: >
   Retrieval, sourcing, analysis and reporting proceed without re-asking,
   INCLUDING a result showing the geometry is unobtainable, which must be reported

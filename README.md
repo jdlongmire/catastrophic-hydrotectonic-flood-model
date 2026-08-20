@@ -41,7 +41,7 @@ social-media/            long-form distribution content
 
 ## Honest standing
 
-This programme has an articulated hard core and an articulated positive heuristic. It does not yet have a claim that forbids anything — six candidate discriminators are named, none evaluated against data. The initial research's own internal arithmetic and cited empirical anchors check out on independent review.
+This programme has an articulated hard core and an articulated positive heuristic. **It now holds two claims that forbid something** — E1 (vapor ceiling) and E2 (enthalpy ceiling), registered 2026-08-19 as exclusions, both binding this programme as hard as its rivals. **Twelve candidate discriminators are named, three checked and rejected, and none evaluated against data**, which is what the standing verdict turns on. The initial research's own internal arithmetic and cited empirical anchors check out on independent review.
 
 Two mechanisms now do real, checkable work. Continental hydroplaning (Terzaghi effective-stress collapse under near-lithostatic pore pressure) accounts for rapid lateral translation with a quantified ~100-fold heat-flux reduction and a checked water-supply rate (~800:1 excess); this closes the heat-budget problem that has defeated every prior catastrophic-plate-tectonics proposal. A separate, localized mantle-viscosity reduction (water content in ringwoodite, checked against primary literature) narrows — but does not close — the requirement for vertical slab descent into the transition zone; roughly 3 to 4 orders of magnitude remain unaccounted for, now scoped to subduction channels rather than the bulk transition zone.
 
