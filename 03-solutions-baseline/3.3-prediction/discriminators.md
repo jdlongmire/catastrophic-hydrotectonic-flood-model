@@ -8,16 +8,40 @@ The belt (kinematics, rheology, water ledger, stratigraphy) can all be built out
 
 ## What counts
 
-A discriminator is a claim, stated **before** evaluation, that:
+**Re-based 2026-08-19 on the forensic standard** ([`../../04-construct/methodology.md`](../../04-construct/methodology.md) §Genre; [`research-practices.md`](../../04-construct/methods.md) rule 24), grounded in Cleland (2001), *Geology* 29(11):987–990, primary retrieved and read. Prior wording retained below per rule 6. The old four conditions were Popperian — experimental-science shape applied to a historical-science problem.
 
-1. **Forbids** — some observation is inconsistent with it.
-2. **The rival (ordinary historical geology) permits it**, or forbids a different observation. A claim both accounts forbid discriminates nothing.
-3. **Is evaluable** against existing or reachable data, against a defined sample.
-4. **States its failure condition first.**
+**A discriminator here is a *smoking gun*:** in Cleland's words, *"a trace that picks out one of the competing hypotheses as providing a better causal explanation for the currently available traces than the others."* To register, it must satisfy:
+
+1. **Discriminates.** The trace picks out one hypothesis from the stated set. *(Reframed from "forbids." Exclusion — ruling a mechanism out — also qualifies, and forensic practice holds exclusions as securely as identifications.)*
+2. **The rival does not equally predict it.** A trace both accounts expect picks out neither. *(Unchanged, and now the centre rather than one of four — this was always the smoking-gun criterion stated in the negative.)*
+3. **Is evaluable against a trace, not a reconstruction.** Existing or reachable data, defined sample. Where the "data" is itself a model output — tomographic inversion, plate reconstruction, calibrated age model — say so and name the observable beneath it *(rule 23c)*.
+4. **Names its competing-hypothesis set.** Chamberlin's multiple working hypotheses. Not "this programme vs. ordinary historical geology" as a monolith — name the live positions on both sides, including rivals within this programme's own family, since Baumgardner-style CPT is a competitor rather than a synonym. **This is a new requirement and it is harder than what it replaced.**
+5. **States its failure condition first — discipline, not gate.** *(Demoted.)* Cleland's paradigm smoking gun, the Alvarez K-Pg iridium anomaly, *"was not predicted in advance of its discovery."* Retained as good practice against post-hoc rationalisation and still binding on computational work per rule 1, but no longer a bar to registration, because the genre does not require it and the rival is not held to it.
+
+**Net effect: the bar went up.** Pre-registration was removed as a gate because it is genre-inappropriate; an explicit competing-hypothesis set was added, which nothing in the belt previously supplied. This was checked for self-serving effect and **no killed candidate is resurrected** — see the K-Pg ichnofabric verdict below, which is unchanged and arguably sharper under the new criteria.
+
+**The failure state, named.** Cleland: *"Failure to search for a smoking gun deprives a historical hypothesis of empirical grounding, turning it into a dreaded just-so story."* A belt that grows in coherence while nobody is hunting discriminating traces is in that state however well-formed it is. That, not "unfalsified," is what this programme has to avoid.
+
+> **Prior wording, retained per rule 6.** *"A discriminator is a claim, stated **before** evaluation, that: 1. **Forbids** — some observation is inconsistent with it. 2. **The rival (ordinary historical geology) permits it**, or forbids a different observation. A claim both accounts forbid discriminates nothing. 3. **Is evaluable** against existing or reachable data, against a defined sample. 4. **States its failure condition first.**"
 
 ## The gate: the rheology / heat-budget problem
 
 Nothing below is reachable in a way that survives scrutiny until the programme can show that transient mantle viscosity in the 10¹³–10¹⁴ Pa·s range is physically achievable during the catastrophic interval, via some quantified combination of water-weakening and thermal feedback — or concedes it isn't, which would itself be a real result. Every kinematic claim in the initial research (continental velocities ~10⁻¹ m/s, slab descent to transition-zone depths within the Flood year) is conditioned on this. Checked against current geodynamic literature (2026-08-16), and against the model's own specified mechanism (water content in ringwoodite/wadsleyite, not partial melt): the largest documented water-specific viscosity reduction on the correct mineral (Fei et al. 2017, ~3.5 orders of magnitude, anhydrous→water-saturated ringwoodite) narrows the gap from a standard transition-zone baseline to roughly 3–4 orders of magnitude short of the requirement — down from the 5–6 orders found when the requirement was compared against an unrelated partial-melt floor (~10¹⁹ Pa·s). See [`../3.2-theory/rheology/README.md`](../3.2-theory/rheology/README.md) and [`../../dev-notes/20260816-water-weakening-mechanism.md`](../../dev-notes/20260816-water-weakening-mechanism.md). This is not a preliminary to the discriminator hunt. It is the discriminator hunt, stated precisely: a real, correctly-targeted mechanism narrows the gap; whether the remaining 3–4 orders can be reached — via thermal feedback, strain-rate localization, or an effect not yet in the literature — is still what determines whether the programme's core mechanism is physically excluded, regardless of how the stratigraphy comes out.
+
+## Re-scored under the forensic criteria, 2026-08-19
+
+Done in the same pass as the re-base, so the new standard is applied to the existing candidates rather than only to future ones.
+
+| Candidate | Under the new criteria |
+|---|---|
+| **8. Transverse drainage** | **Strengthened.** Smoking-gun shaped: a globally synchronous overflow-breach regime across 1,549 cases is a trace that picks out one hypothesis, and gap morphology is genuinely observational rather than model-mediated. Still the strongest candidate; still blocked on Lee 2021's paywall, not on method |
+| **4. Seismic texture discontinuity** | **Weakened.** Tomography is an inversion (rule 23c), so on Cleland's own terms the "trace" is a model output rather than a trace. `WP-HTF-0011`'s regularisation gate is now doing load-bearing work, and its outcome (c) is more likely than it looked |
+| **1, 2, 5, 6, 7** | **Unchanged in status**, but all five now owe condition 4 — an explicit competing-hypothesis set — which none of them currently states |
+| **3. MTZ hydration** | **Unchanged: still not a discriminator.** The rival predicts the same correlation, so the trace picks out neither. Fails new condition 2 exactly as it failed the old one |
+| **Vapor ceiling** (~0.46 m; [`../3.2-theory/water-ledger/README.md`](../3.2-theory/water-ledger/README.md)) | **Newly categorisable as an exclusion**, which forensic practice treats as a first-class result. Under the old framing it had no natural category and sat as "a candidate for registration." It rules out vapor-mediated precipitation as the bulk mechanism for *any* Flood account, this one included |
+| **Enthalpy ceiling** killing CPT's steam jets ([`../../dev-notes/20260819-baumgardner-cpt-comparison.md`](../../dev-notes/20260819-baumgardner-cpt-comparison.md)) | **Likewise an exclusion**, and one that discriminates *within* the CPT family rather than against deep time |
+
+**The two exclusions are, on this framing, the most substantial evidential products the programme currently holds** — which is a different reading of its position than "zero discriminators evaluated" gave, without any standard having been lowered to get there.
 
 ## Where to hunt
 
@@ -121,7 +145,9 @@ Proposed on the reasoning that the *kind* of disturbance in the K-Pg boundary cl
 
 **Killed on checking the literature before registering it.** A dedicated body of work already answers the question, and against the proposal: at the Caravaca section (SE Spain) the boundary layer is cross-cut vertically by *Zoophycos* and *Chondrites* and penetrated laterally by *Chondrites*, with a trace-fossil assemblage running continuously into the uppermost Maastrichtian (Rodríguez-Tovar & Uchman 2008, *Geobios*); Alegret et al. (2015, *Terra Nova*) is titled "How bioturbation obscured the Cretaceous–Palaeogene boundary record."
 
-Fails **condition 4** (the evaluation predates the claim, so registering it would be retrodiction) and, fatally, **condition 2** — both accounts permit bioturbation, so the observation discriminates nothing. Full analysis, including what the programme legitimately retains and the unpaid cost it does not, in [`../../dev-notes/20260817-ichnofabric-discriminator-checked-failed.md`](../../dev-notes/20260817-ichnofabric-discriminator-checked-failed.md).
+Fails **condition 4** (the evaluation predates the claim, so registering it would be retrodiction) and, fatally, **condition 2** — both accounts permit bioturbation, so the observation discriminates nothing.
+
+**Re-checked against the 2026-08-19 forensic re-base — the kill holds, and is sharper.** A methodology change that revives its author's own dead candidates is precisely what a critic should suspect, so this was verified rather than assumed. Under the smoking-gun criterion the verdict is identical and better stated: **a trace both hypotheses predict is not a trace that picks out either of them.** The old condition-4 objection is separately weakened (pre-registration is now discipline rather than gate), but that changes nothing here, because the fatal objection was always condition 2 and it is now the centre of the standard rather than one item of four. No resurrection. Full analysis, including what the programme legitimately retains and the unpaid cost it does not, in [`../../dev-notes/20260817-ichnofabric-discriminator-checked-failed.md`](../../dev-notes/20260817-ichnofabric-discriminator-checked-failed.md).
 
 **A cost recorded here on 2026-08-17 was withdrawn the same day.** The original entry asserted that deep-tier *Zoophycos* requires a stable substrate over a meaningful interval and therefore counted against a catastrophic reading. That was reached from mainstream sources only. Woodmorappe (2006), *Journal of Creation* 20(2):113–122 — a dedicated treatment of this exact objection, read in primary — states that "*Zoophycos* is no longer considered as a slowly-constructed ichnofossil," addresses *Chondrites* by name as well, documents burrowing rates of centimetres to tens of centimetres in seconds to minutes with entire beds overturned in under a day, and proposes Penecontemporaneous Partially Lithified Crusts (PPLCs) as a mechanism for simultaneous bioturbation of superposed horizons. The withdrawal and Woodmorappe's own conceded limitations are in the dev-note.
 
