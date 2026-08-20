@@ -154,6 +154,37 @@ This section was written *before* the programme's first script existed, so the d
 
     **The obligation.** Any entry in [`../03-solutions-baseline/3.3-prediction/appraisal.md`](../03-solutions-baseline/3.3-prediction/appraisal.md), [`../03-solutions-baseline/3.3-prediction/discriminators.md`](../03-solutions-baseline/3.3-prediction/discriminators.md) or the unit register that records a failure **names its kind**. An entry that says only "failed" is incomplete, because the reader cannot tell whether the model lost anything. This applies to the rival's failures too, per rule 4a — the Baumgardner cold-slab grading is an `F-c`-adjacent result about *his* candidate, not a refutation of CPT as a model, and should not be reported as one.
 
+26. **Subsume the best creationist arguments where you can; where you cannot, you owe an alternative.** (Added 2026-08-19, JD-directed: *"CHFM can leverage the best creationist arguments and potentially subsume them into the model — unless there is an intractable issue that cannot be overcome and then it owes an alternative."*)
+
+    This is rule 9 generalised from a practice into a posture, and it has **two worked precedents already in the record**: CPT's steam geysers hit an intractable issue (E2 — an order of magnitude short on enthalpy per kilogram), could not be repaired, and were **replaced** by impact-lofted precipitation; the vapor canopy was found unable to contribute materially without becoming thermodynamically uninhabitable across the literature's own proposed range, and was **declined** in favour of the existing crustal/deep-mantle source. Both discharged the debt this rule names.
+
+    **Why it is legitimate rather than convenient.** A programme that explains everything its family rivals explain, supplies a mechanism they lack, and forbids something they do not, is *progressive relative to them* in Lakatos's own sense. Subsumption is what a stronger theory does to a weaker one. It is not a courtesy extended to allies.
+
+    ### The load-bearing consequence: subsumption and discrimination trade off
+
+    **Every intra-family competitor CHFM subsumes is one it can no longer be discriminated *from*, because it is now inside the model.** That is an acceptable price and often a clarifying one — it shrinks the set CHFM must beat and aims the real contest at `[mainstream]`. But it is a price, and it must be paid consciously:
+
+    **When a `[creationist-other]` account is reclassified from competitor to subsumed, the register says where the discriminating work moved.** A subsumption that quietly removes a test without relocating it converts a hypothesis set into a single hypothesis, which is the just-so-story state by another route (rule 24(c)).
+
+    ### CHFM's non-subsumable content — name it, or there is nothing left to test
+
+    A model that can absorb anything has no distinctive content. So this rule requires the answer to *"what is uniquely CHFM's?"* to stay stated and stay short. **As of 2026-08-19 it is the translation term** — continental hydroplaning at 9–40 cm/s on a 15 km detachment under Terzaghi-collapsed pore pressure ([`WP-HTF-0003`](../05-work-packages/WP-HTF-0003-velocity-reconciliation/package.yaml)), and the phase structure that follows from it.
+
+    **Consequence for test design, and it is sharp:** a test that discriminates *catastrophic* from *uniformitarian* deposition does **not** test CHFM. It tests the family. **Tests aimed at CHFM specifically must bear on translation.** Most of what looks like evidence for this programme is actually evidence for the family, and that distinction is now required rather than optional.
+
+    ### Four conditions on any subsumption
+
+    1. **Rule 9's three obligations are discharged** — restate the result in this programme's vocabulary and tier structure; say what it does for the hydrotectonic framing specifically; say what CHFM contributes back that the source did not have. Absorption that gives nothing back is borrowing.
+    2. **Say where the discriminating work moved**, per the tradeoff above.
+    3. **Subsumption without added constraint is not progress** (rule 22's over-determination standard). Absorbing a result and gaining no new evaluated constraint leaves the ratio unchanged and should be recorded as coherence work, `forbids: none`.
+    4. **State what the source concedes**, per rule 8. Subsuming an argument means inheriting its limitations too, and a subsumption that carries only the strong half is a misrepresentation of the source.
+
+    ### The debt clause, which is the half that keeps this honest
+
+    **Where an argument has an intractable issue CHFM cannot overcome, CHFM may not simply drop it — it owes an alternative.** Recorded as an open debt with the issue named, not as a silent omission. A quietly abandoned mechanism with no replacement is a gap the programme has stopped tracking, and the two precedents above are the standard: both named the defect, both supplied a substitute.
+
+    **An unpaid debt is carried visibly.** If no alternative exists yet, that is a stated open problem, not a resolved question.
+
 ## GitHub-safe math (for any derivations in prose)
 
 - `\mathrm`, not `\operatorname`.

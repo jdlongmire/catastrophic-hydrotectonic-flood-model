@@ -70,9 +70,19 @@ Northern Arizona; outcrop belt ~200 km across. ~100 m thick at the Grand Canyon,
 | **(a)** | **Dry eolian erg.** Wind-built dune field; cross-beds are avalanche faces; textural maturity from prolonged aeolian winnowing | `[mainstream]` | The standard reading since McKee 1934. **The account the measured textures bear on** |
 | **(b)** | **Damp / wet interdune erg.** Still an erg, but with a water table high enough to saturate interdune areas — accommodating liquidization, and seismic triggering, without leaving the eolian framework | `[mainstream]` | **The live competitor**, and the one Brand & Maithel themselves propose. Not addressed by any texture argument above |
 | **(c)** | **Sustained high-concentration subaqueous transport — CHFM's F2** | `[CHFM]` | Step 4 below |
-| **(d)** | **Rapid subaqueous deposition without continental translation.** Catastrophic sand transport in a flood context, no hydroplaning mechanism required | `[creationist-other]` | Whitmore et al.'s own petrology supports (d) as readily as (c). **This candidate does not separate CHFM from (d)**, and that limit is the same shape as candidate 7's |
+| **(d)** | **Rapid subaqueous deposition without continental translation.** Catastrophic sand transport in a flood context, no hydroplaning mechanism required | `[creationist-other]` | **SUBSUMED, not opposed — rule 26.** See below |
 
-**The discriminating work that actually needs doing is (c) vs (b), and (c) vs (d)** — not (c) vs (a). (a) is the account the textural data embarrass, but embarrassing (a) advances CHFM only as far as (b) and (d), which are untouched by it.
+### (d) is subsumed, and that changes what this unit can test
+
+Under [`methods.md`](../../../04-construct/methods.md) rule 26, (d) is not a competitor CHFM must defeat. **CHFM takes (d)'s depositional claim entire** — rapid subaqueous emplacement of the sand is exactly what (c) asserts — and retains **continental translation** as excess content (d) does not have. Whitmore et al.'s petrology supports (c) and (d) equally well, and under rule 26 that is not a defect of the candidate: it means the textural evidence bears on the **family**, and CHFM's own contribution lies elsewhere.
+
+**Where the discriminating work moved, as rule 26 requires be stated.** Subsuming (d) removes (c)-vs-(d) as a test on this unit, so it has to be relocated rather than dropped. **It moves to the translation term** — the one thing (d) lacks — which on this unit means the *spatial scale* of transport coherence and nothing else. Every textural, compositional and deformation observable in step 2 is now understood as bearing on (a) and (b) only.
+
+**What CHFM gives back to (d), per rule 9's third obligation.** (d) asserts rapid subaqueous transport but supplies no reason for a sustained, continent-scale, unidirectional transport regime — it needs a flood, and a flood alone is a standing body of water, not a directional engine. Hydroplaning under Terzaghi-collapsed pore pressure supplies exactly that: a moving bed with a persistent transport direction set by the translation vector. **That is contribution, not borrowing.**
+
+**And (d)'s limitations are inherited with it (rule 26 condition 4).** (d) carries no account of why the Coconino's transport direction should be coherent at any particular scale, which is the same silence that makes the test below hard to specify. Subsuming (d) does not fix that.
+
+**So the discriminating work that remains on this unit is (c) vs (b)** — CHFM against a `[mainstream]` wet-interdune erg. (a) is the account the textural data embarrass, and embarrassing (a) advances CHFM only as far as (b), which absorbs those same observables comfortably.
 
 ### Why (a) is under strain
 
@@ -110,15 +120,17 @@ Northern Arizona; outcrop belt ~200 km across. ~100 m thick at the Grand Canyon,
 
 **Currently: nothing. This unit forbids nothing and is `forbids: none` Tier 2 content.** Recorded as such rather than left ambiguous.
 
-**Any test proposed here must target (b) and (d), not (a).** That is the direct consequence of the family tags in step 3, and it disqualifies most of what looks like evidence for this unit. Beating (a) is cheap and buys nothing.
+**Any test proposed here must target (b), the `[mainstream]` wet-interdune erg.** (a) is already embarrassed and beating it buys nothing; (d) is subsumed under rule 26 and is no longer something to beat.
+
+**And a sharper constraint, from rule 26's non-subsumable-content clause.** A test that separates *catastrophic* from *uniformitarian* deposition tests the **family**, not CHFM. **A test aimed at CHFM must bear on the translation term.** That disqualifies most of what looks like evidence on this unit.
 
 **Candidate tests, none run:**
 
-- **Paleocurrent coherence at scale — the best of the three, and the only one that bears on both live competitors.** (c) predicts transport coherent *beyond basin scale*, tracking continental translation. **(b)** predicts dune-field-scale coherence organised by a regional wind regime. **(d)** predicts coherence set by local or basin-scale flow, since it has no continental-translation term. So the discriminating quantity is not *whether* transport is coherent — all three give coherence — but **the spatial scale over which coherence persists, and whether it correlates with a reconstructed wind regime or with a translation direction.** The data exist. **This is the most reachable test on this unit, and the pre-registration must fix the scale threshold before any dataset is opened**, or it collapses into a compatibility claim.
-- **The sorting prediction, stated before looking.** If high-concentration mass flow is the mechanism, sorting should degrade in a specifiable way with inferred flow concentration. Not yet formulated — and note this bears on (b) but **not** on (d), which predicts the same textures as (c).
-- **Grain-surface microtexture.** Eolian and subaqueous transport leave different SEM signatures; standard technique, existing literature, not consulted here. **Bears on (a) and (b) only.** It cannot separate (c) from (d) even in principle, since both are subaqueous — worth stating so it is not mistaken for a decisive test.
+- **Paleocurrent coherence at scale — the only one that survives both filters.** (c) predicts transport coherent *beyond basin scale*, tracking a translation vector. **(b)** predicts dune-field-scale coherence organised by a regional wind regime. The discriminating quantity is not *whether* transport is coherent — both give coherence — but **the spatial scale over which it persists, and whether it correlates with a reconstructed wind regime or with a translation direction.** The data exist. **Pre-registration must fix the scale threshold and the wind-regime reconstruction before any dataset is opened**, or it collapses into a compatibility claim. **This is also the only candidate here that bears on translation**, which is why it is the one worth running.
+- **The sorting prediction, stated before looking.** If high-concentration mass flow is the mechanism, sorting should degrade in a specifiable way with inferred flow concentration. Not yet formulated. **Bears on (b) only — it is a family-level test, not a CHFM-level one**, since subsumed (d) predicts the same textures.
+- **Grain-surface microtexture.** Eolian and subaqueous transport leave different SEM signatures; standard technique, existing literature, not consulted. **Bears on (a) and (b) only, and is family-level.** Recorded so it is not later mistaken for a decisive test of CHFM.
 
-**The standing risk, named in advance rather than discovered.** (c) and (d) may not be separable on this formation at all. Both are rapid subaqueous deposition; they differ in whether the *continent was moving underneath*, which a single sand body may simply not record. If the paleocurrent scale test cannot separate them, **this unit is not a discriminator for CHFM specifically** and should be recorded as such rather than retained on the strength of its case against (a).
+**The standing risk, named in advance rather than discovered.** A single sand body may simply not record whether the continent was moving underneath it. If the paleocurrent scale test cannot resolve translation, **this unit is family-level evidence at best and is not a discriminator for CHFM specifically** — to be recorded as such rather than retained on the strength of its case against (a).
 
 ---
 
