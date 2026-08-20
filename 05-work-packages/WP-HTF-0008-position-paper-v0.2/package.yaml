@@ -61,21 +61,74 @@ delta_since_v0_1: >
   recorded in the repo as a cost rather than absorbed, and the paper should
   carry it too.
 forcing_item: >
-  One item is a correctness problem in a published document, not an
-  improvement, and it is the reason this package should not sit indefinitely.
+  WITHDRAWN 2026-08-19, JD-flagged. Retained per rule 6 rather than deleted.
 
-  JD's commitment that Chicxulub is a swarm MEMBER places K-Pg inside the
-  catastrophic interval. Section 6.2 as published rejects K-Pg as a boundary
+  IT READ: "JD's commitment that Chicxulub is a swarm MEMBER places K-Pg inside
+  the catastrophic interval. Section 6.2 as published rejects K-Pg as a boundary
   candidate. The published paper therefore contradicts the programme's own hard
-  core as it now stands. Flagged in
-  dev-notes/20260817-start-stop-energy-objection.md as a belt commitment
-  awaiting JD; it needs resolving in the belt BEFORE v0.2 states either
-  position, because publishing the contradiction a second time would be worse
-  than publishing it once unknowingly.
+  core as it now stands."
+
+  THERE IS NO CONTRADICTION, on two independent grounds, and neither required
+  new work to establish -- both were already in the repo when the item was
+  written.
+
+  (1) Sec 6.2 DOES NOT REJECT K-Pg. It sits under "Open Questions," reports the
+  initial research's rejection, and then undercuts it: "That evidence is real.
+  Whether it is correctly identified is a separate, live dispute in the
+  literature that the initial research did not engage... The programme's
+  position is accordingly that the case against the tested boundaries is WEAKER
+  THAN THE INITIAL RESEARCH REPRESENTED IT TO BE, without this constituting a
+  positive case for any one of them." The forcing item mischaracterised the
+  section it was raised against.
+
+  (2) THE FOUNDING TRANSCRIPT ALREADY SEPARATED THE TWO OBJECTS. research/
+  GPT-hydrotectonic-flood-model.md carries a two-boundary formulation --
+  Z_trigger =/= Z_inundation(x) -- and states: "Under this formulation
+  Chicxulub, for example, could theoretically represent a trigger without
+  requiring the K-Pg boundary everywhere to represent immediate global
+  inundation." Chicxulub-as-swarm-member fixes where the TRIGGER sits; the K-Pg
+  rejection was about whether that horizon is a GLOBAL SYNCHRONOUS INUNDATION
+  boundary. Different objects. Under the diachronous t_C(x) adopted 2026-08-17
+  there is no tension at all.
+
+  WHY IT SURVIVED. Raised 2026-08-17 under the fixed-boundary framing, which the
+  diachronous adoption superseded THE SAME DAY. Never withdrawn, and then
+  repeated as a live blocker in later sessions without either the paper section
+  or the transcript passage being re-read. Same failure class as the
+  un-propagated rule-4a recalibration (see appraisal 2026-08-19): a superseded
+  item stays live because nothing swept for it.
+
+  NET EFFECT ON THIS PACKAGE: it is LESS BLOCKED than recorded. See
+  gating_decision.
+residual_defect_found_while_checking: >
+  Sec 6.2 says "tested THREE candidate boundaries" and then names FOUR --
+  "Cambrian onset, then Permian-Triassic, Triassic-Jurassic, and
+  Cretaceous-Paleogene (K-Pg)" -- and concludes "all three as failing." Four
+  named, "three" stated twice.
+
+  NOT MERELY AN EDITING SLIP, and it bears on an open JD ruling. The word doing
+  the work is "then": Cambrian onset, THEN the other three. The published paper
+  already reads Cambrian as the starting position and the other three as the
+  tested candidates -- which is exactly the "split" classification JD is
+  weighing under rule 25 (Cambrian = F-e belt refutation; the other three =
+  eliminative successes). The count error is the seam where that distinction was
+  half-made and never carried through.
+
+  If JD rules the split, Sec 6.2 needs the count fixed and the distinction made
+  explicit. It does not need re-argument.
 gating_decision: >
-  RECOMMENDED: gate v0.2 on WP-HTF-0003 (velocity reconciliation) and on
-  resolution of the forcing item above; do NOT gate on WP-HTF-0004, -0005 or
-  -0006.
+  REVISED 2026-08-19 after the forcing item was withdrawn. RECOMMENDED: gate
+  v0.2 on WP-HTF-0003 (velocity reconciliation) ONLY; do NOT gate on
+  WP-HTF-0004, -0005 or -0006, and no longer gate on the forcing item, which
+  does not exist. WP-HTF-0003 has since landed (2026-08-18), so the recommended
+  gate is DISCHARGED and this package is reachable now.
+
+  ONE ITEM REMAINS OUTSTANDING BUT IS NOT A GATE: JD's rule-25 ruling on whether
+  the Cambrian placement is an F-e belt refutation and the other three are
+  eliminative successes (the "split"). That ruling changes HOW Sec 6.2 is
+  written, not WHETHER v0.2 can proceed, and it is cheap to apply once made.
+
+  PRIOR TEXT RETAINED BELOW per rule 6.
 
   Rationale. Sec 3.4's inconsistency is the paper's single most-cited weakness
   — it appears in 3.4, in Sec 8's second bullet, and the v0.1 submission
@@ -107,12 +160,17 @@ authority_boundary: >
   paper and the belt disagree, the belt is corrected first, in its own package,
   and the paper follows.
 
-  Does not authorize resolving the forcing item unilaterally. Whether Chicxulub
-  as swarm member overrides Sec 6.2's K-Pg rejection is a hard-core-adjacent
-  call and is JD's.
+  Does not authorize resolving JD's rule-25 split ruling unilaterally, nor
+  restating Sec 6.2's position on the tested boundaries beyond what the ruling
+  settles. (The former "does not authorize resolving the forcing item"
+  restriction is moot -- the forcing item was withdrawn 2026-08-19; there was
+  never a contradiction to resolve.)
 actions:
-  - Resolve the forcing item in the belt (its own package if it proves
-    substantive), so v0.2 states one coherent position on K-Pg
+  - Fix Sec 6.2's three/four count error and make the Cambrian-vs-tested-three
+    distinction explicit, per JD's rule-25 ruling once made
+  - Carry the two-boundary formulation (Z_trigger =/= Z_inundation(x)) into
+    Sec 6.2 explicitly, so no future reader reconstructs the withdrawn
+    contradiction from the paper's own text
   - Land WP-HTF-0003 so Sec 3.4 and Sec 8 bullet 2 can close
   - Revise POSITION-PAPER.md — title, 3.2, 3.4, 6.2, 7, 8, abstract, and the
     status line; add a "Changes in this version" block naming each revision
@@ -134,6 +192,10 @@ verification: >
   exists to catch. Concept DOI 10.5281/zenodo.21972858 resolves to the new
   version; the v0.1 version DOI 10.5281/zenodo.21972859 still resolves to v0.1.
   No file under research/ is modified.
-disposition: open — JD requested this package 2026-08-18. Blocked by the
-  forcing item and, per the recommended gating, by WP-HTF-0003. Publishing is
-  a separate explicit JD authorization, not carried by this package.
+disposition: >
+  open -- JD requested this package 2026-08-18. UNBLOCKED as of 2026-08-19: the
+  forcing item was withdrawn (there was no contradiction) and WP-HTF-0003, the
+  only recommended gate, landed 2026-08-18. PI-02 objective P3.
+
+  Publishing remains a separate explicit JD authorization, not carried by this
+  package.
