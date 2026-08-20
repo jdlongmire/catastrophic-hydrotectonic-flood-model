@@ -12,11 +12,25 @@ The schema is in [`README.md`](README.md) §Phase schema. This file holds units.
 |---|---|---|
 | **1. Location** | Where the unit is, geographic and stratigraphic. **Address only** | The schema holds column names as locational shorthand, never time assignments. No step may reason "Cambrian, therefore early Flood" |
 | **2. Observable evidence** | What is **measured or seen**: thicknesses, grain sizes, dips, counts, compositions, geometries. Each with source and confidence | Rule 23(a) — observation / measurement / historical inference are different, and only the first two belong here. Rule 2 — confidence labels |
-| **3. Problem statement** | What the evidence makes difficult, **including the rival's best current account stated at its strongest** | Rule 4 / 4a. A "problem" the rival already answers is not a problem. This slot is where that gets tested rather than assumed |
+| **3. Problem statement** | What the evidence makes difficult, **including every competing account stated at its strongest, each tagged with the family it belongs to** — `[mainstream]`, `[creationist-other]`, `[CHFM]` | Rule 4 / 4a. A "problem" a competitor already answers is not a problem. Rule 24(a) — the hypothesis set is mandatory and *"ordinary historical geology"* is not a monolith. **The family tag is what keeps the target honest: see below** |
 | **4. CHFM potential solution** | This programme's proposed causal explanation, and the phase assignment that follows from it. **Marked potential; belt commitment is JD's** | Rule 10 — Tier 2 interpretive work, `forbids: none` unless step 5 says otherwise. Rule 11 — belt commitments are not made here |
 | **5. What would test it** | Does the proposed solution forbid anything? What trace would pick it out from the alternatives in step 3? | Rule 5 and rule 24(c). Added so the register cannot quietly become a set of just-so stories |
 
 **Steps 3-rival and 5 are proposed additions to JD's four**, both drawn from rules already binding. Easily removed if he wants the leaner shape.
+
+## What this register is for, and what it is not for (JD, 2026-08-19)
+
+**The target is CHFM as an explanatory framework. It is not the Flood.**
+
+JD's question, and it settles how every step 3 gets written: *"this isn't to discredit a global flood, just to discriminate CHFM as an explanatory framework?"* Correct, and it is structural rather than a matter of intent.
+
+The Flood sits in the **hard core** ([`../../3.1-hypothesis/hard-core.md`](../../3.1-hypothesis/hard-core.md) commitment 3), which is immune *by decision* in Lakatos's sense. Nothing in this register is capable of testing whether it happened. What is tested is the **belt** — mechanisms, phase assignments, rates, geometries. A failed unit falsifies a claim about *how* something formed or *which phase* it belongs to.
+
+**This is already how the programme's discriminators behave, not a new posture.** When the rule-24a hypothesis-set debt was paid, **three of five candidates turned out to discriminate primarily against *creationist* rivals** — hydraulic sorting, a fixed global boundary, dry catastrophic sliding — not against deep time. E2, the enthalpy ceiling, discriminates *within* the CPT family: it kills Baumgardner's steam jets, not the Flood. Candidate 7 was recorded as failing to separate CHFM from Woodmorappe's general PPLC treatment at all. E1, the vapor ceiling, is the interesting edge — it binds *any* Flood account including this one, but even there it constrains **how the water got there**, not whether it did.
+
+**Hence the family tag on every competing account in step 3.** Without it, "the rival" silently defaults to mainstream geology and the register reads as a running argument against deep time, which is not what most of these units are actually adjudicating. With it, U1's live competitor is visibly a `[mainstream]` wet-erg model while U6 Green River's live competitors are **both `[creationist-other]`**.
+
+**The boundary where this framing would become abuse, stated so it cannot be quoted as a shield.** "It doesn't touch the core" is true of *any given* failure and illegitimate as a *pattern*. If belt claim after belt claim fails while the core is preserved by successive retreats, the immunity has stopped being methodology and become insulation — which is precisely what [`../../3.3-prediction/appraisal.md`](../../3.3-prediction/appraisal.md)'s degeneration markers exist to catch. The protection is per-instance, never cumulative.
 
 **Use-novelty (rule 12).** Every unit below is use-novel — none was used to construct the schema, which was built on Walker's Great Artesian Basin and Brisbane work and Oard's criteria (Messinian, Absaroka, African planation, Caspian). Verified against [`../../../dev-notes/20260817-phase-schema-draft.md`](../../../dev-notes/20260817-phase-schema-draft.md) before selection.
 
@@ -49,7 +63,20 @@ Northern Arizona; outcrop belt ~200 km across. ~100 m thick at the Grand Canyon,
 
 ## 3. Problem statement
 
-**The conventional interpretation is eolian** — a vast dry erg — and it is not a weak position. It has stood since McKee's 1934 work, it is the reading in the standard literature (Middleton, Elliott & Morales 2003 characterise the unit as *"fine-grained, well-sorted, and rounded quartz grains"*), and large-scale high-angle cross-bedding in a quartz-rich sheet sand is genuinely dune-like.
+### The hypothesis set (rule 24a), with families named
+
+| | Account | Family | Status |
+|---|---|---|---|
+| **(a)** | **Dry eolian erg.** Wind-built dune field; cross-beds are avalanche faces; textural maturity from prolonged aeolian winnowing | `[mainstream]` | The standard reading since McKee 1934. **The account the measured textures bear on** |
+| **(b)** | **Damp / wet interdune erg.** Still an erg, but with a water table high enough to saturate interdune areas — accommodating liquidization, and seismic triggering, without leaving the eolian framework | `[mainstream]` | **The live competitor**, and the one Brand & Maithel themselves propose. Not addressed by any texture argument above |
+| **(c)** | **Sustained high-concentration subaqueous transport — CHFM's F2** | `[CHFM]` | Step 4 below |
+| **(d)** | **Rapid subaqueous deposition without continental translation.** Catastrophic sand transport in a flood context, no hydroplaning mechanism required | `[creationist-other]` | Whitmore et al.'s own petrology supports (d) as readily as (c). **This candidate does not separate CHFM from (d)**, and that limit is the same shape as candidate 7's |
+
+**The discriminating work that actually needs doing is (c) vs (b), and (c) vs (d)** — not (c) vs (a). (a) is the account the textural data embarrass, but embarrassing (a) advances CHFM only as far as (b) and (d), which are untouched by it.
+
+### Why (a) is under strain
+
+**It is not a weak position.** It has stood since McKee's 1934 work, it is the reading in the standard literature (Middleton, Elliott & Morales 2003 characterise the unit as *"fine-grained, well-sorted, and rounded quartz grains"*), and large-scale high-angle cross-bedding in a quartz-rich sheet sand is genuinely dune-like.
 
 **The difficulty is that three of the measured observables do not match what that interpretation predicts.**
 
@@ -59,9 +86,13 @@ Northern Arizona; outcrop belt ~200 km across. ~100 m thick at the Grand Canyon,
 
 **And the rival's own recent work concedes ground.** Brand & Maithel, publishing in a mainstream journal, propose **liquidization** for the deformation inventory, invoke **seismic events** as a trigger, and state that **"more water was present during Coconino SS deposition than previously recognized."**
 
-**The rival at its strongest, which must be said in the same breath (rule 4a).** None of this refutes an eolian origin. Dune cross-beds can be preserved well below the 33–34° repose angle, so a 20° mean is not by itself decisive — and one published study argues the discriminating measure is the *spread* of dip inclinations rather than the mean, which cuts against the simple version of the dip argument. Damp or wet interdune environments are a recognised part of erg systems and can accommodate liquidization and even seismic triggering **without leaving the eolian framework at all**, which is precisely what Brand & Maithel themselves propose. Their conclusion is *more water than previously recognised*, not *deposited underwater*.
+**(a) at its strongest, which must be said in the same breath (rule 4a).** None of this refutes an eolian origin. Dune cross-beds can be preserved well below the 33–34° repose angle, so a 20° mean is not by itself decisive — and one published study argues the discriminating measure is the *spread* of dip inclinations rather than the mean, which cuts against the simple version of the dip argument.
 
-**So the honest problem statement is narrow:** the standard textural description of the Coconino appears to be wrong on measurement, and the interpretation built on it has not been correspondingly revised. That is a real problem about the *evidential basis* of the eolian reading. **It is not yet a demonstration that the unit is subaqueous.**
+**And here is what the family tags make visible: the strain on (a) transfers to (b), not to (c).** Damp or wet interdune environments are a recognised part of erg systems and can accommodate liquidization and even seismic triggering **without leaving the eolian framework at all**, which is precisely what Brand & Maithel themselves propose. Their conclusion is *more water than previously recognised*, not *deposited underwater*. **Every textural observation that pressures (a) is comfortably absorbed by (b)** — and (d) absorbs them too, without needing continental translation.
+
+**So the honest problem statement is narrow, and narrower still once the set is written out.** The standard textural description of the Coconino appears to be wrong on measurement, and the interpretation built on it has not been correspondingly revised. That is a real problem about the *evidential basis* of (a).
+
+**It is not a demonstration that the unit is subaqueous, and it does not discriminate CHFM.** The texture argument moves probability from (a) toward (b) and (d) at least as much as toward (c). **A unit that embarrasses only the weakest member of its competing set has done no discriminating work** — the same failure that killed the K-Pg ichnofabric candidate, arriving by a different route, and caught here only because the set was written out with families attached.
 
 ## 4. CHFM potential solution — *potential; requires discussion*
 
@@ -79,11 +110,15 @@ Northern Arizona; outcrop belt ~200 km across. ~100 m thick at the Grand Canyon,
 
 **Currently: nothing. This unit forbids nothing and is `forbids: none` Tier 2 content.** Recorded as such rather than left ambiguous.
 
+**Any test proposed here must target (b) and (d), not (a).** That is the direct consequence of the family tags in step 3, and it disqualifies most of what looks like evidence for this unit. Beating (a) is cheap and buys nothing.
+
 **Candidate tests, none run:**
 
-- **Paleocurrent coherence at scale.** The mechanism predicts transport direction coherent across the whole outcrop belt and consistent with continental-scale translation. A wet erg predicts dune-field-scale coherence with regional wind-regime structure. **These differ, and the data exist** — this is the most reachable test on this unit.
-- **The sorting prediction, stated before looking.** If high-concentration mass flow is the mechanism, sorting should degrade in a specifiable way with inferred flow concentration. That prediction has not been formulated.
-- **Grain-surface microtexture.** Eolian and subaqueous transport leave different grain-surface signatures under SEM, and this is a standard technique with an existing literature. Not consulted here.
+- **Paleocurrent coherence at scale — the best of the three, and the only one that bears on both live competitors.** (c) predicts transport coherent *beyond basin scale*, tracking continental translation. **(b)** predicts dune-field-scale coherence organised by a regional wind regime. **(d)** predicts coherence set by local or basin-scale flow, since it has no continental-translation term. So the discriminating quantity is not *whether* transport is coherent — all three give coherence — but **the spatial scale over which coherence persists, and whether it correlates with a reconstructed wind regime or with a translation direction.** The data exist. **This is the most reachable test on this unit, and the pre-registration must fix the scale threshold before any dataset is opened**, or it collapses into a compatibility claim.
+- **The sorting prediction, stated before looking.** If high-concentration mass flow is the mechanism, sorting should degrade in a specifiable way with inferred flow concentration. Not yet formulated — and note this bears on (b) but **not** on (d), which predicts the same textures as (c).
+- **Grain-surface microtexture.** Eolian and subaqueous transport leave different SEM signatures; standard technique, existing literature, not consulted here. **Bears on (a) and (b) only.** It cannot separate (c) from (d) even in principle, since both are subaqueous — worth stating so it is not mistaken for a decisive test.
+
+**The standing risk, named in advance rather than discovered.** (c) and (d) may not be separable on this formation at all. Both are rapid subaqueous deposition; they differ in whether the *continent was moving underneath*, which a single sand body may simply not record. If the paleocurrent scale test cannot separate them, **this unit is not a discriminator for CHFM specifically** and should be recorded as such rather than retained on the strength of its case against (a).
 
 ---
 
@@ -115,7 +150,7 @@ The five units below were assigned in the previous structure and **have not yet 
 | **U3 Redwall nautiloid bed** | F2 → F3 | 2 m packstone, 290 km persistence, >1 orthocone per 4 m², 76 measured at Nautiloid Canyon (Austin 2003, ICC) | **Rule 8 unsatisfied** — rests entirely on one side's literature; no mainstream description of this bed retrieved. Storm-lag alternative unaddressed |
 | **U4 Whopper Sand** | F3 | >1,000 ft thick, ~70% sand, 40,000 mi², 7,600–10,000 ft water depth, 225+ mi beyond coeval shelf margin | **Strongest step-3 candidate in the set** — mainstream openly calls its own model unsettled ("Changing the paradigm"; hypersaline drawdown vs hyperpycnite, with a published Comment disputing salinity) |
 | **U5 Peoria Loess** | N2 | <0.25 to >20 m; rates 0.6–2.2 mm/yr; MAR to 17,500 g/m²/yr (Bignell Hill); ~10 m in ≤~2,000 yr | Step 4 strains: N2's ~700 yr yields ~8–9 m at the highest rate against sections >20 m. Bulk-density conversion is an **unsourced assumption** |
-| **U6 Green River Formation** | N1 provisional | ~6 million laminae; couplet counts between synchronous ash pairs vary 1,160–1,568 (Buchheim & Biaggi 1988) and 1,238–1,661 over 15 km (Church & Buchheim 2002) | **The awkward case, and it survives the restructure unchanged.** This programme's own family is split — Oard & Klevberg (2008, *ARJ* 1:99–108) argue Flood; Austin, Brand, Whitmore, Wise, Whitmore & Garner argue post-Flood lake. Both camps agree about the rock and disagree about the phase, so **signature-based criteria under-determine the unit** |
+| **U6 Green River Formation** | N1 provisional | ~6 million laminae; couplet counts between synchronous ash pairs vary 1,160–1,568 (Buchheim & Biaggi 1988) and 1,238–1,661 over 15 km (Church & Buchheim 2002) | **The awkward case, and it survives the restructure unchanged.** Its two live competitors are **both `[creationist-other]`** — Oard & Klevberg (2008, *ARJ* 1:99–108) argue Flood; Austin, Brand, Whitmore, Wise, Whitmore & Garner argue post-Flood lake. **The `[mainstream]` account is not the contested one here at all**, which is exactly what the family tags exist to make visible. Both camps agree about the rock and disagree about the phase, so signature-based criteria under-determine the unit |
 
 **A near-miss kept from the first pass.** Two searches returned the two couplet-count ranges above *and* opposite statements about whether counts rise toward basin centre or margin. That looked like a literature dispute and was nearly recorded as one under rule 3. **It is not — they are two different studies.** Rule 2, sharpened: *a figure without its source attached will eventually be mistaken for a different figure with a different source.*
 
