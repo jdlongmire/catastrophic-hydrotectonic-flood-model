@@ -110,6 +110,18 @@ This section was written *before* the programme's first script existed, so the d
 
 23. **Never treat a historical interpretation as a direct observation — on either side.** (Added 2026-08-19, JD-directed: *"remember we're operating under historical interpretation, not direct observation, don't make that category error."*)
 
+    **The three-part structure this rule enforces** (added 2026-08-19, second pass — the generalisation the three parts below were each expressing separately):
+
+    $$\text{Observation} \longrightarrow \text{Inference Model} \longrightarrow \text{Historical Reconstruction}$$
+
+    For an observation $E$, conventional historical geology applies its assumptions and process models $M_D$ to reach a deep-time history $H_D$; this programme applies different initial conditions, catastrophic boundary conditions, hydrotectonic mechanisms and chronology $M_C$ to reach $H_C$.
+
+    $$E + M_D \rightarrow H_D \qquad\qquad E + M_C \rightarrow H_C$$
+
+    **Neither $H_D$ nor $H_C$ is the data.** The rock, fossil, isotopic, geomorphological and geophysical observations are the data; both histories are reconstructions built on top by an inference model. Where $P(E \mid H_D) > 0$ and $P(E \mid H_C) > 0$, **$E$ alone cannot establish either**, and the competition moves to comparative explanatory performance — causal adequacy, parameter burden, independent constraints, explanatory scope, discriminating traces, accommodation cost.
+
+    **The obligation this creates runs against this programme too, and is the half most easily forgotten.** If neither framework is data, then **CHFM's own reconstruction is equally not-data.** The F-series results are *conditional consistency checks on this programme's own historical inputs*, which [`../03-solutions-baseline/3.2-theory/rheology/README.md`](../03-solutions-baseline/3.2-theory/rheology/README.md) states at its head. A programme that applies this structure only to the rival has turned an epistemic discipline into a one-way weapon.
+
     Both this programme and its rival are reconstructions of an unobserved past from presently-observable evidence. What is *observed* is narrow and shared: seismic travel times and waveforms, isotope ratios, mineral assemblages, layer counts, gap geometry, fossil positions in rock. Everything about *when* and *how* those came to be — chronologies, rates, sequences, mechanisms — is inference built on top. This rule has three parts, and the second is the one most often violated.
 
     **(a) Label the epistemic status of every load-bearing claim.** Observation / measurement / historical inference. A parameter measured in a present-day laboratory (Kirby's deformation map, Fei et al.'s ringwoodite viscosity, latent heat of vaporisation) is a measurement and carries that weight. A rate, duration, or sequence attributed to the unobserved past is an inference, however well established, and carries inference weight. This composes with rule 2's HIGH/MEDIUM/LOW/UNCERTAIN sourcing labels — sourcing confidence and epistemic *kind* are different axes, and a HIGH-confidence historical inference is still an inference.
@@ -184,6 +196,24 @@ This section was written *before* the programme's first script existed, so the d
     **Where an argument has an intractable issue CHFM cannot overcome, CHFM may not simply drop it — it owes an alternative.** Recorded as an open debt with the issue named, not as a silent omission. A quietly abandoned mechanism with no replacement is a gap the programme has stopped tracking, and the two precedents above are the standard: both named the defect, both supplied a substitute.
 
     **An unpaid debt is carried visibly.** If no alternative exists yet, that is a stated open problem, not a resolved question.
+
+27. **Name which level of a rival claim you are engaging. Three levels, and only one is a necessity claim.** (Added 2026-08-19, JD-directed, from external reviewer feedback — **adopted as a labelling discipline, deliberately not as a targeting strategy;** see the constraints, which are the reason it is safe to have.)
+
+    | Level | The claim about evidence $E$ | What it takes to beat it |
+    |---|---|---|
+    | **L1** | Deep time **explains** $E$ | Nothing — **this programme should usually concede L1.** Conventional geology generally can accommodate $E$ |
+    | **L2** | Deep time is the **best** explanation of $E$ | A better explanation. **This is real competition and it is where the cumulative case lives** |
+    | **L3** | Deep time is **required** by $E$ | A single physically coherent countermodel. $E \land H$ with $H$ incompatible with $D$'s necessity gives $E \nRightarrow D$ |
+
+    L3 is a necessity claim and is therefore exceptionally vulnerable to one counterexample. That asymmetry is real, and it is why the level must be named rather than assumed.
+
+    ### Three constraints, without which this rule becomes a machine for cheap wins
+
+    1. **An L3 target must be QUOTED from a source, not inferred.** Working geologists overwhelmingly make L2 claims and inference-to-best-explanation arguments. Attributing a necessity claim to a rival who holds only L2, and then refuting it, is a **rule 4 strawman wearing rigour's clothes.** Where genuine necessity language does appear in the literature — varve counts and radiometric concordance are the likely places — refuting it is a real result.
+    2. **Refuting L3 is a FAMILY-level result under rule 26, never CHFM-specific evidence.** *"Displacement does not entail deep time"* is available to any catastrophist model and to several non-catastrophist ones. It does not bear on translation, which is this programme's non-subsumable content. Record it as family-level or it inflates the programme's position.
+    3. **The cumulative case runs on L2, not L3.** Showing $E_i \nRightarrow D$ barely moves $P(D \mid E_i)$ while $D$ remains the best explanation of $E_i$. **Non-entailments do not sum.** A convergent case requires each $E_i$ to be *better* explained by $H$ — which is L2 competition. A stack of L3 refutations that never converts to L2 wins is the **F-c pattern rule 25 names**: non-discrimination accumulating while looking like progress.
+
+    **Why this is a discipline and not a strategy.** [`../03-solutions-baseline/3.1-hypothesis/hard-core.md`](../03-solutions-baseline/3.1-hypothesis/hard-core.md) commitment 2 already holds *"no deep-time entailment"* — the L3 position — **immune by decision**, inherited from CAC's CRE-008. The programme does not need to establish it; it presupposes it. What the belt does is different work: showing quantitatively viable mechanisms. Turning the core's own commitment into the belt's evidential target would blur the line the hard core / belt split exists to keep sharp, and would hand the programme an objective it cannot fail.
 
 ## GitHub-safe math (for any derivations in prose)
 

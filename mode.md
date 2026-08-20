@@ -4,7 +4,32 @@
 
 ## What this is
 
-A **Lakatosian research programme** reconstructing a historical, catastrophic hydrotectonic global Flood, evaluated against a **Popperian** standard. Not a completed theory and not presented as one.
+**An alternative forensic inference model for reconstructing Earth history from the geological observational record — carrying a specific physical mechanism.** Both halves are load-bearing, and the second is where the programme can be wrong.
+
+Structured as a **Lakatosian research programme** and evaluated against a **Popperian** standard. Not a completed theory and not presented as one.
+
+### The inference-model half
+
+The rock, fossil, isotopic, geomorphological and geophysical observations are the **data**. Neither deep time nor this programme is the data — both are reconstructions built on top by an inference model ([`methods.md`](04-construct/methods.md) rule 23):
+
+$$\text{Observation} \longrightarrow \text{Inference Model} \longrightarrow \text{Historical Reconstruction}$$
+
+So the programme does **not** have to show that conventional geology cannot accommodate an observation. Usually it can, and conceding that is rule 27's L1. The question is whether an observation *uniquely identifies* its historical reconstruction. **This cuts both ways**: this programme's own results are equally reconstructions, and the F-series are conditional consistency checks on its *own* historical inputs, not measurements.
+
+### The mechanism half — and why the self-description needs it
+
+An inference framework alone cannot be quantitatively wrong. This programme asserts specific dynamics: continental hydroplaning at **9–40 cm/s** on a **15 km detachment** under Terzaghi-collapsed pore pressure, and localized runaway subduction for the vertical leg. Those claims carry numbers, have scripts behind them, and can fail on their own terms — F7, F8 and F10–F13 are physics, not framework comparison.
+
+**Describing the programme as only an inference model would hand it a retreat** — *"we merely offer a framework"* — precisely when a mechanism claim failed. The mechanism is what makes this refutable, and per rule 26 the **translation term is its non-subsumable content**: what CHFM claims that generic flood catastrophism does not.
+
+### Objective, stated at two levels so it can be failed
+
+| Level | Claim | Whose |
+|---|---|---|
+| **Family** | A catastrophic reconstruction is causally sufficient for observation $E$ | Shared with every other Flood model |
+| **CHFM** | **Hydrotectonic translation is what makes it sufficient — and where it is not sufficient, say so** | This programme's alone |
+
+The trailing clause is not decoration. An objective that cannot be failed is not an objective.
 
 **Standing verdict: too early to appraise. No discriminator yet evaluated against data.** Any session that ends with that sentence still true has not failed — but any session that quietly changes it without an evaluated discriminator has.
 

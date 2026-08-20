@@ -1,6 +1,10 @@
 # Catastrophic Hydrotectonic Flood Model
 
-A Lakatosian research programme reconstructing a historical, hydrotectonic global Flood — a layered mechanism of impact-triggered continental hydroplaning (lateral translation) and localized subduction-channel deep-mantle water transport (vertical descent) — within a Genesis-consistent chronology, without requiring the observational corpus to entail a deep-time history.
+**An alternative forensic inference model for reconstructing Earth history from the geological observational record — carrying a specific physical mechanism.**
+
+Structured as a Lakatosian research programme. The mechanism is layered: impact-triggered continental hydroplaning for lateral translation, and localized subduction-channel deep-mantle water transport for vertical descent, within a Genesis-consistent chronology, without requiring the observational corpus to entail a deep-time history.
+
+**Both halves of that description are load-bearing.** The observations are the data; neither deep time nor this programme is the data, and both are reconstructions built on top by an inference model — which cuts against this programme too, since its own results are conditional on its own historical inputs. But an inference framework alone cannot be quantitatively wrong, and this one asserts specific dynamics with numbers and scripts behind them. **The mechanism is where the programme can fail**, and per [`methods.md`](04-construct/methods.md) rule 26 the translation term is what it claims that generic flood catastrophism does not. See [`mode.md`](mode.md) for the full statement and the two-level objective.
 
 **Start here:** [`mode.md`](mode.md) to orient in one page, then [`paper/POSITION-PAPER.md`](paper/POSITION-PAPER.md) — the programme's position paper, consolidating the hard core, both mechanisms, the water budget, open questions, and discriminators in one cited document. Published to Zenodo 2026-08-16: DOI [10.5281/zenodo.21972859](https://doi.org/10.5281/zenodo.21972859), under the programme's former name (see [`WP-HTF-0008`](05-work-packages/WP-HTF-0008-position-paper-v0.2/package.yaml)).
 
