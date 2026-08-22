@@ -109,6 +109,14 @@ Functionally mature initialization (hard-core commitment 4) permits an initial i
 
 **State: candidate mechanism identified (DFM initialization hypothesis), multi-system quantitative formulation absent.** Not gated on this programme's own ROADMAP items — the $R_0$ inventory is DFM's work to schedule.
 
+### Common-Mode Catastrophic Isotope Perturbation Hypothesis — a candidate structural form for $H$ (JD, 2026-08-22)
+
+`forbids: none (yet)` — offered "for consideration," not promoted. Full capture in [`../../../dev-notes/20260822-common-mode-catastrophic-isotope-perturbation.md`](../../../dev-notes/20260822-common-mode-catastrophic-isotope-perturbation.md).
+
+JD's generalization of the excess-argon assumption above: rather than one common event leaving *similar* residuals, each sample's isotopic response is a function of the common global forcing plus its own local conditions, $R_i = f(E_G, I_i, T_i, P_i, F_i, \phi_i, D_i, C_i)$ — inherited state, thermal-pressure history, fluid flux, permeability, diffusion behavior, mineral-specific closure/retentivity. This is structurally general enough to span systems (not tied to argon retention) and to produce *ordered*, not merely coherent, variation, which is exactly what the excess-argon assumption above (§Radiometric interpretation) could not do. It deliberately keeps ordinary decay rates as its starting assumption and proposes its own discriminator: raw discordant U-Pb data from separated localities should show statistically recoverable common-mode structure correlated with independent thermal/hydrothermal disturbance evidence.
+
+**Not yet checked:** whether this actually resolves the two problems above or merely restates them as free parameters in $f$; whether the discriminator has a defined, testable dataset (condition 3); and the mainstream discordia/Pb-loss/resetting-age literature has not been steelmanned against it. See the dev-note's Open section.
+
 ## Rhythmites in freshwater basins — refugia as depositional settings (JD, 2026-08-17)
 
 `forbids: none` — **belt/interpretive content** per [`research-practices.md`](../../../04-construct/methods.md) rule 10.
