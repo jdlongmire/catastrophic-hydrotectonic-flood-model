@@ -2,6 +2,30 @@
 
 **Status: captured, analysis open.** JD offered this "for consideration" — not yet steelmanned against the rival, not yet checked for an evaluability gap on its own proposed discriminator. **Partially resolved same day:** the concordant, old-reading population is scoped to DFM's $R_0$ (designed daughter inventory), not this programme's $H$/$E_G$ term — radiogenic heat production needs only the parent isotope inventory (no elapsed time required) and cannot be recruited to explain the daughter inventory via real decay, even across the full ~50–60 ka pre-Flood interval. $H$/$E_G$'s job narrows to the discordant/reset/mixed-domain population, where the evidentiary-bite question remains open. Pointer added to [`../03-solutions-baseline/3.2-theory/stratigraphy/README.md`](../03-solutions-baseline/3.2-theory/stratigraphy/README.md).
 
+## Canonical statement — laid flat (2026-08-22)
+
+Everything below is the settled form after the discussion in this note. The sections that follow (§The hypothesis onward) are the historical record of how it got here — restated, sharpened, generalized, and partially resolved across the same session — preserved rather than overwritten.
+
+A single global tectono-hydrothermal catastrophe — the Flood-year event this programme's chronology already commits to — imposed one common forcing on every radiometric system it touched. Each sample's response is governed by its own local conditions:
+
+$$R_i = f(E_G, I_i, T_i, P_i, F_i, \phi_i, D_i, C_i)$$
+
+$E_G$ the common global forcing; $I_i$ the sample's inherited isotopic state; $T/P$ its thermal-pressure history during the event; $F$ fluid flux; $\phi$ permeability; $D$ diffusion behavior; $C$ mineral-specific closure/retentivity. Decay constants are unchanged throughout — this is built entirely from ordinary isotope chemistry, diffusion, fluid transport, recrystallization, and open-system behavior. No accelerated decay is invoked anywhere in it.
+
+**Two populations, two different jobs, now cleanly separated by the radiogenic-heat resolution above:**
+
+- **Old, concordant apparent ages** are the high-$C_i$, low-disturbance branch — minerals whose inherited state $I_i$ (a functionally-mature $R_0$, designed at creation, carrying a daughter-isotope inventory never produced by antecedent decay) came through the event essentially untouched. This population is **DFM's claim, not this hypothesis's** — the catastrophe does no explanatory work here beyond failing to disturb it. Radiogenic heat production needs only the parent isotope inventory, supplied free by functional maturity with zero elapsed-time cost; it cannot be recruited to grow the daughter inventory through real decay either post-creation generally or across the full ~50–60 ka pre-Flood interval, which is a rounding error against a multi-billion-year-reading daughter inventory. So this population has no ordinary-decay route back to real elapsed time, and it stays $R_0$'s problem, not $H$'s.
+- **Discordant, partially or completely reset, and mixed-domain populations** are this hypothesis's actual claim — the low-to-moderate $C_i$, high-disturbance branch, where $E_G$'s heating, fluid circulation, pressure change, deformation, recrystallization, and dissolution/reprecipitation left a structured, temporally-correlated signature that varies with each sample's local conditions rather than randomly.
+
+**Stated narrowly, as originally scoped:** not "radiometric dating is unreliable." Some portion of what is conventionally read as a sequence of widely separated geological events may instead represent heterogeneous isotopic responses — across the discordant/reset population specifically — to one common catastrophic event.
+
+**The test that would discriminate it from the standard account:** raw discordant U-Pb data from geographically separated localities should contain statistically recoverable common-mode structure — correlated in space and time with independent evidence of a single thermal/hydrothermal disturbance episode — rather than the locally-independent, event-by-event disturbances the standard account expects.
+
+**Two things stand between this and a checkable claim, both still fully open:**
+
+1. Whether that discriminator actually forbids anything the standard model doesn't already predict — mainstream geochronology already has an account of thermal/hydrothermal overprinting, event by event, via Pb-loss trajectories and discordia chords. Not yet steelmanned.
+2. Whether a real dataset exists to run it against. Not yet identified.
+
 ## The hypothesis (JD, 2026-08-22)
 
 A single global tectono-hydrothermal catastrophe imposes a common forcing event on radiometric systems worldwide, while producing heterogeneous apparent ages because different rocks and minerals respond differently to that event:
