@@ -1,0 +1,120 @@
+id: WP-HTF-0016
+title: Source the Common-Mode Catastrophic Isotope Perturbation Hypothesis and run the rival steelman
+status: proposed
+commitment: stretch
+scope: >
+  JD, 2026-08-22 — offered "for consideration" a generalization of the
+  2026-08-17 simultaneous-swarm radiometric assumption: a per-sample response
+  function R_i = f(E_G, I_i, T_i, P_i, F_i, phi_i, D_i, C_i) to one common
+  global forcing, ordinary decay rates throughout. Worked live in the same
+  session to a partial resolution — see
+  dev-notes/20260822-common-mode-catastrophic-isotope-perturbation.md for the
+  full record, including a genuine self-correction (new methods.md rule 28)
+  after JD caught the model giving the mainstream account unearned credit for
+  "more adoption."
+
+  This package converts that conversational work into sourced belt content
+  and, separately, actually runs the rival steelman that work identified but
+  did not perform.
+
+  Three deliverables, in descending order of readiness.
+
+  (1) REGISTER THE RADIOGENIC-HEAT / R_0 RESOLUTION. Fully worked same day:
+  heat production is lambda*N (current parent inventory), essentially
+  undepleted over any timescale this programme's chronology permits
+  (including the full ~50-60 ka pre-Flood interval, "strictly a rounding
+  error" per JD). Real ongoing decay costs the young chronology nothing on
+  heat, but cannot rescue a real-decay account of an old-reading daughter
+  inventory either. Net: concordant, old-reading radiometric populations scope
+  to DFM's R_0 (a designed daughter inventory), not this programme's H/E_G
+  term. This is low-risk, already resolved, and belongs in hard-core.md or the
+  stratigraphy R_0 subsection rather than only in the dev-note. Reusable for
+  DFM's R_0 formulation generally, not specific to radiometric dating.
+
+  (2) SOURCE THE GREAT UNCONFORMITY DATASET CANDIDATE IN PRIMARY. Checked live
+  via WebSearch only (confidence MEDIUM, PNAS full text blocked by a 403 on
+  direct fetch — rule 13 access failure). Keller et al. (2019, Snowball Earth
+  glacial-erosion reading, ~717-635 Ma) vs. Zhan et al. (Feb 2026 PNAS,
+  tectonism/supercontinent-cycle reading, main cooling ~2,100-1,600 Ma) vs. a
+  live same-year exchange over whether thermal overprinting obscures
+  interpretation in North China. Real, citable evidence that "common-mode
+  disturbance signatures are genuinely hard to decode" is a live mainstream
+  problem, not one this programme invented — but every party in that
+  literature argues within deep time. Nobody has tested it against this
+  programme's own chronology. Retrieve and read primary before citing specific
+  magnitudes or methodology.
+
+  (3) RUN THE RIVAL STEELMAN (rule 4, sharpened by the new rule 28). Not yet
+  attempted. The standard account of a discordant U-Pb point — Pb loss at
+  some later, locally independent disturbance — is itself a high-capacity
+  auxiliary explanation unless that disturbance event is independently dated
+  rather than fit to the lower intercept. This has to be checked against real
+  cases, locality by locality, not argued in the abstract. Rule 4a requires
+  this programme's own H/E_G mechanism be checked on the identical standard
+  once real cases are in hand.
+disclosure_scoping_already_done: >
+  RULE 1 INTEGRITY DISCLOSURE, same posture as WP-HTF-0012/0013. Substantial
+  conversational analysis happened before this package existed:
+
+  - the R_0-vs-H branch question, resolved via the radiogenic-heat physics
+    above (not yet independently re-derived by anyone outside the
+    conversation that produced it)
+  - the Great Unconformity search, MEDIUM confidence only, search-summary
+    level, not primary text
+  - rule 28 itself, adopted mid-session and then caught firing on the
+    model's own reasoning within the same session (see methods.md rule 28's
+    "why this rule is needed" and "the mechanism" paragraphs)
+
+  None of this is a verified WP-grade result. The radiogenic-heat physics is
+  straightforward enough (lambda*N, standard half-lives) that independent
+  re-derivation is expected to confirm it, but it has not been re-derived
+  under this package's own verification standard yet.
+authority_boundary: >
+  Retrieval, primary-source reading, sourced re-derivation of the
+  radiogenic-heat arithmetic, and the rival-steelman literature search
+  proceed without re-asking.
+
+  Does NOT authorize: registering a new Tier 3 discriminator in
+  discriminators.md (needs a defined sample and failure condition — JD's
+  call per rule 1/11), editing hard-core.md's belt-level commitments beyond
+  adding the R_0/daughter-inventory clarification as scope narrowing (not a
+  new commitment), or declaring the rival steelman "complete" without JD
+  review, given how load-bearing this thread is for the programme's public
+  radiometric position and its apologetics-adjacent use downstream.
+actions:
+  - Register deliverable (1) in hard-core.md or the stratigraphy R_0
+    subsection, with a pointer back to the 2026-08-22 dev-note.
+  - Retrieve and read Keller et al. (2019), McDannell et al. and Zhan et al.
+    (both Feb 2026, PNAS), and the June 2026 reply, in primary. Confidence
+    labels per rule 2; note where full text remains inaccessible.
+  - Search the creationist technical literature (rule 8) for existing
+    treatment of the Great Unconformity — the thermochronology angle above,
+    and separately the geomorphological/rapid-erosion argument (surface
+    character, missing paleo-relief), which has not been checked at all.
+  - State the mainstream discordia/Pb-loss/resetting-age account at its
+    strongest (rule 4), then check real discordant U-Pb cases against rule
+    28's independent-constraint question, locality by locality.
+  - Score this programme's own H/E_G mechanism on the identical rule-22/rule-28
+    standard once real cases are in hand (rule 4a same-standard mandate).
+  - Decide the relationship between the 2026-08-17 and 2026-08-22 dev-notes
+    as one stated belt position (open_decision below).
+open_decision: >
+  Whether the 2026-08-22 hypothesis supersedes the 2026-08-17 excess-argon
+  assumption, sits alongside it as a broader claim with excess argon as one
+  specific case, or the two get merged into a single stated position. JD's
+  call, deliberately not resolved by this package's scoping.
+verification: >
+  Every source cited at HIGH or MEDIUM confidence with the reason, not left
+  at the current search-summary level. The rival steelman states the
+  standard account at its strongest form and is scored on the same card as
+  this programme's own H/E_G mechanism (rule 4a), with the result reported
+  either way — including if the check favors the rival. The radiogenic-heat
+  distinction lands in the belt proper, not only the dev-note. Whether the
+  discriminator clears condition 3 (a defined, testable sample) is stated
+  explicitly, not left implicit.
+disposition: >
+  open, seeded 2026-08-22. Not blocked on WP-HTF-0014 or WP-HTF-0015 (both
+  still proposed, unstarted, and on an unrelated line — subduction-channel
+  geometry and Euler-pole reconstruction). This package is freshest and most
+  load-bearing given today's session, but priority among the three proposed
+  packages is JD's call.
